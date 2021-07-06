@@ -7,18 +7,19 @@
         <div
           class="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8"
         >
-          <p class="ml-2 text-blue-300 uppercase tracking-loose">
+          <p class="ml-2 text-blue-300 tracking-loose">
             DEV_life in progress
           </p>
           <p
-            class="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2"
+            class="font-bold text-3xl md:text-4xl uppercase leading-normal md:leading-relaxed mb-2"
           >
             Yeonghyun Choi
           </p>
           <p class="text-sm md:text-base text-gray-50 mb-4">
-            I am a work in progress, always striving to improve and present
-            creative ways to solve problems. I value a working environment where
-            it can foster professional development.
+            With my academic background in both Art and Science, as my strength.
+            I think in a creative manner and always striving to improve and
+            present creative ways to solve problems. I value an environment
+            where it can motivate both personal and professional development.
           </p>
 
           <div class="mt-4">
@@ -114,8 +115,8 @@
                   >
                     At the age of 13, I was a very introverted and submisive
                     person before. As I have submerged into Canada's diverse
-                    culture, I have became someone who is independent and takes
-                    initiative.
+                    culture, I have became someone who is independent and take
+                    the initiative.
                   </p>
                 </div>
               </div>
@@ -126,7 +127,7 @@
                 <div class="order-1 w-5/12"></div>
                 <div class="order-1  w-5/12 px-1 py-4 text-left">
                   <p class="mb-3 text-base text-pink-300">May, 2009</p>
-                  <h4 class="mb-3 font-bold text-lg md:text-2xl">
+                  <h4 class="mb-3 font-bold text-lg md:text-xl">
                     Fanshawe College
                   </h4>
                   <p
@@ -137,8 +138,7 @@
                   <p
                     class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
                   >
-                    The study has tought me the development and system of human
-                    body.
+                    Learning the development and systemic process of human body
                   </p>
                 </div>
               </div>
@@ -151,7 +151,7 @@
                   <p class="mb-3 text-base text-purple-300">
                     January - July, 2010
                   </p>
-                  <h4 class="mb-3 font-bold text-lg md:text-2xl">
+                  <h4 class="mb-3 font-bold text-lg md:text-xl">
                     DAN Architects & Consultant.
                   </h4>
                   <p
@@ -164,7 +164,7 @@
                     class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
                   >
                     It was my very first co-op experience. The experience has
-                    made me realize the analogy between academic and
+                    made me realize the difference between academic and
                     professional world.
                   </p>
                 </div>
@@ -179,7 +179,7 @@
                   <p class="mb-3 text-base text-yellow-300">
                     July - December, 2011
                   </p>
-                  <h4 class="mb-3 font-bold  text-lg md:text-2xl text-left">
+                  <h4 class="mb-3 font-bold  text-lg md:text-xl text-left">
                     EGA Group Inc.
                   </h4>
                   <p
@@ -191,7 +191,9 @@
                   <p
                     class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
                   >
-                    The opportunity has provided me with
+                    The opportunity has provided me with an experience of
+                    working in a large company which has tought me the
+                    importance of team management.
                   </p>
                 </div>
               </div>
@@ -202,18 +204,19 @@
                 <div class="order-1 w-5/12"></div>
                 <div class="order-1 w-5/12 px-1 py-4 text-right">
                   <p class="mb-3 text-base text-red-300">May, 2013</p>
-                  <h4 class="mb-3 font-bold text-lg md:text-2xl">
+                  <h4 class="mb-3 font-bold text-lg md:text-xl">
                     Fanshawe College
                   </h4>
                   <p
                     class="mb-3 text-sm md:text-base font-bold leading-snug text-gray-50 text-opacity-100"
                   >
-                    Architectural Technology Diplma
+                    Architectural Technology Diploma
                   </p>
                   <p
                     class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
                   >
-                    The study has
+                    The program has gave me a solid foundation on Structural
+                    Engineering and Planning.
                   </p>
                 </div>
               </div>
@@ -225,7 +228,7 @@
 
                 <div class="order-1  w-5/12 px-1 py-4">
                   <p class="mb-3 text-base text-blue-300">12 May, 2021</p>
-                  <h4 class="mb-3 font-bold  text-lg md:text-2xl text-left">
+                  <h4 class="mb-3 font-bold  text-lg md:text-xl text-left">
                     University of Toronto
                   </h4>
                   <p
@@ -238,7 +241,7 @@
                   <p
                     class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
                   >
-                    I have
+                    The study has made me a thinker without borders.
                   </p>
                 </div>
               </div>
@@ -251,7 +254,7 @@
                   <p class="mb-3 text-base text-green-300">
                     August, 2017 - July, 2018
                   </p>
-                  <h4 class="mb-3 font-bold text-lg md:text-2xl">
+                  <h4 class="mb-3 font-bold text-lg md:text-xl">
                     Bpa Design Inc.
                   </h4>
                   <p
@@ -274,15 +277,15 @@
                   <p class="mb-3 text-base text-pink-300">
                     April, 2019 - April, 2020
                   </p>
-                  <h4 class="mb-3 font-bold  text-lg md:text-2xl text-left">
+                  <h4 class="mb-3 font-bold  text-lg md:text-xl text-left">
                     Abel Language School
                   </h4>
                   <p
                     class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
                   >
                     I have worked as an English teacher. It was a challanging
-                    experience for me because knowing and teaching are two very
-                    different things.
+                    experience for me. I have realized the difference between
+                    knowing and teaching.
                   </p>
                 </div>
               </div>
@@ -295,23 +298,34 @@
                   <p class="mb-3 text-base text-purple-300">
                     September, 2020 - July, 2021
                   </p>
-                  <h4 class="mb-3 font-bold text-lg md:text-2xl">
+                  <h4 class="mb-3 font-bold md:text-4xl hover:text-green-300">
                     SBS Computer Academy
                   </h4>
                   <p
-                    class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
+                    class="font-bold md:text-lg leading-snug text-opacity-100 text-white hover:text-blue-300"
                   >
-                    I have
+                    It was my first programming class in high school, where I
+                    was captured by the charm of programming. With my skills and
+                    experience from my architectural and science backgrounds, I
+                    have been able to not just learn but propose diffrenet
+                    solutions to problems. This strength of mine is where I
+                    differentiate from other developers and I believe I can
+                    bring new perspectives to the industry.
                   </p>
                 </div>
               </div>
             </div>
+            <img
+              class="mx-auto -mt-30 md:-mt-30"
+              src="https://img.icons8.com/color/96/000000/innovation.png"
+            />
             <!-- <img
               class="mx-auto -mt-36 md:-mt-36"
               src="https://user-images.githubusercontent.com/54521023/116968861-ef21a000-acd2-11eb-95ac-a34b5b490265.png"
             /> -->
           </div>
         </div>
+        <!-- End of Timeline -->
       </div>
     </div>
   </section>

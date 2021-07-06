@@ -1,20 +1,73 @@
 <template>
-  <div class="h-screen bg-black p-10">
+  <div class="h-full bg-black p-10">
     <div class="w-full text-center">
-      <h1 class="font-bold text-5xl text-white  hover:text-green-500 my-6">
+      <h1 class="font-bold text-5xl text-white  hover:text-green-300 mb-10">
         DEcrypt
       </h1>
       <p></p>
     </div>
 
-    <div class="flex-grow flex justify-center items-center mt-6">
-      <div class="mx-auto px-4 sm:px-8 py-2 text-center">
-        <div class="text-center max-w-lg mx-auto">
-          <div class="text-xl text-white my-6">
-            <p>Designed to be anonymous...</p>
+    <!-- <div class="text-center max-w-lg mx-auto">
+      <div class="text-xl text-white mb-6">
+        <p>to be anonymous...</p>
+      </div>
+    </div> -->
+
+    <!-- Terminal 1 -->
+    <div class="w-3/5 mx-auto my-6">
+      <div
+        class="w-full shadow-2xl subpixel-antialiased rounded h-96 bg-gray-500 border-black mx-auto"
+      >
+        <div
+          class="flex items-center h-6 rounded-t bg-gray-100 border-b border-gray-500 text-center text-black"
+          id="headerTerminal"
+        >
+          <div
+            class="flex ml-2 items-center text-center border-red-900 bg-red-500 shadow-inner rounded-full w-3 h-3"
+            id="closebtn"
+          ></div>
+          <div
+            class="ml-2 border-yellow-900 bg-yellow-500 shadow-inner rounded-full w-3 h-3"
+            id="minbtn"
+          ></div>
+          <div
+            class="ml-2 border-green-900 bg-green-500 shadow-inner rounded-full w-3 h-3"
+            id="maxbtn"
+          ></div>
+          <div class="mx-auto pr-16" id="terminaltitle">
+            <p class="text-center text-sm">Project Description</p>
           </div>
         </div>
-
+        <div
+          class="pl-1 pt-1 text-green-200 font-mono text-base bg-gray-500"
+          id="console"
+        >
+          <p class="pb-1 px-1">
+            daniel$
+            <a href="">Click to DEcrypt</a>
+            <br />
+            <br />
+            daniel$ project description; <br />
+            The project is started as a blog between anonymous individuals
+            <br />
+            <br />
+            daniel$ Why a blog?<br />
+            It is best example for showcasing skills <br />
+            <br />
+            daniel$ Why the name DEcrypt?<br />
+            Since it is designed for the each anonymous members to unpack or
+            'decrypt' their thoughts from their mind to be shared with others
+            <br />
+            <br />
+            daniel$ print tools used;<br />
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Terminal 1 Ends -->
+    <!-- Tools -->
+    <div class="flex-grow flex justify-center items-center my-6">
+      <div class="mx-auto px-4 sm:px-8 py-2 text-center">
         <div class="grid grid-cols-6 gap-4 items-start mt-8 mx-auto px-8">
           <div
             class="col-span-6 sm:col-span-6 md:col-span-3 lg:col-span-2 xl:col-span-2"
@@ -106,6 +159,7 @@
                   />
                 </div>
               </div>
+
               <div
                 class="h-4 bg-gray-200 w-40 mt-8 block mx-auto rounded-sm"
               ></div>
@@ -118,8 +172,310 @@
       </div>
     </div>
 
-    <div class="w-full text-center my-6">
-      <p>The </p>
+    <!-- Terminal 2 -->
+    <div class="w-3/5 h-auto mx-auto my-8">
+      <div
+        class="w-full shadow-2xl subpixel-antialiased rounded h-60 bg-gray-500 border-black mx-auto"
+      >
+        <div
+          class="flex items-center h-6 rounded-t bg-gray-100 border-b border-gray-500 text-center text-black"
+          id="headerTerminal"
+        >
+          <div
+            class="flex ml-2 items-center text-center border-red-900 bg-red-500 shadow-inner rounded-full w-3 h-3"
+            id="closebtn"
+          ></div>
+          <div
+            class="ml-2 border-yellow-900 bg-yellow-500 shadow-inner rounded-full w-3 h-3"
+            id="minbtn"
+          ></div>
+          <div
+            class="ml-2 border-green-900 bg-green-500 shadow-inner rounded-full w-3 h-3"
+            id="maxbtn"
+          ></div>
+          <div class="mx-auto pr-16" id="terminaltitle">
+            <p class="text-center text-sm">Frontend</p>
+          </div>
+        </div>
+        <div
+          class="pl-1 pt-1 h-auto text-green-200 font-mono text-base bg-gray-500"
+          id="console"
+        >
+          <p class="pb-1 px-1">
+            daniel$ about frontend; <br />
+            Vue.js + tailwindCSS --- Vue Router --- Vuex --- Axios <br />
+            <br />
+            Vue's single page application for efficiency and performance. <br />
+            Router and vuex for link and data management <br />
+            Axios for request/submit <br />
+            <br />
+          </p>
+        </div>
+      </div>
     </div>
+    <!-- Terminal 2 Ends -->
+    <!-- Captures and Diagrams -->
+    <div class="w-3/5 mx-auto my-6">
+      <div
+        class="w-full shadow-2xl subpixel-antialiased rounded h-96 bg-white border-black mx-auto"
+      >
+        <div class="p-1 text-black font-mono text-base">
+          <p>
+            Test
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Terminal 3 -->
+    <div class="w-3/5 h-auto mx-auto my-8">
+      <div
+        class="w-full shadow-2xl subpixel-antialiased rounded h-40 bg-gray-500 border-black mx-auto"
+      >
+        <div
+          class="flex items-center h-6 rounded-t bg-gray-100 border-b border-gray-500 text-center text-black"
+          id="headerTerminal"
+        >
+          <div
+            class="flex ml-2 items-center text-center border-red-900 bg-red-500 shadow-inner rounded-full w-3 h-3"
+            id="closebtn"
+          ></div>
+          <div
+            class="ml-2 border-yellow-900 bg-yellow-500 shadow-inner rounded-full w-3 h-3"
+            id="minbtn"
+          ></div>
+          <div
+            class="ml-2 border-green-900 bg-green-500 shadow-inner rounded-full w-3 h-3"
+            id="maxbtn"
+          ></div>
+          <div class="mx-auto pr-16" id="terminaltitle">
+            <p class="text-center text-sm">Frontend</p>
+          </div>
+        </div>
+        <div
+          class="pl-1 pt-1 h-auto text-green-200 font-mono text-base bg-gray-500"
+          id="console"
+        >
+          <p class="pb-1 px-1">
+            daniel$ about the design;<br />
+            <br />
+            The minimalistic design that invokes DEV <br />
+            <br />
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Terminal 3 Ends -->
+    <!-- Captures and Diagrams -->
+    <div></div>
+
+    <!-- Terminal 4 -->
+    <div class="w-3/5 h-auto mx-auto my-8">
+      <div
+        class="w-full shadow-2xl subpixel-antialiased rounded h-40 bg-gray-500 border-black mx-auto"
+      >
+        <div
+          class="flex items-center h-6 rounded-t bg-gray-100 border-b border-gray-500 text-center text-black"
+          id="headerTerminal"
+        >
+          <div
+            class="flex ml-2 items-center text-center border-red-900 bg-red-500 shadow-inner rounded-full w-3 h-3"
+            id="closebtn"
+          ></div>
+          <div
+            class="ml-2 border-yellow-900 bg-yellow-500 shadow-inner rounded-full w-3 h-3"
+            id="minbtn"
+          ></div>
+          <div
+            class="ml-2 border-green-900 bg-green-500 shadow-inner rounded-full w-3 h-3"
+            id="maxbtn"
+          ></div>
+          <div class="mx-auto pr-16" id="terminaltitle">
+            <p class="text-center text-sm">Backend</p>
+          </div>
+        </div>
+        <div
+          class="pl-1 pt-1 h-auto text-green-200 font-mono text-base bg-gray-500"
+          id="console"
+        >
+          <p class="pb-1 px-1">
+            daniel$ about backend; <br />
+            Spring --- JPA/Hibernate --- SpringSecurity --- Axios <br />
+            <br />
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Terminal 4 Ends -->
+    <!-- Captures and Diagrams -->
+    <div></div>
+
+    <!-- Terminal 4 -->
+    <div class="w-3/5 h-auto mx-auto my-8">
+      <div
+        class="w-full shadow-2xl subpixel-antialiased rounded h-60 bg-gray-500 border-black mx-auto"
+      >
+        <div
+          class="flex items-center h-6 rounded-t bg-gray-100 border-b border-gray-500 text-center text-black"
+          id="headerTerminal"
+        >
+          <div
+            class="flex ml-2 items-center text-center border-red-900 bg-red-500 shadow-inner rounded-full w-3 h-3"
+            id="closebtn"
+          ></div>
+          <div
+            class="ml-2 border-yellow-900 bg-yellow-500 shadow-inner rounded-full w-3 h-3"
+            id="minbtn"
+          ></div>
+          <div
+            class="ml-2 border-green-900 bg-green-500 shadow-inner rounded-full w-3 h-3"
+            id="maxbtn"
+          ></div>
+          <div class="mx-auto pr-16" id="terminaltitle">
+            <p class="text-center text-sm">Backend</p>
+          </div>
+        </div>
+        <div
+          class="pl-1 pt-1 h-auto text-green-200 font-mono text-base bg-gray-500"
+          id="console"
+        >
+          <p class="pb-1 px-1">
+            daniel$ list function;<br />
+            <br />
+            SignUp ________ GetArticle ________ DeleteArticle ______
+            DeletComment <br />
+            SignIn ________ PostArticle _______ PostComment ________ EditProfile
+            <br />
+            SignOut _______ EditArticle _______ EditComment ________
+            EditPassword <br />
+            <br />
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Terminal 4 Ends -->
+    <!-- Captures and Diagrams -->
+    <div></div>
+
+    <!-- Terminal 4 -->
+    <div class="w-3/5 h-auto mx-auto my-8">
+      <div
+        class="w-full shadow-2xl subpixel-antialiased rounded h-60 bg-gray-500 border-black mx-auto"
+      >
+        <div
+          class="flex items-center h-6 rounded-t bg-gray-100 border-b border-gray-500 text-center text-black"
+          id="headerTerminal"
+        >
+          <div
+            class="flex ml-2 items-center text-center border-red-900 bg-red-500 shadow-inner rounded-full w-3 h-3"
+            id="closebtn"
+          ></div>
+          <div
+            class="ml-2 border-yellow-900 bg-yellow-500 shadow-inner rounded-full w-3 h-3"
+            id="minbtn"
+          ></div>
+          <div
+            class="ml-2 border-green-900 bg-green-500 shadow-inner rounded-full w-3 h-3"
+            id="maxbtn"
+          ></div>
+          <div class="mx-auto pr-16" id="terminaltitle">
+            <p class="text-center text-sm">Backend</p>
+          </div>
+        </div>
+        <div
+          class="pl-1 pt-1 h-auto text-green-200 font-mono text-base bg-gray-500"
+          id="console"
+        >
+          <p class="pb-1 px-1">
+            daniel$ future addon; <br />
+            <br />
+            Bookmarks ________ Chatting ________ FileSharing
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Terminal 4 Ends -->
+    <!-- Captures and Diagrams -->
+    <div></div>
+
+    <!-- Terminal 7 -->
+    <div class="w-3/5 h-auto mx-auto my-8">
+      <div
+        class="w-full shadow-2xl subpixel-antialiased rounded h-40 bg-gray-500 border-black mx-auto"
+      >
+        <div
+          class="flex items-center h-6 rounded-t bg-gray-100 border-b border-gray-500 text-center text-black"
+          id="headerTerminal"
+        >
+          <div
+            class="flex ml-2 items-center text-center border-red-900 bg-red-500 shadow-inner rounded-full w-3 h-3"
+            id="closebtn"
+          ></div>
+          <div
+            class="ml-2 border-yellow-900 bg-yellow-500 shadow-inner rounded-full w-3 h-3"
+            id="minbtn"
+          ></div>
+          <div
+            class="ml-2 border-green-900 bg-green-500 shadow-inner rounded-full w-3 h-3"
+            id="maxbtn"
+          ></div>
+          <div class="mx-auto pr-16" id="terminaltitle">
+            <p class="text-center text-sm">Server</p>
+          </div>
+        </div>
+        <div
+          class="pl-1 pt-1 h-auto text-green-200 font-mono text-base bg-gray-500"
+          id="console"
+        >
+          <p class="pb-1 px-1">
+            daniel$ about server; <br />
+            GitHub --- AWS <br />
+            <br />
+            for the ease of version control<br />
+            <br />
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Terminal 7 Ends -->
+    <!-- Captures and Diagrams -->
+    <div></div>
+
+    <!-- Terminal End -->
+    <div class="w-3/5 h-auto mx-auto my-8">
+      <div
+        class="w-full shadow-2xl subpixel-antialiased rounded h-24 bg-gray-500 border-black mx-auto"
+      >
+        <div
+          class="flex items-center h-6 rounded-t bg-gray-100 border-b border-gray-500 text-center text-black"
+          id="headerTerminal"
+        >
+          <div
+            class="flex ml-2 items-center text-center border-red-900 bg-red-500 shadow-inner rounded-full w-3 h-3"
+            id="closebtn"
+          ></div>
+          <div
+            class="ml-2 border-yellow-900 bg-yellow-500 shadow-inner rounded-full w-3 h-3"
+            id="minbtn"
+          ></div>
+          <div
+            class="ml-2 border-green-900 bg-green-500 shadow-inner rounded-full w-3 h-3"
+            id="maxbtn"
+          ></div>
+          <div class="mx-auto pr-16" id="terminaltitle">
+            <p class="text-center text-sm">End</p>
+          </div>
+        </div>
+        <div
+          class="pl-1 pt-1 h-auto text-green-200 font-mono text-base bg-gray-500"
+          id="console"
+        >
+          <p class="pb-1 px-1">daniel$ ThankYou World!;<br /></p>
+        </div>
+      </div>
+    </div>
+    <!-- Terminal End Ends -->
+
+    <!-- The Main Section -->
   </div>
 </template>

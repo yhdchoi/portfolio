@@ -1,7 +1,7 @@
 <template>
   <div class="h-screen bg-black text-white p-10">
     <div class="w-full text-center">
-      <h1 class="font-bold text-4xl text-white  hover:text-green-500 my-8">
+      <h1 class="font-bold text-4xl text-white  hover:text-green-300 my-8">
         Contact 
       </h1>
     </div>
