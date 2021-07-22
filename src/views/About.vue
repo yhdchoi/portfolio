@@ -138,7 +138,7 @@
                   <p
                     class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
                   >
-                    Learning the development and systemic process of human body
+                    The study has provided me with the understading of the application of science including anatomy, biology, and chemistry.
                   </p>
                 </div>
               </div>
@@ -215,7 +215,7 @@
                   <p
                     class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
                   >
-                    The program has gave me a solid foundation on Structural
+                    The program has helped me to build a solid foundation on Structural
                     Engineering and Planning.
                   </p>
                 </div>
@@ -241,7 +241,7 @@
                   <p
                     class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
                   >
-                    The study has made me a thinker without borders.
+                    The study has helped me building skills in critical thinking, leadership and project management.
                   </p>
                 </div>
               </div>
