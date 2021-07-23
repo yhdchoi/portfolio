@@ -1,24 +1,21 @@
 <template>
   <div class="h-screen bg-black text-white p-10">
     <!-- Velog -->
-    <div class="flex items-center  justify-center">
-      <a href="#">
-        <img src="../assets/velog_logo.png" width="24" height="24" />
+      <a class="flex items-center  justify-center " href="https://velog.io/@yhdc">
+        <img class="mr-3" src="../assets/velog_logo.png" width="50" height="50" />
         <h1 class="font-bold text-4xl text-white  hover:text-red-400 my-6">
           Velog
         </h1>
       </a>
-    </div>
-    <div class="w-full text-center my-4">
-      <p>Sharing my learnings and skills with the development community.</p>
+    <div class="w-full text-center mt-3 mb-8">
+      <p>Sharing my knowledge and thoughts with the community.</p>
     </div>
 
     <!-- YouTube -->
-    <div class="flex items-center  justify-center">
-      <a href="#">
+      <a class="flex items-center  justify-center" href="https://www.youtube.com/channel/UCfOxhiu_PqZqXqOqvFP_sJg/videos">
         <svg
           fill="red"
-          class="w-8 h-8 m-2"
+          class="w-8 h-8 m-2 mr-3"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
@@ -32,17 +29,15 @@
           YouTube
         </h1>
       </a>
-    </div>
-    <div class="w-full text-center my-4">
-      <p>Started as an archive for my development practices. I was able to</p>
+    <div class="w-full text-center mt-3 mb-8">
+      <p>An archive for my development practices.</p>
     </div>
 
     <!-- GitHub -->
-    <div class="flex items-center justify-center">
-      <a href="#">
+      <a class="flex items-center justify-center" href="https://github.com/yhdchoi">
         <svg
           fill="purple"
-          class="w-8 h-8 m-2"
+          class="w-8 h-8 m-2 mr-3"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
@@ -56,9 +51,8 @@
           GitHub
         </h1>
       </a>
-    </div>
-    <div class="w-full text-center my-4">
-      <p>For managing and showcasing my projects.</p>
+    <div class="w-full text-center mt-3 mb-8">
+      <p>For managing my projects.</p>
     </div>
   </div>
 </template>

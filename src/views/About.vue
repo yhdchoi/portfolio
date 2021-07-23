@@ -21,7 +21,7 @@
             present creative ways to solve problems. I value an environment
             where it can motivate both personal and professional development.
           </p>
-
+//TODO: Resume link
           <div class="mt-4">
             <a
               href="#"

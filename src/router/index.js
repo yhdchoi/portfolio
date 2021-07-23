@@ -5,6 +5,9 @@ import About from '../views/About.vue'
 import Projects from '../views/Projects.vue'
 import Activities from '../views/Activities.vue'
 import Contact from '../views/Contact.vue'
+import Decrypt from '../views/Decrypt.vue'
+import Jblog from '../views/JBlog.vue'
+
 
 Vue.use(VueRouter)
 
@@ -34,6 +37,16 @@ const routes = [
     name: 'Contact',
     component: Contact
   },
+  {
+    path: '/decrypt',
+    name: 'Decrypt',
+    component: Decrypt
+  },
+  {
+    path: '/jblog',
+    name: 'Jblog',
+    component: Jblog
+  }
 
 
 
