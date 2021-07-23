@@ -21,14 +21,12 @@
             present creative ways to solve problems. I value an environment
             where it can motivate both personal and professional development.
           </p>
-//TODO: Resume link
           <div class="mt-4">
-            <a
-              href="#"
-              class="bg-transparent mr-auto hover:bg-red-300 text-white hover:text-white border rounded shadow hover:shadow-lg py-2 px-4  hover:border-transparent"
-            >
-              Download Resume
-            </a>
+            <router-link
+              :to="{ name: 'Resume' }"
+              class="bg-transparent mr-auto hover:bg-red-300 text-red-200 hover:text-white border border-red-200 rounded shadow hover:shadow-lg py-2 px-4  hover:border-transparent"
+              >Click for My Resume</router-link
+            >           
           </div>
 
           <div class="mt-8">
@@ -319,10 +317,7 @@
               class="mx-auto -mt-30 md:-mt-30"
               src="https://img.icons8.com/color/96/000000/innovation.png"
             />
-            <!-- <img
-              class="mx-auto -mt-36 md:-mt-36"
-              src="https://user-images.githubusercontent.com/54521023/116968861-ef21a000-acd2-11eb-95ac-a34b5b490265.png"
-            /> -->
+            
           </div>
         </div>
         <!-- End of Timeline -->

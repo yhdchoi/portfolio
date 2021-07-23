@@ -31,6 +31,9 @@
           id="console"
         >
           <p class="pb-1 px-1">
+            daniel$ &#10004; UNDER DEVELOPMENT : stay tuned...
+            <br />
+            <br />
             daniel$
             <router-link
               :to="{ name: 'Decrypt' }"

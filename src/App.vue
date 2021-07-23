@@ -1,28 +1,29 @@
 <template>
   <div class="flex-row">
     <Header />
-    <router-view/>
+    <router-view />
+    <Footer />
   </div>
 </template>
 
 <script>
-import Header from './components/Header.vue'
+  import Header from "./components/Header.vue";
+  import Footer from "./components/Footer.vue";
 
-export default {
-  components: { Header },
-}
+  export default {
+    components: { Header, Footer },
+  };
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  #app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
 
-*{
-  margin: 0;
-  padding: 0;
-}
-
+  * {
+    margin: 0;
+    padding: 0;
+  }
 </style>

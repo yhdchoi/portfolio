@@ -6,7 +6,6 @@
       </h1>
       <p></p>
     </div>
-
     <div class="max-w-lg mx-auto">
       <div class="text-xl text-white mb-3">
         <p>
@@ -29,11 +28,6 @@
       </div>
     </div>
     <br />
-
-    <p class="text-sm text-white mb-4"></p>
-
-    <img class="w-3/5 mb-4 m-auto" src="" />
-
     <!-- Login&Signup -->
     <div class="max-w-lg mx-auto mb-4">
       <div class="text-xl font-bold text-purple-300 hover:text-purple-500 mb-2">
@@ -42,6 +36,9 @@
         </p>
       </div>
     </div>
+    <p class="text-sm text-white mb-4">
+      The Login is done by the Spring Security with Form Login.
+    </p>
     <img class="w-3/5 mb-4 m-auto" src="../assets/jblog/MenuJSTL.png" />
     <p class="text-sm text-white mb-4">
       With JSTL created navigation bar to differentiate anonymous users and
@@ -115,7 +112,6 @@
         </p>
       </div>
     </div>
-
     <p class="text-sm text-white mb-4">
       The user information is displayed and can be edited on My Profile page.
     </p>
@@ -130,7 +126,6 @@
       src="../assets/jblog/profileupdateservice.png"
     />
     <br />
-
     <!-- Board -->
     <div class="font-bold max-w-lg mx-auto">
       <div class="text-xl text-red-300 hover:text-red-500 mb-4">
@@ -177,7 +172,6 @@
     <p class="text-sm text-white mb-4">
       The comments can be added at the bottom of the Read page for the article.
     </p>
-
     <img class="w-3/5 mb-4 m-auto" src="../assets/jblog/writenewcomment.png" />
     <img class="w-3/5 mb-4 m-auto" src="../assets/jblog/writenewcomment2.png" />
     <img
@@ -189,16 +183,13 @@
       class="w-3/5 mb-10 m-auto"
       src="../assets/jblog/writenewcommentdelete.png"
     />
-
     <p class="text-sm text-white mb-4">
       These processes are built using ajax and Spring.
     </p>
-
     <img class="w-3/5 mb-4 m-auto" src="../assets/jblog/commentcontroljs.png" />
     <img class="w-3/5 mb-4 m-auto" src="../assets/jblog/commentcontrol.png" />
     <img class="w-3/5 mb-10 m-auto" src="../assets/jblog/commentservice.png" />
     <br />
-
     <!-- Logout -->
     <div class="font-bold max-w-lg mx-auto">
       <div class="text-xl text-pink-300 hover:text-pink-500 mb-4">
@@ -212,7 +203,6 @@
     </p>
     <img class="w-3/5 mb-4 m-auto" src="../assets/jblog/mainpublic.png" />
     <img class="w-3/5 mb-10 m-auto" src="../assets/jblog/logoutconfig.png" />
-
     <!-- Terminal 1 -->
     <div class="w-3/5 mx-auto text-left">
       <div
@@ -251,7 +241,6 @@
       </div>
     </div>
     <!-- Terminal 1 Ends -->
-
     <!-- The Main Section -->
   </div>
 </template>
