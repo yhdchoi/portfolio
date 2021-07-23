@@ -1,9 +1,10 @@
 <template>
+<div class="m-auto w-full bg-black flex-row justify-center items-center ">
   <div
-    class="mx-auto min-h-screen w-screen flex-row justify-center items-center bg-black"
+    class="container m-auto min-h-screen bg-black"
   >
     <div
-      class="mx-auto max-w-sm rounded-lg overflow-hidden shadow-lg mb-2 bg-black"
+      class="m-auto max-w-sm rounded-lg overflow-hidden shadow-lg mb-2 bg-black"
     >
       <div>
         <img
@@ -14,18 +15,16 @@
           alt="Profile image"
         />
       </div>
-
       <div class="pt-6 pb-8 text-white text-center">
-        <p class="text-3xl mb-2">Yeonghyun Choi</p>
-        <p>Fullstack Developer</p>
-        <p class="text-sm">
-          originated from and living on the Beautiful Planet Earth
+        <p class="text-3xl mb-2 ">Yeonghyun Choi</p>
+        <p class="text-gray-300">Fullstack Developer</p>
+        <p class="text-sm mt-2 text-gray-300">
+          Originated from and living on Planet Earth
         </p>
       </div>
     </div>
-
     <!-- About -->
-    <div class="bg-black p-5 shadow-sm rounded-sm">
+    <div class="bg-black p-5">
       <div
         class="flex items-center space-x-2 font-semibold text-gray-200 leading-8"
       >
@@ -63,7 +62,7 @@
           </div>
           <div class="grid grid-cols-2">
             <div class="px-4 py-2 font-semibold">Address:</div>
-            <div class="px-4 py-2">Seoul, South Korea</div>
+            <div class="px-4 py-2">Seoul, South Korea <br>/ Toronto, Canada</div>
           </div>
           <div class="grid grid-cols-2">
             <div class="px-4 py-2 font-semibold">Email:</div>
@@ -82,7 +81,7 @@
     </div>
     <!-- End of about section -->
     <!-- Experience and education -->
-    <div class="bg-black p-5 shadow-sm rounded-sm">
+    <div class="bg-black p-5">
       <div class="grid grid-cols-2">
         <div>
           <div
@@ -184,12 +183,11 @@
       </div>
       <!-- End of Experience and education grid -->
     </div>
-
     <!-- Social Traffic -->
-    <div class="flex flex-col min-w-0 mt-4 mb-8 mx-1 p-4 lg:mb-0  bg-black w-full">
-      <div class="rounded-t mb-0 px-0 border-0">
-        <div class="flex flex-wrap items-center px-1 py-2">
-          <div class=" w-full max-w-full  flex">
+    <div class="m-auto">
+    <div class="flex flex-col min-w-0 p-4 bg-black">
+        <div class="items-center px-1 py-2">
+          <div class="flex">
             <span class="text-gray mr-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -206,13 +204,12 @@
                 />
               </svg>
             </span>
-            <h3 class="font-semibold text-lg text-gray-200 dark:text-gray-50">
+            <h3 class="font-semibold text-base text-gray-200 dark:text-gray-50">
               Skills
             </h3>
           </div>
         </div>
-        <div class="block w-full overflow-x-auto">
-          <table class="items-center w-full bg-transparent border-collapse">
+          <table class="items-center w-full mx-auto bg-transparent border-collapse">
             <thead>
               <tr>
                 <th
@@ -223,12 +220,12 @@
                 <th
                   class="px-4 bg-black dark:bg-gray-300 text-gray-300 dark:text-gray-100 align-middle border border-solid border-gray-600 dark:border-gray-500 py-3 text-sm uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
                 >
-                  LEVEL
+                  USAGE RATE
                 </th>
               </tr>
             </thead>
             <tbody>
-              <tr class="text-green-700">
+              <tr class="text-green-700 hover:bg-gray-900">
                 <th
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4 text-left"
                 >
@@ -238,13 +235,13 @@
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4"
                 >
                   <div class="flex items-center">
-                    <span class="mr-2">70%</span>
+                    <span class="mr-2">90%</span>
                     <div class="relative w-full">
                       <div
-                        class="overflow-hidden h-2 text-xs flex rounded bg-blue-200"
+                        class="overflow-hidden h-2 text-xs flex rounded bg-green-200"
                       >
                         <div
-                          style="width: 70%"
+                          style="width: 90%"
                           class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-700"
                         ></div>
                       </div>
@@ -252,23 +249,23 @@
                   </div>
                 </td>
               </tr>
-              <tr class="text-purple-400">
+              <tr class="text-purple-400 hover:bg-gray-900">
                 <th
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4 text-left"
                 >
-                  JPA/Hiebernate
+                  JPA/Hibernate
                 </th>
                 <td
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4"
                 >
                   <div class="flex items-center">
-                    <span class="mr-2">60%</span>
+                    <span class="mr-2">70%</span>
                     <div class="relative w-full">
                       <div
                         class="overflow-hidden h-2 text-xs flex rounded bg-purple-200"
                       >
                         <div
-                          style="width: 60%"
+                          style="width: 70%"
                           class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-400"
                         ></div>
                       </div>
@@ -276,7 +273,7 @@
                   </div>
                 </td>
               </tr>
-              <tr class="text-pink-500">
+              <tr class="text-pink-500 hover:bg-gray-900">
                 <th
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4 text-left"
                 >
@@ -300,7 +297,8 @@
                   </div>
                 </td>
               </tr>
-              <tr class="text-green-400">
+
+              <tr class="text-green-400 hover:bg-gray-900">
                 <th
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4 text-left"
                 >
@@ -324,7 +322,8 @@
                   </div>
                 </td>
               </tr>
-              <tr class="text-blue-700">
+
+              <tr class="text-blue-700 hover:bg-gray-900">
                 <th
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4 text-left"
                 >
@@ -334,13 +333,13 @@
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4"
                 >
                   <div class="flex items-center">
-                    <span class="mr-2">30%</span>
+                    <span class="mr-2">40%</span>
                     <div class="relative w-full">
                       <div
                         class="overflow-hidden h-2 text-xs flex rounded bg-blue-200"
                       >
                         <div
-                          style="width: 30%"
+                          style="width: 40%"
                           class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-700"
                         ></div>
                       </div>
@@ -349,7 +348,32 @@
                 </td>
               </tr>
 
-              <tr class="text-red-400">
+              <tr class="text-purple-800 hover:bg-gray-900">
+                <th
+                  class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4 text-left"
+                >
+                  C / C++
+                </th>
+                <td
+                  class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4"
+                >
+                  <div class="flex items-center">
+                    <span class="mr-2">30%</span>
+                    <div class="relative w-full">
+                      <div
+                        class="overflow-hidden h-2 text-xs flex rounded bg-purple-300"
+                      >
+                        <div
+                          style="width: 30%"
+                          class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-800"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+
+              <tr class="text-red-400 hover:bg-gray-900">
                 <th
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4 text-left"
                 >
@@ -375,9 +399,9 @@
               </tr>
             </tbody>
           </table>
-        </div>
-      </div>
+    </div>
     </div>
     <!-- ./Social Traffic -->
+  </div>
   </div>
 </template>

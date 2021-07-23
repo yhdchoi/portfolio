@@ -13,13 +13,13 @@
             class="block uppercase tracking-wide text-gray-300 text-xs font-bold mb-2"
             for="grid-password"
           >
-            Title
+            Title:
           </label>
           <input
             class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
             name="title"
             type="text"
-            placeholder="Required"
+            placeholder="Required" required
           />
         </div>
       </div>
@@ -30,13 +30,13 @@
             for="grid-password"
             
           >
-            E-mail
+            E-mail:
           </label>
           <input
             class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
             name="email"
             type="email"
-            placeholder="Required"
+            placeholder="Required" required
           />
           
         </div>
@@ -47,12 +47,12 @@
             class="block uppercase tracking-wide text-gray-300 text-xs font-bold mb-2"
             for="grid-password"
           >
-            Message
+            Message:
           </label>
           <textarea
             class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
             name="message"
-            placeholder="Your message here"
+            placeholder="Your message here" required
           ></textarea>
         </div>
       </div>
@@ -61,8 +61,7 @@
           <button
             class="bg-gray-500 hover:bg-blue-300 text-white font-bold py-2 px-4 rounded"
             type="submit"
-            value="Send"
-            href="mailto:yhdchoi@gmail.com"
+            value="Send"            
           >
             Send
           </button>

@@ -45,8 +45,7 @@
       </div>
     </div>
        <p class="text-sm text-white mb-4">
-      With JSTL created navigation bar to differentiate anonymous users and
-      registered users.
+      With Router .
     </p>
     <img class="w-3/5 mb-4 m-auto" src="../assets/jblog/MenuJSTL.png" />
     <p class="text-sm text-white mb-4">

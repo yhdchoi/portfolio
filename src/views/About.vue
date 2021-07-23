@@ -24,7 +24,7 @@
           <div class="mt-4">
             <router-link
               :to="{ name: 'Resume' }"
-              class="bg-transparent mr-auto hover:bg-red-300 text-red-200 hover:text-white border border-red-200 rounded shadow hover:shadow-lg py-2 px-4  hover:border-transparent"
+              class="bg-transparent mr-auto hover:bg-red-300 text-red-400 hover:text-white border border-red-400 rounded shadow hover:shadow-lg py-2 px-4  hover:border-transparent"
               >Click for My Resume</router-link
             >           
           </div>

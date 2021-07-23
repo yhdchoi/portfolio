@@ -53,7 +53,7 @@
             <br />
             <br />
             daniel$ print tools used;<br />
-            Spring, JPA/Hiebernate, Spring Security, Axios, Vuex, Vue Router,
+            Spring, JPA/Hibernate, Spring Security, Axios, Vuex, Vue Router,
             Vue, TailwindCSS;
           </p>
         </div>
@@ -112,7 +112,7 @@
             <br />
             <br />
             daniel$ print tools used;<br />
-            Spring Boot, JPA/Hiebernate, Spring Security/OAuth2.0, JSP/JSTL;
+            Spring Boot, JPA/Hibernate, Spring Security/OAuth2.0, JSP/JSTL;
           </p>
         </div>
       </div>
@@ -160,7 +160,7 @@
             <br />
             <br />
             daniel$ project description; <br />
-            The study of Amazon Web Service.
+            An investigation into Amazon Web Service.
             <br />
             <br />
             daniel$
@@ -215,7 +215,7 @@
             <br />
             <br />           
             daniel$ print tools used;<br />
-            Spring Boot, JPA/Hiebernate, Spring Security;
+            Spring Boot, JPA/Hibernate, Spring Security;
             <br />
             <br />
             daniel$
