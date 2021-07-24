@@ -327,7 +327,7 @@
                 <th
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4 text-left"
                 >
-                  Python
+                  Javascript
                 </th>
                 <td
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4"
@@ -348,11 +348,11 @@
                 </td>
               </tr>
 
-              <tr class="text-purple-800 hover:bg-gray-900">
+              <tr class="text-red-400 hover:bg-gray-900">
                 <th
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4 text-left"
                 >
-                  C / C++
+                  Python
                 </th>
                 <td
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4"
@@ -361,11 +361,11 @@
                     <span class="mr-2">30%</span>
                     <div class="relative w-full">
                       <div
-                        class="overflow-hidden h-2 text-xs flex rounded bg-purple-300"
+                        class="overflow-hidden h-2 text-xs flex rounded bg-red-100"
                       >
                         <div
                           style="width: 30%"
-                          class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-800"
+                          class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-400"
                         ></div>
                       </div>
                     </div>
@@ -373,7 +373,7 @@
                 </td>
               </tr>
 
-              <tr class="text-red-400 hover:bg-gray-900">
+              <tr class="text-purple-800 hover:bg-gray-900">
                 <th
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4 text-left"
                 >
@@ -386,11 +386,11 @@
                     <span class="mr-2">20%</span>
                     <div class="relative w-full">
                       <div
-                        class="overflow-hidden h-2 text-xs flex rounded bg-red-100"
+                        class="overflow-hidden h-2 text-xs flex rounded bg-purple-300"
                       >
                         <div
-                          style="width: 30%"
-                          class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-400"
+                          style="width: 20%"
+                          class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-800"
                         ></div>
                       </div>
                     </div>

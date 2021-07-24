@@ -32,13 +32,13 @@
       <router-link
         :to="{ name: 'Projects' }"
         class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-yellow-500 mx-1.5 sm:mx-6"
-        >Project</router-link
+        >Projects & Experiments</router-link
       >
 
       <router-link
         :to="{ name: 'Activities' }"
         class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500 mx-1.5 sm:mx-6"
-        >Activity</router-link
+        >Activities</router-link
       >
 
       <router-link

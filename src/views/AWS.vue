@@ -1,151 +1,72 @@
 <template>
-    <div class="h-full bg-black p-10 text-center">
+  <div class="h-full bg-black p-10 text-center">
     <div class="w-full">
       <h1 class="font-bold text-5xl text-green-300  hover:text-green-600 mb-10">
-        DEcrypt
+        AWS
       </h1>
       <p></p>
     </div>
-
     <div class="max-w-lg mx-auto">
       <div class="text-xl text-white mb-3">
         <p>
-          A fullstack web application project built on Vue, Axios and Spring.
+          An experimental project with Amazon Web Service.
         </p>
       </div>
     </div>
     <br />
     <div class="max-w-lg mx-auto">
       <div class="text-white mb-4">
-        <h5 class="text-2xl text-pink-300 font-bold mb-2">Contents:</h5>
+        <h5 class="text-2xl text-white font-bold mb-2">Overview:</h5>
         <ul class="text-lg">
-          <li>Login & Signup</li>
-          <li>Main Page</li>
-          <li>User Menus</li>
-          <li>Posting, Update, Delete Article</li>
-          <li>Posting, Update, Delete Comment</li>
-          <li>Posting, Update, Delete Reply</li>
-          <li>Logout</li>
+          <li>Introduction</li>
+          <li>VPC</li>
+          <li>EC2</li>
+          <li>S3</li>
+          <li>RDS</li>
+          <li></li>
         </ul>
       </div>
     </div>
     <br />
 
-    <p class="text-sm text-white mb-4"></p>
-
-    <img class="w-3/5 mb-4 m-auto" src="" />
-
-    <!-- Login&Signup -->
+    <!-- Intro -->
     <div class="max-w-lg mx-auto mb-4">
       <div class="text-xl font-bold text-purple-300 hover:text-purple-500 mb-2">
         <p>
-          1. Login & Signup
-        </p>
-      </div>
-    </div>
-       <p class="text-sm text-white mb-4">
-      With Router .
-    </p>
-    <img class="w-3/5 mb-4 m-auto" src="../assets/jblog/MenuJSTL.png" />
-    <p class="text-sm text-white mb-4">
-      With JSTL created navigation bar to differentiate anonymous users and
-      registered users.
-    </p>
-
-    <br />
-    <!-- MainPage -->
-    <div class="max-w-lg mx-auto">
-      <div
-        class="text-xl font-bold text-yellow-300 hover:text-yellow-500 mt-4 mb-4"
-      >
-        <p>
-          2. Main Page
+          1. Introduction
         </p>
       </div>
     </div>
     <p class="text-sm text-white mb-4">
-      After logging in, it leads to the main page where the list of articles are
-      displayed.
+      The AWS Global Infrastructure is composed of 24 regions around the world.<br>
+      Every region is connected via a high bandwidth and fully redundant<br>
+      network. Each region is compleletly independent. And each region consists<br>
+      of two or more Avaliability zones with several data centers.<br>     
     </p>
-    <img class="w-3/5 mb-4 m-auto" src="../assets/jblog/mainpagenation.png" />
-
-    <br />
-    <!-- Profile -->
-    <div class="font-bold max-w-lg mx-auto">
-      <div class="text-xl font-bold text-blue-300 hover:text-blue-500 mb-4">
-        <p>
-          3. Profile
-        </p>
-      </div>
-    </div>
-
-    <p class="text-sm text-white mb-4">
-      The user information is displayed and can be edited on My Profile page.
-    </p>
-    <img class="w-3/5 mb-10 m-auto" src="../assets/jblog/profilepage.png" />
-
+    <img class="w-3/5 mb-4 m-auto" src="" />
 
     <br />
 
-    <!-- Board -->
-    <div class="font-bold max-w-lg mx-auto">
-      <div class="text-xl text-red-300 hover:text-red-500 mb-4">
+    <!-- Intro -->
+    <div class="max-w-lg mx-auto mb-4">
+      <div class="text-xl font-bold text-purple-300 hover:text-purple-500 mb-2">
         <p>
-          4. Posting, Update, Delete Article
+          2. VPC Virtual Private Cloud
         </p>
       </div>
     </div>
     <p class="text-sm text-white mb-4">
-      In order to write a new article, click on the 'Write' button on the
-      navigation bar.
-    </p>
-    <img class="w-3/5 mb-10 m-auto" src="../assets/jblog/writenew.png" />
-
-    <br />
-    <!-- Comment -->
-    <div class="font-bold max-w-lg mx-auto">
-      <div class="text-xl text-white hover:text-green-300 mb-4">
-        <p>
-          5. Posting, Update, Delete Comment
-        </p>
-      </div>
-    </div>
-    <p class="text-sm text-white mb-4">
-      The comments can be added at the bottom of the Read page for the article.
+      .<br>
+     
     </p>
 
-    <img class="w-3/5 mb-4 m-auto" src="../assets/jblog/writenewcomment.png" />
+    <img class="w-3/5 mb-4 m-auto" src="" />
 
     <br />
 
-        <!-- Reply -->
-    <div class="font-bold max-w-lg mx-auto">
-      <div class="text-xl text-white hover:text-green-300 mb-4">
-        <p>
-          5. Posting, Update, Delete Reply
-        </p>
-      </div>
-    </div>
-    <p class="text-sm text-white mb-4">
-      The comments can be added at the bottom of the Read page for the article.
-    </p>
 
-    <img class="w-3/5 mb-4 m-auto" src="../assets/jblog/writenewcomment.png" />
 
-    <br />
 
-    <!-- Logout -->
-    <div class="font-bold max-w-lg mx-auto">
-      <div class="text-xl text-pink-300 hover:text-pink-500 mb-4">
-        <p>
-          6. Logout
-        </p>
-      </div>
-    </div>
-    <p class="text-sm text-white mb-4">
-      By clicking Logout button, you are redirected to the Main public page.
-    </p>
-    <img class="w-3/5 mb-10 m-auto" src="../assets/jblog/logoutconfig.png" />
 
     <!-- Terminal 1 -->
     <div class="w-3/5 mx-auto text-left">
@@ -185,7 +106,5 @@
       </div>
     </div>
     <!-- Terminal 1 Ends -->
-
-    <!-- The Main Section -->
   </div>
 </template>
