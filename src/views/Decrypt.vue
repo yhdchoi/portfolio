@@ -1,7 +1,7 @@
 <template>
   <div class="h-full bg-black p-10 text-center">
     <div class="w-full">
-      <h1 class="font-bold text-5xl text-green-300  hover:text-green-600 mb-10">
+      <h1 class="font-bold text-5xl text-white  hover:text-green-600 mb-10">
         DEcrypt
       </h1>
       <a
@@ -29,17 +29,19 @@
     <div class="max-w-lg mx-auto">
       <div class="text-xl text-white mb-3">
         <p>
-          A fullstack web application project built on Vue, Axios and Spring MVC/Boot.
+          A web application project built using Vue, Axios, Spring MVC/Boot,
+          JPA/Hibernate, and Spring Security.
         </p>
       </div>
     </div>
     <br />
     <div class="max-w-lg mx-auto">
       <div class="text-white mb-4">
-        <h5 class="text-2xl text-pink-300 font-bold mb-2">Contents:</h5>
+        <h5 class="text-3xl text-pink-300 font-bold mb-2">Contents:</h5>
         <ul class="text-lg">
-          <li>Main Page</li>
-          <li>User Menu</li>
+          <li>Database</li>
+          <li>Security</li>
+          <li>Home Page</li>
           <li>Articles</li>
           <li>Comments</li>
           <li>Replies</li>
@@ -49,7 +51,7 @@
     </div>
     <br />
 
-    <h5 class="text-2xl text-blue-300 font-bold mb-2">Description:</h5>
+    <h5 class="text-3xl text-blue-300 font-bold mb-2">Description:</h5>
     <p class="text-base text-white mb-10">
       The project is still being built at this momment. <br />
       I've started it as an experiment fo Vue.js but it has developed as a
@@ -63,105 +65,183 @@
       multi-page applications.
     </p>
 
-    <h5 class="text-2xl text-yellow-200 font-bold mb-2">TODOs:</h5>
+    <h5 class="text-3xl text-yellow-200 font-bold mb-2">TODOs:</h5>
     <p class="text-base text-white mb-10">
       Frontend: Organize data with Vuex. / Request & Response with axios. <br />
-      Backend: Test mvc with axios. / Security with JWT.
+      Backend: Test request & response with axios. / Security with JWT.
     </p>
 
-    <!-- Main Page -->
-    <div class="max-w-lg mx-auto mb-4">
-      <div class="text-xl font-bold text-purple-300 hover:text-purple-500 mb-2">
+    <!-- Database -->
+    <div class="max-w-lg mx-auto">
+      <div
+        class="text-3xl font-bold text-green-300 hover:text-green-500 mt-4 mb-4"
+      >
         <p>
-          1. Main Page
+          1. Database
         </p>
       </div>
     </div>
-    <p class="text-sm text-white mb-4">
+    <p class="text-lg text-white mb-8 w-3/5 m-auto">
+      With JPA, I was able to manage my datas efficiently. I have established
+      uni-directional N:1, and 1:N relationships with custom methods to retrieve
+      and store datas.
+    </p>
+    <img class="w-3/5 mb-6 m-auto" src="../assets/decrypt/entityuser.png" />
+    <img class="w-3/5 mb-6 m-auto" src="../assets/decrypt/entityboard.png" />
+    <img class="w-3/5 mb-6 m-auto" src="../assets/decrypt/entitycomment.png" />
+    <img class="w-3/5 mb-6 m-auto" src="../assets/decrypt/entityreply.png" />
+    <img class="w-3/5 mb-10 m-auto" src="../assets/decrypt/entitymsg.png" />
+    <p class="text-lg text-white mb-8 w-3/5 m-auto">
+      With the entities set up created repository with custom methods.
+    </p>
+    <img class="w-3/5 mb-6 m-auto" src="../assets/decrypt/repouser.png" />
+    <img class="w-3/5 mb-6 m-auto" src="../assets/decrypt/repoboard.png" />
+    <img class="w-3/5 mb-6 m-auto" src="../assets/decrypt/repocomment.png" />
+    <img class="w-3/5 mb-6 m-auto" src="../assets/decrypt/reporeply.png" />
+    <img class="w-3/5 mb-10 m-auto" src="../assets/decrypt/repomsg.png" />
+    <br />
+
+    <!-- Security -->
+    <div class="max-w-lg mx-auto">
+      <div
+        class="text-3xl font-bold text-yellow-300 hover:text-yellow-500 mt-4 mb-4"
+      >
+        <p>
+          2. Security
+        </p>
+      </div>
+    </div>
+    <p class="text-lg text-white mb-6 w-3/5 m-auto">
+      UNDER DEVELOPMENT... with JWT & OAuth2.0 Google
+    </p>
+
+    <br />
+
+    <!-- Home Page -->
+    <div class="max-w-lg mx-auto mb-4">
+      <div
+        class="text-3xl font-bold text-purple-300 hover:text-purple-500 mb-2"
+      >
+        <p>
+          3. Home Page
+        </p>
+      </div>
+    </div>
+    <p class="text-lg text-white mb-8 w-3/5 m-auto">
       With Router I have organized the navigation with dedicated dropdown menu
       for users.
     </p>
-    <img class="w-3/5 mb-4 m-auto" src="../assets/decrypt/homemain.png" />
+    <img class="w-3/5 mb-6 m-auto" src="../assets/decrypt/homemain.png" />
+
+    <p class="text-lg text-white mb-8 w-3/5 m-auto">
+      From the user dropdown menu, user's profile, inbox and settings can be
+      accessed.
+    </p>
     <img
       class="w-3/5 mb-6 m-auto"
       src="../assets/decrypt/homemainusermenu.png"
     />
-    
-    <br />
-    <!-- User Menu -->
-    <div class="max-w-lg mx-auto">
-      <div
-        class="text-xl font-bold text-yellow-300 hover:text-yellow-500 mt-4 mb-4"
-      >
-        <p>
-          2. User Menu
-        </p>
-      </div>
-    </div>
-    <p class="text-sm text-white mb-4">
-      
-    </p>
-    <img class="w-3/5 mb-4 m-auto" src="../assets/decrypt/profile.png" />
-    <img class="w-3/5 mb-4 m-auto" src="../assets/decrypt/inbox.png" />
-    <img class="w-3/5 mb-4 m-auto" src="../assets/decrypt/settings.png" />
 
+    <p class="text-lg text-white mb-8 w-3/5 m-auto">
+      The profile includes user's personal information and it can be edited
+      through here.
+    </p>
+    <img class="w-3/5 mb-6 m-auto" src="../assets/decrypt/profile.png" />
+    <img class="w-3/5 mb-6 m-auto" src="../assets/decrypt/contuser.png" />
+    <img class="w-3/5 mb-10 m-auto" src="../assets/decrypt/servuser.png" />
+
+    <p class="text-lg text-white mb-8 w-3/5 m-auto">
+      Users are able to send messages to each other by the inbox page.
+    </p>
+    <img class="w-3/5 mb-6 m-auto" src="../assets/decrypt/inbox.png" />
+    <img class="w-3/5 mb-6 m-auto" src="../assets/decrypt/contmsg.png" />
+    <img class="w-3/5 mb-10 m-auto" src="../assets/decrypt/servmsg.png" />
+
+    <p class="text-lg text-white mb-8 w-3/5 m-auto">
+      User's account information can be updated in the settings page.
+    </p>
+    <img class="w-3/5 mb-10 m-auto" src="../assets/decrypt/settings.png" />
     <br />
+
     <!-- Article -->
     <div class="font-bold max-w-lg mx-auto">
-      <div class="text-xl font-bold text-blue-300 hover:text-blue-500 mb-4">
+      <div class="text-3xl font-bold text-blue-300 hover:text-blue-500 mb-4">
         <p>
-          3. Posting, Update, Delete Articles
+          4. Articles
         </p>
       </div>
     </div>
 
-    <p class="text-sm text-white mb-4">
+    <p class="text-lg text-white mb-8 w-3/5 m-auto">
       The user information is displayed and can be edited on My Profile page.
     </p>
     <img class="w-3/5 mb-10 m-auto" src="../assets/decrypt/list.png" />
+    <br />
+    <p class="text-lg text-white mb-8 w-3/5 m-auto">
+      With controller, service and Pageable interface, I was able to compose the
+      function.
+    </p>
+    <img class="w-3/5 mb-6 m-auto" src="../assets/decrypt/contboard.png" />
+    <img class="w-3/5 mb-6 m-auto" src="../assets/decrypt/servboard.png" />
+    <img class="w-3/5 mb-10 m-auto" src="../assets/decrypt/utilpage.png" />
 
     <br />
 
     <!-- Comments -->
     <div class="font-bold max-w-lg mx-auto">
-      <div class="text-xl text-red-300 hover:text-red-500 mb-4">
+      <div class="text-3xl text-red-300 hover:text-red-500 mb-4">
         <p>
-          4. Posting, Update, Delete Comments
+          5. Comments
         </p>
       </div>
     </div>
-    <p class="text-sm text-white mb-4">
+    <p class="text-lg text-white mb-8 w-3/5 m-auto">
+      UNDER DEVELOPMENT... with Vue <br />
       In order to write a new article, click on the 'Write' button on the
       navigation bar.
     </p>
     <img class="w-3/5 mb-10 m-auto" src="" />
-
+    <br />
+    <p class="text-lg text-white mb-8 w-3/5 m-auto">
+      When a new comment is requested, it is assigned with an writer ID and an
+      article ID before saved.
+    </p>
+    <img class="w-3/5 mb-6 m-auto" src="../assets/decrypt/contcomment.png" />
+    <img class="w-3/5 mb-6 m-auto" src="../assets/decrypt/servcomment.png" />
     <br />
     <!-- Replies -->
     <div class="font-bold max-w-lg mx-auto">
-      <div class="text-xl text-green-200 hover:text-green-300 mb-4">
+      <div class="text-3xl text-green-200 hover:text-green-300 mb-4">
         <p>
-          5. Posting, Update, Delete Replies
+          6. Replies
         </p>
       </div>
     </div>
-    <p class="text-sm text-white mb-4">
+    <p class="text-lg text-white mb-8 w-3/5 m-auto">
+      UNDER DEVELOPMENT... with Vue <br />
       The comments can be added at the bottom of the Read page for the article.
     </p>
-
     <img class="w-3/5 mb-4 m-auto" src="" />
 
+    <br />
+    <p class="text-lg text-white mb-8 w-3/5 m-auto">
+      When a new reply to a comment is requested, it is assigned with an writer
+      ID and an reply ID before saved.
+    </p>
+    <img class="w-3/5 mb-6 m-auto" src="../assets/decrypt/contreply.png" />
+    <img class="w-3/5 mb-6 m-auto" src="../assets/decrypt/servreply.png" />
     <br />
 
     <!-- Logout -->
     <div class="font-bold max-w-lg mx-auto">
-      <div class="text-xl text-pink-300 hover:text-pink-500 mb-4">
+      <div class="text-3xl text-pink-300 hover:text-pink-500 mb-4">
         <p>
-          6. Logout
+          7. Logout
         </p>
       </div>
     </div>
-    <p class="text-sm text-white mb-4">
+    <p class="text-lg text-white mb-8 w-3/5 m-auto">
+      UNDER DEVELOPMENT... with Vue <br />
       By clicking Logout button, you are redirected to the Main public page.
     </p>
     <img class="w-3/5 mb-10 m-auto" src="" />

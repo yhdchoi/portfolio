@@ -32,7 +32,7 @@
       <router-link
         :to="{ name: 'Projects' }"
         class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-yellow-500 mx-1.5 sm:mx-6"
-        >Projects & Experiments</router-link
+        >Projects</router-link
       >
 
       <router-link
