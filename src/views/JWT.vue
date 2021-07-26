@@ -1,8 +1,8 @@
 <template>
-    <div class="h-full bg-black p-10 text-center">
+  <div class="h-full bg-black p-10 text-center">
     <div class="w-full">
       <h1 class="font-bold text-5xl text-green-300  hover:text-green-600 mb-10">
-        DEcrypt
+        JWT
       </h1>
       <p></p>
     </div>
@@ -10,7 +10,7 @@
     <div class="max-w-lg mx-auto">
       <div class="text-xl text-white mb-3">
         <p>
-          A fullstack web application project built on Vue, Axios and Spring.
+          An experimental project with Spring Security and Json Web Token (JWT).
         </p>
       </div>
     </div>
@@ -19,13 +19,9 @@
       <div class="text-white mb-4">
         <h5 class="text-2xl text-pink-300 font-bold mb-2">Contents:</h5>
         <ul class="text-lg">
-          <li>Login & Signup</li>
-          <li>Main Page</li>
-          <li>User Menus</li>
-          <li>Posting, Update, Delete Article</li>
-          <li>Posting, Update, Delete Comment</li>
-          <li>Posting, Update, Delete Reply</li>
-          <li>Logout</li>
+          <li>Concept</li>
+          <li>Configuration</li>
+          <li></li>
         </ul>
       </div>
     </div>
@@ -39,114 +35,19 @@
     <div class="max-w-lg mx-auto mb-4">
       <div class="text-xl font-bold text-purple-300 hover:text-purple-500 mb-2">
         <p>
-          1. Login & Signup
+          1. Concept
         </p>
       </div>
     </div>
-       <p class="text-sm text-white mb-4">
-      With Router .
+    <p class="text-base text-white mb-4">
+      .
     </p>
     <img class="w-3/5 mb-4 m-auto" src="../assets/jblog/MenuJSTL.png" />
-    <p class="text-sm text-white mb-4">
-      With JSTL created navigation bar to differentiate anonymous users and
-      registered users.
-    </p>
-
-    <br />
-    <!-- MainPage -->
-    <div class="max-w-lg mx-auto">
-      <div
-        class="text-xl font-bold text-yellow-300 hover:text-yellow-500 mt-4 mb-4"
-      >
-        <p>
-          2. Main Page
-        </p>
-      </div>
-    </div>
-    <p class="text-sm text-white mb-4">
-      After logging in, it leads to the main page where the list of articles are
-      displayed.
-    </p>
-    <img class="w-3/5 mb-4 m-auto" src="../assets/jblog/mainpagenation.png" />
-
-    <br />
-    <!-- Profile -->
-    <div class="font-bold max-w-lg mx-auto">
-      <div class="text-xl font-bold text-blue-300 hover:text-blue-500 mb-4">
-        <p>
-          3. Profile
-        </p>
-      </div>
-    </div>
-
-    <p class="text-sm text-white mb-4">
-      The user information is displayed and can be edited on My Profile page.
-    </p>
-    <img class="w-3/5 mb-10 m-auto" src="../assets/jblog/profilepage.png" />
-
 
     <br />
 
-    <!-- Board -->
-    <div class="font-bold max-w-lg mx-auto">
-      <div class="text-xl text-red-300 hover:text-red-500 mb-4">
-        <p>
-          4. Posting, Update, Delete Article
-        </p>
-      </div>
-    </div>
-    <p class="text-sm text-white mb-4">
-      In order to write a new article, click on the 'Write' button on the
-      navigation bar.
-    </p>
-    <img class="w-3/5 mb-10 m-auto" src="../assets/jblog/writenew.png" />
 
-    <br />
-    <!-- Comment -->
-    <div class="font-bold max-w-lg mx-auto">
-      <div class="text-xl text-white hover:text-green-300 mb-4">
-        <p>
-          5. Posting, Update, Delete Comment
-        </p>
-      </div>
-    </div>
-    <p class="text-sm text-white mb-4">
-      The comments can be added at the bottom of the Read page for the article.
-    </p>
-
-    <img class="w-3/5 mb-4 m-auto" src="../assets/jblog/writenewcomment.png" />
-
-    <br />
-
-        <!-- Reply -->
-    <div class="font-bold max-w-lg mx-auto">
-      <div class="text-xl text-white hover:text-green-300 mb-4">
-        <p>
-          5. Posting, Update, Delete Reply
-        </p>
-      </div>
-    </div>
-    <p class="text-sm text-white mb-4">
-      The comments can be added at the bottom of the Read page for the article.
-    </p>
-
-    <img class="w-3/5 mb-4 m-auto" src="../assets/jblog/writenewcomment.png" />
-
-    <br />
-
-    <!-- Logout -->
-    <div class="font-bold max-w-lg mx-auto">
-      <div class="text-xl text-pink-300 hover:text-pink-500 mb-4">
-        <p>
-          6. Logout
-        </p>
-      </div>
-    </div>
-    <p class="text-sm text-white mb-4">
-      By clicking Logout button, you are redirected to the Main public page.
-    </p>
-    <img class="w-3/5 mb-10 m-auto" src="../assets/jblog/logoutconfig.png" />
-
+    
     <!-- Terminal 1 -->
     <div class="w-3/5 mx-auto text-left">
       <div

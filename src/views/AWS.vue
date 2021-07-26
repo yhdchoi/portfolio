@@ -25,8 +25,8 @@
           <li>Elastic Compute Cloud (EC2)</li>
           <li>Storage Services (EBS, EFS & S3)</li>
           <li>Database (RDS & DynamoDB)</li>
-
-          <li></li>
+          <li>Cloud Formation</li>
+          <li>Beanstalk</li>
         </ul>
         <p class="text-sm">
           Reference: Images by Neal Davis - Founder of Digital Cloud Training
@@ -257,20 +257,62 @@
       replicated within the availability zone. EBS is found within the EC2
       Dashboard.
     </p>
-    <img class="w-3/5 mb-6 m-auto" src="../assets/AWS/ebs.png" />
-    <img class="w-3/5 mb-10 m-auto" src="../assets/AWS/ebsstorage.png" />
+    <img class="w-3/5 mb-6 m-auto" src="../assets/AWS/ebsstorage.png" />
+    <img class="w-3/5 mb-6 m-auto" src="../assets/AWS/ebsconsole.png" />
+    <img class="w-3/5 mb-10 m-auto" src="../assets/AWS/ebscreate.png" />
 
     <p class="text-lg text-white mb-8 w-3/5 m-auto">
       Instance volumns performes superior compared to the EBS volumns because
       they are directly attached to the instances. And they are ephemeral
-      storages where you lose the data when you shut donw the service.
+      storages where you lose the data when you shutdown the service.
     </p>
     <img class="w-3/5 mb-10 m-auto" src="../assets/AWS/ebsinstance.png" />
 
-<!-- 2:24 -->
+    <p class="text-lg text-white mb-8 w-3/5 m-auto">
+      When using the instance volumn, you can create SnapShots of your volumn
+      and back them up to the S3. And when needed you can restore your volumn.
+      In order to restore, you need to create an instance with ebs volume
+      attached.
+    </p>
+    <img class="w-3/5 mb-6 m-auto" src="../assets/AWS/ebssnapshot.png" />
+    <img class="w-3/5 mb-10 m-auto" src="../assets/AWS/snapshot1.png" />
 
+    <p class="text-lg text-white mb-8 w-3/5 m-auto">
+      EFS is Linux only file system where you can connect from two or more
+      instances simultaneously at the same time. In order to set up, you need to
+      create two instances and one EFS. Login to your instances separately and
+      use the EFS mount helper to connet to your EFS from two different
+      instaces.
+    </p>
+    <img class="w-3/5 mb-6 m-auto" src="../assets/AWS/efs1.png" />
+    <img class="w-3/5 mb-6 m-auto" src="../assets/AWS/efs2.png" />
+    <img class="w-3/5 mb-6 m-auto" src="../assets/AWS/efs3.png" />
+    <img class="w-3/5 mb-6 m-auto" src="../assets/AWS/efs4.png" />
+    <img class="w-3/5 mb-6 m-auto" src="../assets/AWS/efs6.png" />
+    <img class="w-3/5 mb-10 m-auto" src="../assets/AWS/efs5.png" />
 
+    <p class="text-lg text-white mb-8 w-3/5 m-auto">
+      Simple Storgae Service (S3) you create a bucket and upload a object. You
+      can access your bucket using a URL. You can also connect your instances
+      via Internet Gateway or Gateway Endpoint with a private connection.
+    </p>
+    <img class="w-3/5 mb-6 m-auto" src="../assets/AWS/s3dia.png" />
+    <img class="w-3/5 mb-10 m-auto" src="../assets/AWS/s3dia2.png" />
 
+    <p class="text-lg text-white mb-8 w-3/5 m-auto">
+      You can make S3 bucket from S3 console. The public access setting must be
+      customized to be accessed. You can also access and edit your bucket
+      througe the AWS CLI.
+    </p>
+    <img class="w-3/5 mb-6 m-auto" src="../assets/AWS/s3create1.png" />
+    <img class="w-3/5 mb-6 m-auto" src="../assets/AWS/s3create2.png" />
+    <img class="w-3/5 mb-6 m-auto" src="../assets/AWS/s3create3.png" />
+    <img class="w-3/5 mb-6 m-auto" src="../assets/AWS/s3create4.png" />
+    <img class="w-3/5 mb-6 m-auto" src="../assets/AWS/s3create5.png" />
+    <img class="w-3/5 mb-6 m-auto" src="../assets/AWS/s3create6.png" />
+    <img class="w-3/5 mb-10 m-auto" src="../assets/AWS/s3create7.png" />
+
+    <br />
     <!-- Database -->
     <div class="max-w-lg mx-auto mb-4">
       <div
@@ -282,8 +324,76 @@
       </div>
     </div>
 
-    <p class="text-lg text-white mb-8 w-3/5 m-auto"></p>
-    <img class="w-3/5 mb-10 m-auto" src="../assets/AWS/storage.png" />
+    <p class="text-lg text-white mb-8 w-3/5 m-auto">
+      Relational Database Service (RDS) has more rigid schema compared to
+      non-relational. In RDS, you need to follow the rows and columns that are
+      defined throught out. It runs on EC2 instance which can effect the cost of
+      running. You can manage the database through EC2 or RDS itself. And each
+      has its own advantages and disadvantage.
+    </p>
+    <img class="w-3/5 mb-10 m-auto" src="../assets/AWS/rdsdia1.png" />
+
+    <p class="text-lg text-white mb-8 w-3/5 m-auto">
+      RDS can be scaled vertically or horizontally. With the horizontal scaling
+      you can add Disaster Recovery (DR). It is done by replicating the Master
+      RDS as a Standby RDS. Read Replica is for reading only or for traffic
+      control. The App Server read from the Read Replica and writer to the
+      master.
+    </p>
+    <img class="w-3/5 mb-6 m-auto" src="../assets/AWS/rdsdiaver.png" />
+    <img class="w-3/5 mb-10 m-auto" src="../assets/AWS/rdsdiahor.png" />
+
+    <p class="text-lg text-white mb-8 w-3/5 m-auto">
+      You can configure RDS from the RDS console. When you are creating the
+      database, you can set maintenance schedule. After creating th database you
+      can view the details of your database.
+    </p>
+    <img class="w-3/5 mb-6 m-auto" src="../assets/AWS/rdscreate.png" />
+    <img class="w-3/5 mb-6 m-auto" src="../assets/AWS/rdsmaint.png" />
+    <img class="w-3/5 mb-6 m-auto" src="../assets/AWS/rdssumm.png" />
+    <img class="w-3/5 mb-10 m-auto" src="../assets/AWS/rdsstat.png" />
+
+    <p class="text-lg text-white mb-8 w-3/5 m-auto">
+      At this stage you don't have the Multi-AZ (Disaster Recovery) enabled. You
+      need to go to modify to set up the Multi-AZ to backup of your database.
+      Compare to excuting this operation by yourself this is a very simple way
+      to back-up your data.
+    </p>
+    <img class="w-3/5 mb-6 m-auto" src="../assets/AWS/rdsmaz.png" />
+    <img class="w-3/5 mb-10 m-auto" src="../assets/AWS/rdsmazsuc.png" />
+
+    <p class="text-lg text-white mb-8 w-3/5 m-auto">
+      For the read replica, you need to go through similar to setting up the
+      Multi-AZ except applying identifier.
+    </p>
+    <img class="w-3/5 mb-10 m-auto" src="../assets/AWS/rdsrepli.png" />
+
+    <p class="text-lg text-white mb-8 w-3/5 m-auto">
+      Ther are more features such as automated backup and snapshot
+    </p>
+    <br />
+
+    <p class="text-lg text-white mb-8 w-3/5 m-auto">
+      DynamoDB is created by Amazon therefore it is very well supported by AWS.
+    </p>
+    <img class="w-3/5 mb-6 m-auto" src="../assets/AWS/dynadia.png" />
+    <img class="w-3/5 mb-10 m-auto" src="../assets/AWS/dynatable.png" />
+
+    <p class="text-lg text-white mb-8 w-3/5 m-auto">
+      When creating DynamoDB, you need to set priamry and sort keys manually.
+      And it also features auto-scaling and encrytion .
+    </p>
+    <img class="w-3/5 mb-6 m-auto" src="../assets/AWS/dynacreate.png" />
+    <img class="w-3/5 mb-10 m-auto" src="../assets/AWS/dynascale.png" />
+
+    <br />
+
+    <!-- 3:35 -->
+    <!-- <p class="text-lg text-white mb-8 w-3/5 m-auto">
+      Cloud Formation .
+    </p>
+    <img class="w-3/5 mb-6 m-auto" src="../assets/AWS/dynadia.png" /> -->
+
     <!-- Terminal 1 -->
     <div class="w-3/5 mx-auto text-left">
       <div
@@ -314,8 +424,7 @@
           id="console"
         >
           <p class="pb-1 px-1">
-            daniel$ fin. <br />
-            daniel$ Thank you. <br />
+            daniel$ to be continued... <br />
             daniel$
           </p>
         </div>
