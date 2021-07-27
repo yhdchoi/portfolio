@@ -9,6 +9,7 @@ import Contact from '../views/Contact.vue'
 import Decrypt from '../views/Decrypt.vue'
 import Jblog from '../views/JBlog.vue'
 import AWS from '../views/AWS.vue'
+import JWT from '../views/JWT.vue'
 
 
 Vue.use(VueRouter)
@@ -58,6 +59,11 @@ const routes = [
     path: '/aws',
     name: 'AWS',
     component: AWS
+  },
+  {
+    path: '/jwt',
+    name: 'JWT',
+    component: JWT
   },
 
 

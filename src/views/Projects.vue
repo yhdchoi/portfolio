@@ -146,7 +146,7 @@
           <p class="pb-1 px-1">
             daniel$
             <router-link
-              :to="{ name: 'Jblog' }"
+              :to="{ name: 'JWT' }"
               class="border-b-2 hover:text-red-800 dark:hover:text-red-200 hover:border-red-500 ml-2"
               >Click HERE for JWT</router-link
             >
