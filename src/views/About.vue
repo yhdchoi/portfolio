@@ -201,7 +201,7 @@
               >
                 <div class="order-1 w-5/12"></div>
                 <div class="order-1 w-5/12 px-1 py-4 text-right">
-                  <p class="mb-3 text-base text-red-300">May, 2013</p>
+                  <p class="mb-3 text-base text-red-300">September, 2009 - May, 2013</p>
                   <h4 class="mb-3 font-bold text-lg md:text-xl">
                     Fanshawe College
                   </h4>
@@ -225,7 +225,7 @@
                 <div class="order-1 w-5/12"></div>
 
                 <div class="order-1  w-5/12 px-1 py-4">
-                  <p class="mb-3 text-base text-blue-300">12 May, 2021</p>
+                  <p class="mb-3 text-base text-blue-300">September, 2013 - June, 2017</p>
                   <h4 class="mb-3 font-bold  text-lg md:text-xl text-left">
                     University of Toronto
                   </h4>

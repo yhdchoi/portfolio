@@ -14,7 +14,7 @@
           />
         </div>
         <div class="pt-6 pb-8 text-white text-center">
-          <p class="text-3xl mb-2 ">Yeonghyun Choi</p>
+          <p class="text-3xl mb-2 ">Daniel Choi / 최영현</p>
           <p class="text-gray-300">Backend Developer</p>
           <p class="text-sm mt-2 text-gray-300">
             Originated from Planet Earth
@@ -103,28 +103,28 @@
                   />
                 </svg>
               </span>
-              <span class="tracking-wide text-red-400">Experience</span>
+              <span class="tracking-wide text-red-400">Experience </span>
             </div>
             <ul class="list-inside space-y-2 ml-4">
               <li>
                 <div class="text-gray-200">ABEL Language Academy</div>
-                <div class="text-gray-400 text-xs">March 2019 - March 2020</div>
+                <div class="text-gray-400 text-xs">03, 2019 - 03, 2020</div>
               </li>
               <li>
                 <div class="text-gray-200">Bpa Design Inc.</div>
-                <div class="text-gray-400 text-xs">August 2017 - July 2018</div>
+                <div class="text-gray-400 text-xs">08, 2017 - 07, 2018</div>
               </li>
               <li>
                 <div class="text-gray-200">EGA Group Inc.</div>
                 <div class="text-gray-400 text-xs">
-                  May 2011 - December 2011
+                  05, 2011 - 12, 2011
                 </div>
               </li>
               <li>
                 <div class="text-gray-200">
                   DAN Architects & Consultants Inc.
                 </div>
-                <div class="text-gray-400 text-xs">January 2010 - May 2010</div>
+                <div class="text-gray-400 text-xs">01, 2010 - 05, 2010</div>
               </li>
             </ul>
           </div>
@@ -153,13 +153,13 @@
                   />
                 </svg>
               </span>
-              <span class="tracking-wide text-purple-400">Education</span>
+              <span class="tracking-wide text-purple-400">Education </span>
             </div>
             <ul class="list-inside space-y-2">
               <li>
                 <div class="text-gray-200">SBS Computer Academy</div>
                 <div class="text-gray-400 text-xs">
-                  September 2020 - July 2021
+                  09, 2020 - 07, 2021
                 </div>
               </li>
               <li>
@@ -167,7 +167,7 @@
                   Bachelors Degree in Architecture - University of Toronto
                 </div>
                 <div class="text-gray-400 text-xs">
-                  September 2013 - June 2017
+                  09, 2013 - 06, 2017
                 </div>
               </li>
               <li>
@@ -175,7 +175,7 @@
                   Architectural Technology Diploma - Fanshawe College
                 </div>
                 <div class="text-gray-400 text-xs">
-                  September 2009 - May 2013
+                  09, 2009 - 05, 2013
                 </div>
               </li>
               <li>
@@ -183,7 +183,7 @@
                   Pre-Health Science Diploma - Fanshawe College
                 </div>
                 <div class="text-gray-400 text-xs">
-                  September 2007 - May 2009
+                  09, 2007 - 05, 2009
                 </div>
               </li>
             </ul>
