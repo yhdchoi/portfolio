@@ -58,7 +58,7 @@
       </h1>
     </a>
     <div class="w-full text-center mt-3 mb-8">
-      <p>Sharing my knowledge and thoughts with the community.</p>
+      <p>Sharing with the community.</p>
     </div>
   </div>
 </template>

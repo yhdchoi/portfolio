@@ -1,7 +1,7 @@
 <template>
-  <div class="m-auto w-full bg-black flex-row justify-center items-center ">
+  <main class="m-auto w-full bg-black flex-row justify-center items-center ">
     <div class="container m-auto min-h-screen bg-black">
-      <div
+      <section
         class="m-auto max-w-sm rounded-lg overflow-hidden shadow-lg mb-2 bg-black"
       >
         <div>
@@ -14,15 +14,25 @@
           />
         </div>
         <div class="pt-6 pb-8 text-white text-center">
-          <p class="text-3xl mb-2 ">Daniel Choi / 최영현</p>
+          <p class="text-3xl mb-2 ">최영현</p>
+          <p class="text-3xl mb-2 ">Daniel Choi</p>
           <p class="text-gray-300">Backend Developer</p>
           <p class="text-sm mt-2 text-gray-300">
             Originated from Planet Earth
           </p>
         </div>
-      </div>
+      </section>
+
+      <!-- Intro -->
+      <section class="m-auto text-center">
+        <div>
+          <p class="text-gray-300 text-sm px-5"></p>
+          <br />
+          <p class="text-gray-300 text-sm px-5"></p>
+        </div>
+      </section>
       <!-- About -->
-      <div class="bg-black p-5">
+      <section class="bg-black p-5">
         <div
           class="flex items-center space-x-2 font-semibold text-gray-200 leading-8"
         >
@@ -48,18 +58,18 @@
           <div class="grid md:grid-cols-2 text-sm">
             <div class="grid grid-cols-2">
               <div class="px-4 py-2 font-semibold">First Name:</div>
-              <div class="px-4 py-2">Yeonghyun</div>
+              <div class="px-4 py-2">영현 Daniel</div>
             </div>
             <div class="grid grid-cols-2">
               <div class="px-4 py-2 font-semibold">Last Name:</div>
-              <div class="px-4 py-2">Choi</div>
+              <div class="px-4 py-2">최 Choi</div>
             </div>
             <div class="grid grid-cols-2">
               <div class="px-4 py-2 font-semibold">Contact No.:</div>
               <div class="px-4 py-2">+82 010 2162 9310</div>
             </div>
             <div class="grid grid-cols-2">
-              <div class="px-4 py-2 font-semibold">Address:</div>
+              <div class="px-4 py-2 font-semibold">Reside in:</div>
               <div class="px-4 py-2">
                 Seoul, South Korea <br />/ Toronto, Canada
               </div>
@@ -78,10 +88,10 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- End of about section -->
       <!-- Experience and education -->
-      <div class="bg-black p-5">
+      <section class="bg-black p-5">
         <div class="grid grid-cols-2">
           <div>
             <div
@@ -190,9 +200,9 @@
           </div>
         </div>
         <!-- End of Experience and education grid -->
-      </div>
+      </section>
       <!-- Social Traffic -->
-      <div class="m-auto">
+      <section class="m-auto">
         <div class="flex flex-col min-w-0 p-4 bg-black">
           <div class="items-center px-1 py-2">
             <div class="flex mb-2">
@@ -449,8 +459,8 @@
           </table>
           <br />
         </div>
-      </div>
+      </section>
       <!-- ./Social Traffic -->
     </div>
-  </div>
+  </main>
 </template>

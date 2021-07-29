@@ -5,28 +5,40 @@
         class="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24"
       >
         <div
-          class="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8"
+          class="flex flex-col w-full  md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8"
         >
-          <p class="ml-2 text-blue-300 tracking-loose">
+          <p class="text-blue-300 tracking-loose">
             DEV_life in progress
           </p>
           <p
             class="font-bold text-3xl md:text-4xl uppercase leading-normal md:leading-relaxed mb-2"
           >
-            Yeonghyun Choi
+            최영현 <br />
+            Daniel Choi
           </p>
           <p class="text-sm md:text-base text-gray-50 mb-4">
-            With my academic background in both Art and Science, as my strength.
-            I think in a creative manner and always striving to improve and
-            present creative ways to solve problems. I value an environment
-            where it can motivate both personal and professional development.
+            저는 제너럴리스트로서 사람들을 만나는 것을 좋아하고 자기 개발과
+            전문성 개발에 동기를 부여할 수 있는 환경을 중요하게 생각합니다. 20년
+            동안 캐나다에 살며 다양한 문화를 경험해 오며 새상을 바라보는 시각을
+            넓혀왔습니다. 디자이너로 활동하며 예술과 과학을 바탕으로 창의적인
+            시각으로 문제를 해결해 오며 작은 것에도 주의를 기울이며 프로젝트
+            관리를 해왔습니다.
           </p>
+          <p class="text-sm md:text-base text-gray-50 mb-4">
+            I am a generalist and a traveller. I love to meet people and always
+            motivated by the surroundings. And I value an environment where it
+            can motivate both personal and professional development. Working as
+            a designer, and with my academic background in both Art and Science,
+            I always strive to improve and present creative ways to solve
+            problems.
+          </p>
+
           <div class="mt-4">
             <router-link
               :to="{ name: 'Resume' }"
               class="bg-transparent mr-auto hover:bg-red-300 text-red-400 hover:text-white border border-red-400 rounded shadow hover:shadow-lg py-2 px-4  hover:border-transparent"
               >Click for My Resume</router-link
-            >           
+            >
           </div>
 
           <div class="mt-8">
@@ -111,10 +123,20 @@
                   <p
                     class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
                   >
-                    At the age of 13, I was a very introverted and submisive
-                    person before. As I have submerged into Canada's diverse
-                    culture, I have became someone who is independent and take
-                    the initiative.
+                    이민 당시 15살이었던 저는 내성적이고 소심한 성격으로 인하여
+                    사람들과 어울리지 못하였고 특히 정서와 언어의 장벽으로
+                    인하여 많은 갈등을 겪으며 의도치 않은 오해들을 받기도
+                    했습니다. 하지만 이러한 상황 속에서도 다양한 사람들과 교류를
+                    통하여 어려움을 극복하며 자신감을 키워 나갔습니다.
+                  </p>
+                  <br />
+                  <p
+                    class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
+                  >
+                    Before moving to CANADA, I had a very introverted and
+                    submisive personality. As I have submerged into Canada's
+                    diverse culture, I have become someone who is independent
+                    and take the initiative.
                   </p>
                 </div>
               </div>
@@ -136,7 +158,16 @@
                   <p
                     class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
                   >
-                    The study has provided me with the understading of the application of science including anatomy, biology, and chemistry.
+                    전공을 통해 해부학, 생물학 및 화학을 포함한 전채적 과학
+                    응용에 대한 이해를 습득 하였습니다.
+                  </p>
+                  <br />
+                  <p
+                    class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
+                  >
+                    The study has provided me with the understading of the
+                    application of science including anatomy, biology, and
+                    chemistry.
                   </p>
                 </div>
               </div>
@@ -152,18 +183,30 @@
                   <h4 class="mb-3 font-bold text-lg md:text-xl">
                     DAN Architects & Consultant.
                   </h4>
-                  <p
+                  <!-- <p
                     class="mb-3 text-sm md:text-base font-bold leading-snug text-gray-50 text-opacity-100"
                   >
                     Co-op for Architectural Technology program <br />
                     Fanshawe College.
-                  </p>
+                  </p> -->
                   <p
                     class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
                   >
-                    It was my very first co-op experience. The experience has
-                    made me realize the difference between academic and
-                    professional world.
+                    저의 첫 사회경험으로서 이를 통해 학업과 현업의 차이를 깨닫게
+                    되었습니다. 학업을 통해 얻은 지식과 이론만을 바탕으로
+                    바라보던 건축을 현실화 한다는 것은 매우 어려운 일이였습니다.
+                    현실에서는 건축주외 많은 사람들의 협조와 이해가 필요로 했고
+                    이것을 이끌어 낸다는것은 결코 쉬운 작업이 아니였습니다.
+                  </p>
+                  <br />
+                  <p
+                    class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
+                  >
+                    The experience has made me realize the difference between
+                    academic and professional world. My perspective on
+                    architecture was solely based on idea and theories, not
+                    considering the reality. Making the idea into reality was a
+                    very difficult and exasperating task.
                   </p>
                 </div>
               </div>
@@ -180,18 +223,25 @@
                   <h4 class="mb-3 font-bold  text-lg md:text-xl text-left">
                     EGA Group Inc.
                   </h4>
-                  <p
+                  <!-- <p
                     class="mb-3 text-sm md:text-base font-bold leading-snug text-gray-50 text-opacity-100"
                   >
                     Co-op for Architectural Technology program <br />
                     Fanshawe College.
+                  </p> -->
+                  <p
+                    class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
+                  >
+                    이 기회는 저에게 프로젝트 관리의 중요성을 깨우치는 경험을
+                    제공했습니다.
                   </p>
+                  <br />
                   <p
                     class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
                   >
                     The opportunity has provided me with an experience of
                     working in a large company which has tought me the
-                    importance of team management.
+                    importance of project management.
                   </p>
                 </div>
               </div>
@@ -201,7 +251,9 @@
               >
                 <div class="order-1 w-5/12"></div>
                 <div class="order-1 w-5/12 px-1 py-4 text-right">
-                  <p class="mb-3 text-base text-red-300">September, 2009 - May, 2013</p>
+                  <p class="mb-3 text-base text-red-300">
+                    September, 2009 - May, 2013
+                  </p>
                   <h4 class="mb-3 font-bold text-lg md:text-xl">
                     Fanshawe College
                   </h4>
@@ -213,8 +265,15 @@
                   <p
                     class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
                   >
-                    The program has helped me to build a solid foundation on Structural
-                    Engineering and Planning.
+                    프로그램을 통해 구조 공학 및 계획에 대한 기반을
+                    구축하였습니다.
+                  </p>
+                  <br />
+                  <p
+                    class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
+                  >
+                    The program has helped me to build a solid foundation on
+                    Structural Engineering and Planning.
                   </p>
                 </div>
               </div>
@@ -225,7 +284,9 @@
                 <div class="order-1 w-5/12"></div>
 
                 <div class="order-1  w-5/12 px-1 py-4">
-                  <p class="mb-3 text-base text-blue-300">September, 2013 - June, 2017</p>
+                  <p class="mb-3 text-base text-blue-300">
+                    September, 2013 - June, 2017
+                  </p>
                   <h4 class="mb-3 font-bold  text-lg md:text-xl text-left">
                     University of Toronto
                   </h4>
@@ -239,7 +300,23 @@
                   <p
                     class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
                   >
-                    The study has helped me building skills in critical thinking, leadership and project management.
+                    어릴 적부터 예술과 건축에 관심이 많았었으며 건축에 묻어 있는
+                    건축가들의 철학을 알아가는 데 흥미를 느끼고, 건축물이
+                    전해주는 다양하고 특별한 경험들이 재미있었습니다. 또한,
+                    건축이 가르쳐주는 인류의 역사와 문화들은 다소 비판적인
+                    생각을 지니고 있었던 저 자신에게 세상을 더 넓게 바라보는
+                    방법을 알려주었습다.
+                  </p>
+                  <br />
+                  <p
+                    class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
+                  >
+                    I have been interested in art and architecture since I was
+                    young. I was interested in learning about the philosophies
+                    of architects, and I've enjoyed the special experiences that
+                    architecture conveys. In addition, the history and culture
+                    of mankind through architecture showed me how to view the
+                    world in a more broadly perspective.
                   </p>
                 </div>
               </div>
@@ -255,6 +332,14 @@
                   <h4 class="mb-3 font-bold text-lg md:text-xl">
                     Bpa Design Inc.
                   </h4>
+                  <p
+                    class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
+                  >
+                    아름다운 제주도에 함덕에 위치한 사무실에서 저는 리드
+                    디자이너로 일하면서 클라이언트 관리, 디자인 및 계획, 도면,
+                    축소 모델 제작 및 프레젠테이션을 담당했습니다.
+                  </p>
+                  <br />
                   <p
                     class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
                   >
@@ -281,6 +366,14 @@
                   <p
                     class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
                   >
+                    언어학원에서 영어 강사로 일하며 다양한 분야의 사람들을
+                    만나고 이야기를 나눌수 있었습니다. 그리고 이곳에서 만난 한
+                    Software Engineer를 통해 개발자로서 도전하게 되었습니다.
+                  </p>
+                  <br />
+                  <p
+                    class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
+                  >
                     I have worked as an English teacher. It was a challanging
                     experience for me. I have realized the difference between
                     knowing and teaching.
@@ -300,7 +393,18 @@
                     SBS Computer Academy
                   </h4>
                   <p
-                    class="font-bold md:text-lg leading-snug text-opacity-100 text-white hover:text-blue-300"
+                    class="text-sm md:text-base leading-snug text-opacity-100 text-white hover:text-blue-300"
+                  >
+                    고등학교 첫 프로그래밍 수업에서 프로그래밍의 매력에 푹
+                    빠지게 되었습니다. 건축 및 과학 배경에서 얻은 기술과 경험을
+                    바탕으로 저는 단순히 학습만 하는 것이 아니라 문제에 대한
+                    다양한 솔루션을 찾기위해 노력하였습니다. 이러한 저의 강점은
+                    다른 개발자와 차별화되는 부분이며 업계에 새로운 관점을
+                    제시할 수 있습니다.
+                  </p>
+                  <br />
+                  <p
+                    class="text-sm md:text-base leading-snug text-opacity-100 text-white hover:text-blue-300"
                   >
                     It was my first programming class in high school, where I
                     was captured by the charm of programming. With my skills and
@@ -317,7 +421,6 @@
               class="mx-auto -mt-30 md:-mt-30"
               src="https://img.icons8.com/color/96/000000/innovation.png"
             />
-            
           </div>
         </div>
         <!-- End of Timeline -->
