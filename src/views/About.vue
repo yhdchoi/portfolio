@@ -4,9 +4,7 @@
       <div
         class="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24"
       >
-        <div
-          class="flex flex-col w-full  md:top-36 lg:w-1/3 mt-2 md:mt-4 px-8"
-        >
+        <div class="flex flex-col w-full  md:top-36 lg:w-1/3 mt-2 md:mt-4 px-8">
           <img
             class="rounded-full mb-8 w-40 h-40 border-1 border-gray-500"
             height="200"
@@ -21,23 +19,26 @@
             class="font-bold text-3xl md:text-4xl uppercase leading-normal md:leading-relaxed mb-2"
           >
             최영현 <br />
-            Daniel Choi
+            Yeonghyun Choi
           </p>
           <p class="text-sm md:text-base text-gray-50 mb-4">
-            저는 제너럴리스트로서 사람들을 만나는 것을 좋아하고 자기 개발과
-            전문성 개발에 동기를 부여할 수 있는 환경을 중요하게 생각합니다. 20년
-            동안 캐나다에 살며 다양한 문화를 경험해 오며 새상을 바라보는 시각을
-            넓혀왔습니다. 디자이너로 활동하며 예술과 과학을 바탕으로 창의적인
-            시각으로 문제를 해결해 오며 작은 것에도 주의를 기울이며 프로젝트
-            관리를 해왔습니다.
+            예술과 과학의 학문적 배경을 바탕을 가지고 디자이너로 활동하며 분석적
+            사고를 키워왔으며 세밀한 점까지 주의를 기울이며 창의적인 시각으로
+            문제를 해결해 왔습니다. 그리고 개발자로 노력해오며 단순한 코딩외
+            데이터 보안과 구조에 대한 공부를 해오며 보안과 구조에대한 중요성을
+            깨닫게 되었습니다. 또한, 20년 동안 캐나다에 거주하며 다양한 문화를
+            경험해 왔고 무었보다 개인과 전문성 개발에 동기를 부여할 수 있는
+            환경을 중요시합니다.
           </p>
           <p class="text-sm md:text-base text-gray-50 mb-4">
-            I am a generalist and a traveller. I love to meet people and always
-            motivated by the surroundings. And I value an environment where it
-            can motivate both personal and professional development. Working as
-            a designer, and with my academic background in both Art and Science,
-            I always strive to improve and present creative ways to solve
-            problems.
+            I've kept on top of new technologies to build up to date and high
+            quality applications. From both the Art and Science academic
+            backgrounds, I have developed a good analytical thinking and high
+            attention down to small details. I believe high-quality codes come
+            from having a good knowledge of data security and structure. And I
+            value an environment where it can motivate both personal and
+            professional development. Working as a designer, and I always strive
+            to improve and present creative ways to solve problems.
           </p>
 
           <div class="mt-4">
@@ -130,11 +131,11 @@
                   <p
                     class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
                   >
-                    이민 당시 15살이었던 저는 내성적이고 소심한 성격으로 인하여
-                    사람들과 어울리지 못하였고 특히 정서와 언어의 장벽으로
-                    인하여 많은 갈등을 겪으며 의도치 않은 오해들을 받기도
-                    했습니다. 하지만 이러한 상황 속에서도 다양한 사람들과 교류를
-                    통하여 어려움을 극복하며 자신감을 키워 나갔습니다.
+                    이민 당시 저는 내성적이고 소심한 성격으로 인하여 사람들과
+                    어울리지 못하였고 특히 정서와 언어의 장벽으로 인하여 많은
+                    갈등을 겪으며 의도치 않은 오해들을 받기도 했습니다. 하지만
+                    이러한 상황 속에서도 다양한 사람들과의 교류와 친구들과
+                    함께하여 어려움을 극복하며 자신감을 키워 나갔습니다.
                   </p>
                   <br />
                   <p
@@ -202,8 +203,8 @@
                     저의 첫 사회경험으로서 이를 통해 학업과 현업의 차이를 깨닫게
                     되었습니다. 학업을 통해 얻은 지식과 이론만을 바탕으로
                     바라보던 건축을 현실화 한다는 것은 매우 어려운 일이였습니다.
-                    현실에서는 건축주외 많은 사람들의 협조와 이해가 필요로 했고
-                    이것을 이끌어 낸다는것은 결코 쉬운 작업이 아니였습니다.
+                    현실에서는 많은 사람들의 협조와 이해가 필요로 했고 이것을
+                    이끌어 낸다는것은 결코 쉬운 작업이 아니였습니다.
                   </p>
                   <br />
                   <p
@@ -239,8 +240,10 @@
                   <p
                     class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
                   >
-                    이 기회는 저에게 프로젝트 관리의 중요성을 깨우치는 경험을
-                    제공했습니다.
+                    이 기회는 저에게 팀 관리의 중요성을 깨우치는 경험을
+                    제공했습니다. 많은 사람이 함께 무언가를 이루어 낸다는 것은
+                    단순히 개개인의 노력보다는 팀워크가 더욱더 중요하다는 것을
+                    배웠습니다.
                   </p>
                   <br />
                   <p
@@ -248,7 +251,10 @@
                   >
                     The opportunity has provided me with an experience of
                     working in a large company which has tought me the
-                    importance of project management.
+                    importance of team work. Accomplishing a goal with a team of
+                    individuals wasn't only about the skills and ability of each
+                    individuals but how we can come together and collaborate to
+                    achieve the goal.
                   </p>
                 </div>
               </div>
@@ -307,9 +313,8 @@
                   <p
                     class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
                   >
-                    어릴 적부터 예술과 건축에 관심이 많았었으며 건축에 묻어 있는
-                    건축가들의 철학을 알아가는 데 흥미를 느끼고, 건축물이
-                    전해주는 다양하고 특별한 경험들이 재미있었습니다. 또한,
+                    건축에 묻어 있는 건축가들의 철학을 알아가며 건축물이
+                    전해주는 다양하고 특별한 경험들을 체험할수 었습니다. 또한,
                     건축이 가르쳐주는 인류의 역사와 문화들은 다소 비판적인
                     생각을 지니고 있었던 저 자신에게 세상을 더 넓게 바라보는
                     방법을 알려주었습다.
@@ -375,7 +380,8 @@
                   >
                     언어학원에서 영어 강사로 일하며 다양한 분야의 사람들을
                     만나고 이야기를 나눌수 있었습니다. 그리고 이곳에서 만난 한
-                    Software Engineer를 통해 개발자로서 도전하게 되었습니다.
+                    Software Engineer를 통해 동기부여를 받아 개발자로서 도전하게
+                    되었습니다.
                   </p>
                   <br />
                   <p
@@ -393,14 +399,14 @@
               >
                 <div class="order-1 w-5/12"></div>
                 <div class="order-1 w-5/12 px-1 py-4 text-right">
-                  <p class="mb-3 text-base text-purple-300">
+                  <p class="mb-3 text-base text-yellow-300">
                     September, 2020 - July, 2021
                   </p>
-                  <h4 class="mb-3 font-bold md:text-4xl hover:text-green-300">
+                  <h4 class="mb-3 font-bold md:text-xl">
                     SBS Computer Academy
                   </h4>
                   <p
-                    class="text-sm md:text-base leading-snug text-opacity-100 text-white hover:text-blue-300"
+                    class="text-sm md:text-base leading-snug text-opacity-100 text-white"
                   >
                     고등학교 첫 프로그래밍 수업에서 프로그래밍의 매력에 푹
                     빠지게 되었습니다. 건축 및 과학 배경에서 얻은 기술과 경험을
@@ -411,7 +417,7 @@
                   </p>
                   <br />
                   <p
-                    class="text-sm md:text-base leading-snug text-opacity-100 text-white hover:text-blue-300"
+                    class="text-sm md:text-base leading-snug text-opacity-100 text-white "
                   >
                     It was my first programming class in high school, where I
                     was captured by the charm of programming. With my skills and
@@ -425,7 +431,7 @@
               </div>
             </div>
             <img
-              class="mx-auto -mt-30 md:-mt-30"
+              class="animate-pulse mx-auto -mt-30 md:-mt-30"
               src="https://img.icons8.com/color/96/000000/innovation.png"
             />
           </div>

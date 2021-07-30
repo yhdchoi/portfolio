@@ -11,6 +11,10 @@
   import Footer from "./components/Footer.vue";
 
   export default {
+    name: 'App',
+    metaInfo: {
+      title: 'Daniel'
+    },
     components: { Header, Footer },
   };
 </script>

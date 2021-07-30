@@ -15,7 +15,7 @@
         </div>
         <div class="pt-6 pb-8 text-white text-center">
           <p class="text-3xl mb-2 ">최영현</p>
-          <p class="text-3xl mb-2 ">Daniel Choi</p>
+          <p class="text-3xl mb-2 ">Yeonghyun Choi</p>
           <p class="text-gray-300">Backend Developer</p>
           <p class="text-sm mt-2 text-gray-300">
             Originated from Planet Earth
