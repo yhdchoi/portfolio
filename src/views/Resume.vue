@@ -23,14 +23,6 @@
         </div>
       </section>
 
-      <!-- Intro -->
-      <section class="m-auto text-center">
-        <div>
-          <p class="text-gray-300 text-sm px-5"></p>
-          <br />
-          <p class="text-gray-300 text-sm px-5"></p>
-        </div>
-      </section>
       <!-- About -->
       <section class="bg-black p-5">
         <div
@@ -77,9 +69,12 @@
             <div class="grid grid-cols-2">
               <div class="px-4 py-2 font-semibold">Email:</div>
               <div class="px-4 py-2">
-                <a class="text-green-600" href="mailto:yhdchoi@gmail.com"
+                <!-- <a class="text-green-600" href="mailto:yhdchoi@gmail.com"
                   >yhdchoi@gmail.com</a
-                >
+                > -->
+                <router-link :to="{ name: 'Contact' }" class="text-green-600">
+                  yhdchoi@gmail.com
+                </router-link>
               </div>
             </div>
             <div class="grid grid-cols-2">
@@ -174,7 +169,7 @@
               </li>
               <li>
                 <div class="text-gray-200">
-                  Bachelors Degree in Architecture - University of Toronto
+                  University of Toronto - Bachelors Degree in Architecture
                 </div>
                 <div class="text-gray-400 text-xs">
                   09, 2013 - 06, 2017
@@ -182,7 +177,7 @@
               </li>
               <li>
                 <div class="text-gray-200">
-                  Architectural Technology Diploma - Fanshawe College
+                  Fanshawe College - Architectural Technology Diploma
                 </div>
                 <div class="text-gray-400 text-xs">
                   09, 2009 - 05, 2013
@@ -190,7 +185,7 @@
               </li>
               <li>
                 <div class="text-gray-200">
-                  Pre-Health Science Diploma - Fanshawe College
+                  Fanshawe College - Pre-Health Science Diploma
                 </div>
                 <div class="text-gray-400 text-xs">
                   09, 2007 - 05, 2009
@@ -227,37 +222,36 @@
               >
                 Skills
               </h3>
-
               <div
-                class="text-white w-full flex flex-col sm:flex-row justify-center items-center"
+                class="text-white w-full mt-8 flex flex-col sm:flex-row justify-center items-center"
               >
                 <button
-                  class="bg-gray-400 font-semibold text-white p-2 w-44 rounded-full hover:bg-green-800 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
+                  class="bg-gray-400 font-semibold text-green-800 p-2 w-44 rounded-full hover:text-white hover:bg-green-800 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
                 >
                   Spring Framework/Boot
                 </button>
                 <button
-                  class="bg-gray-400 font-semibold text-white p-2 w-32 rounded-full hover:bg-pink-700 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
+                  class="bg-gray-400 font-semibold text-pink-700 p-2 w-32 rounded-full hover:text-white hover:bg-pink-700 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
                 >
                   Spring Security
                 </button>
                 <button
-                  class="bg-gray-400 font-semibold text-white p-2 w-40 rounded-full hover:bg-purple-300 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
+                  class="bg-gray-400 font-semibold text-purple-500 p-2 w-40 rounded-full hover:text-white hover:bg-purple-300 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
                 >
                   JPA/Hibernate
                 </button>
                 <button
-                  class="bg-gray-400 font-semibold text-white p-2 w-28 rounded-full hover:bg-blue-600 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
+                  class="bg-gray-400 font-semibold text-blue-600 p-2 w-28 rounded-full hover:text-white hover:bg-blue-600 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
                 >
                   AWS
                 </button>
                 <button
-                  class="bg-gray-400 font-semibold text-white p-2 w-32 rounded-full hover:bg-green-300 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
+                  class="bg-gray-400 font-semibold text-green-300 p-2 w-32 rounded-full hover:text-white hover:bg-green-300 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
                 >
                   Vue.js
                 </button>
                 <button
-                  class="bg-gray-400 font-semibold text-white p-2 w-32 rounded-full hover:bg-purple-700 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
+                  class="bg-gray-400 font-semibold text-yellow-700 p-2 w-32 rounded-full hover:text-white hover:bg-yellow-700 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
                 >
                   Python
                 </button>
@@ -356,7 +350,7 @@
                 </td>
               </tr>
 
-              <tr class="text-green-400 hover:bg-gray-900">
+              <tr class="text-blue-700 hover:bg-gray-900">
                 <th
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4 text-left"
                 >
@@ -381,7 +375,7 @@
                 </td>
               </tr>
 
-              <tr class="text-blue-700 hover:bg-gray-900">
+              <tr class="text-green-400 hover:bg-gray-900">
                 <th
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4 text-left"
                 >
@@ -406,7 +400,7 @@
                 </td>
               </tr>
 
-              <tr class="text-red-400 hover:bg-gray-900">
+              <tr class="text-red-600 hover:bg-gray-900">
                 <th
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4 text-left"
                 >
@@ -419,11 +413,11 @@
                     <span class="mr-2">30%</span>
                     <div class="relative w-full">
                       <div
-                        class="overflow-hidden h-2 text-xs flex rounded bg-red-100"
+                        class="overflow-hidden h-2 text-xs flex rounded bg-red-200"
                       >
                         <div
                           style="width: 30%"
-                          class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-400"
+                          class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-600"
                         ></div>
                       </div>
                     </div>
@@ -431,7 +425,7 @@
                 </td>
               </tr>
 
-              <tr class="text-purple-800 hover:bg-gray-900">
+              <tr class="text-yellow-600 hover:bg-gray-900">
                 <th
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4 text-left"
                 >
@@ -444,11 +438,11 @@
                     <span class="mr-2">20%</span>
                     <div class="relative w-full">
                       <div
-                        class="overflow-hidden h-2 text-xs flex rounded bg-purple-300"
+                        class="overflow-hidden h-2 text-xs flex rounded bg-yellow-200"
                       >
                         <div
                           style="width: 20%"
-                          class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-800"
+                          class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-yellow-600"
                         ></div>
                       </div>
                     </div>
