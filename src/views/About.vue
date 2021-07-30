@@ -8,7 +8,7 @@
           class="flex flex-col w-full  md:top-36 lg:w-1/3 mt-2 md:mt-4 px-8"
         >
           <img
-            class="rounded-full mx-auto mb-4 w-40 h-40 border-1 border-gray-500"
+            class="rounded-full mb-8 w-40 h-40 border-1 border-gray-500"
             height="200"
             width="200"
             src="../assets/1.png"
@@ -43,7 +43,7 @@
           <div class="mt-4">
             <router-link
               :to="{ name: 'Resume' }"
-              class="bg-transparent mr-auto hover:bg-red-300 text-red-400 hover:text-white border border-red-400 rounded shadow hover:shadow-lg py-2 px-4  hover:border-transparent"
+              class="animate-pulse bg-transparent mr-auto hover:bg-red-300 text-red-400 hover:text-white border border-red-400 rounded shadow hover:shadow-lg py-2 px-4  hover:border-transparent"
               >Click for My Resume</router-link
             >
           </div>
@@ -110,11 +110,11 @@
           <div class="container mx-auto w-full h-full">
             <div class="relative wrap overflow-hidden p-10 h-full">
               <div
-                class="border-2-2 border-blue-500 absolute h-full border"
+                class="animate-pulse border-2-2 border-blue-500 absolute h-full border"
                 style="right: 50%; border: 2px solid #bdb2ff; border-radius: 1%;"
               ></div>
               <div
-                class="border-2-2 border-blue-500 absolute h-full border"
+                class="animate-pulse border-2-2 border-blue-500 absolute h-full border"
                 style="left: 50%; border: 2px solid #bdb2ff; border-radius: 1%;"
               ></div>
 
@@ -416,7 +416,7 @@
                     It was my first programming class in high school, where I
                     was captured by the charm of programming. With my skills and
                     experience from my architectural and science backgrounds, I
-                    have been able to not just learn but propose diffrenet
+                    have been able to not just learn but propose differenet
                     solutions to problems. This strength of mine is where I
                     differentiate from other developers and I believe I can
                     bring new perspectives to the industry.

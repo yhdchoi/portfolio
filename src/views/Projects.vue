@@ -26,14 +26,14 @@
           </div>
         </div>
         <div
-          class="pl-1 pt-1 text-green-200 font-mono text-base bg-gray-500"
+          class="pl-1 pt-1 font-mono text-base bg-gray-500"
           id="console"
         >
-          <p class="pb-1 px-1">
+          <p class="pb-1 px-1 text-green-200">
             daniel$
             <router-link
               :to="{ name: 'Jblog' }"
-              class="border-b-2 hover:text-blue-800 dark:hover:text-blue-200 hover:border-blue-500 ml-2"
+              class="animate-pulse border-b-2 text-blue-400 hover:text-blue-800 hover:border-blue-500 ml-2"
               >Click HERE for J_Blog</router-link
             >
             <br />
@@ -86,14 +86,14 @@
           </div>
         </div>
         <div
-          class="pl-1 pt-1 text-green-200 font-mono text-base bg-gray-500"
+          class="pl-1 pt-1 font-mono text-base bg-gray-500"
           id="console"
         >
-          <p class="pb-1 px-1">
+          <p class="pb-1 px-1  text-green-200">
             daniel$
             <router-link
               :to="{ name: 'JWT' }"
-              class="border-b-2 hover:text-red-800 dark:hover:text-red-200 hover:border-red-500 ml-2"
+              class="animate-pulse border-b-2 text-red-400 hover:text-red-800 hover:border-red-500 ml-2"
               >Click HERE for JWT</router-link
             >
             <br />
@@ -143,14 +143,14 @@
           </div>
         </div>
         <div
-          class="pl-1 pt-1 text-green-200 font-mono text-base bg-gray-500"
+          class="pl-1 pt-1 font-mono text-base bg-gray-500"
           id="console"
         >
-          <p class="pb-1 px-1">
+          <p class="pb-1 px-1 text-green-200">
             daniel$
             <router-link
               :to="{ name: 'AWS' }"
-              class="border-b-2 hover:text-purple-800 dark:hover:text-gray-200 hover:border-purple-500 ml-2"
+              class="animate-pulse border-b-2 text-purple-400 hover:text-purple-800 hover:border-purple-500 ml-2"
               >Click HERE for AWS</router-link
             >
             <br />
@@ -202,18 +202,18 @@
           </div>
         </div>
         <div
-          class="pl-1 pt-1 text-green-200 font-mono text-base bg-gray-500"
+          class="pl-1 pt-1 font-mono text-base bg-gray-500"
           id="console"
         >
-          <p class="pb-1 px-1">
+          <p class="pb-1 px-1 text-green-200">
             daniel$
-            <i class="text-red-400"> THE PROJECT IS UNDER DEVELOPMENT </i>
+            <i class="text-pink-400"> THIS PROJECT IS UNDER DEVELOPMENT </i>
             <br />
             <br />
             daniel$
             <router-link
               :to="{ name: 'Decrypt' }"
-              class="border-b-2 hover:text-pink-800 dark:hover:text-gray-200 hover:border-pink-500 ml-2"
+              class="animate-pulse border-b-2 text-pink-400 hover:text-pink-800 hover:border-pink-500 ml-2"
               >Click HERE to DEcrypt</router-link
             >
             <br />
