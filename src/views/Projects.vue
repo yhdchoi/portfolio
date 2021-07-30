@@ -207,8 +207,7 @@
         >
           <p class="pb-1 px-1">
             daniel$
-            <i class="text-red-400"> THE PROJECT IS UNDER DEVELOPMENT :</i>
-            please stay tuned...
+            <i class="text-red-400"> THE PROJECT IS UNDER DEVELOPMENT </i>
             <br />
             <br />
             daniel$

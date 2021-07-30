@@ -17,10 +17,11 @@
 
 <style>
   #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
   * {
     margin: 0;

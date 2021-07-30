@@ -9,7 +9,7 @@
             class="rounded-full mx-auto mt-6 w-40 h-40 border-1 border-gray-500"
             height="200"
             width="200"
-            src="../assets/logo.png"
+            src="../assets/1.png"
             alt="Profile image"
           />
         </div>

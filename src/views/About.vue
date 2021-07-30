@@ -5,8 +5,15 @@
         class="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24"
       >
         <div
-          class="flex flex-col w-full  md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8"
+          class="flex flex-col w-full  md:top-36 lg:w-1/3 mt-2 md:mt-4 px-8"
         >
+          <img
+            class="rounded-full mx-auto mb-4 w-40 h-40 border-1 border-gray-500"
+            height="200"
+            width="200"
+            src="../assets/1.png"
+            alt="Profile image"
+          />
           <p class="text-blue-300 tracking-loose">
             DEV_life in progress
           </p>
