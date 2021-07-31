@@ -25,16 +25,13 @@
             <p class="text-center text-base text-blue-500">J_Blog</p>
           </div>
         </div>
-        <div
-          class="pl-1 pt-1 font-mono text-base bg-gray-500"
-          id="console"
-        >
+        <div class="pl-1 pt-1 font-mono text-base bg-gray-500" id="console">
           <p class="pb-1 px-1 text-green-200">
             daniel$
-            <router-link
-              :to="{ name: 'Jblog' }"
+            <a
+              href="https://sites.google.com/view/yhdcjblog	"
               class="animate-pulse border-b-2 text-blue-400 hover:text-blue-800 hover:border-blue-500 ml-2"
-              >Click HERE for J_Blog</router-link
+              >Click HERE for J_Blog</a
             >
             <br />
             <br />
@@ -58,7 +55,7 @@
 
     <br />
 
-        <!-- JWT -->
+    <!-- JWT -->
     <div class="w-3/5 mx-auto my-6">
       <div
         class="w-full shadow-2xl subpixel-antialiased rounded h-72 bg-gray-500 border-black mx-auto"
@@ -85,16 +82,13 @@
             </p>
           </div>
         </div>
-        <div
-          class="pl-1 pt-1 font-mono text-base bg-gray-500"
-          id="console"
-        >
+        <div class="pl-1 pt-1 font-mono text-base bg-gray-500" id="console">
           <p class="pb-1 px-1  text-green-200">
             daniel$
-            <router-link
-              :to="{ name: 'JWT' }"
+            <a
+              href="https://sites.google.com/view/yhdcjwt"
               class="animate-pulse border-b-2 text-red-400 hover:text-red-800 hover:border-red-500 ml-2"
-              >Click HERE for JWT</router-link
+              >Click HERE for JWT</a
             >
             <br />
             <br />
@@ -142,16 +136,13 @@
             </p>
           </div>
         </div>
-        <div
-          class="pl-1 pt-1 font-mono text-base bg-gray-500"
-          id="console"
-        >
+        <div class="pl-1 pt-1 font-mono text-base bg-gray-500" id="console">
           <p class="pb-1 px-1 text-green-200">
             daniel$
-            <router-link
-              :to="{ name: 'AWS' }"
+            <a
+              href="https://sites.google.com/view/yhdcaws"
               class="animate-pulse border-b-2 text-purple-400 hover:text-purple-800 hover:border-purple-500 ml-2"
-              >Click HERE for AWS</router-link
+              >Click HERE for AWS</a
             >
             <br />
             <br />
@@ -168,16 +159,70 @@
     <!-- AWS Ends -->
 
     <br />
-    <hr />
+
+    <!-- Docker&Kubernetes -->
+    <div class="w-3/5 mx-auto my-6">
+      <div
+        class="w-full shadow-2xl subpixel-antialiased rounded h-72 bg-gray-500 border-black mx-auto"
+      >
+        <div
+          class="flex items-center h-6 rounded-t bg-gray-100 border-b border-gray-500 text-center text-black"
+          id="headerTerminal"
+        >
+          <div
+            class="flex ml-2 items-center text-center border-red-900 bg-red-500 shadow-inner rounded-full w-3 h-3"
+            id="closebtn"
+          ></div>
+          <div
+            class="ml-2 border-yellow-900 bg-yellow-500 shadow-inner rounded-full w-3 h-3"
+            id="minbtn"
+          ></div>
+          <div
+            class="ml-2 border-green-900 bg-green-500 shadow-inner rounded-full w-3 h-3"
+            id="maxbtn"
+          ></div>
+          <div class="mx-auto pr-16" id="terminaltitle">
+            <p class="text-center text-base text-purple-500">
+              Docker_Kubernetes
+            </p>
+          </div>
+        </div>
+        <div
+          class="pl-1 pt-1 text-green-200 font-mono text-base bg-gray-500"
+          id="console"
+        >
+          <p class="pb-1 px-1">
+            daniel$
+            <a
+              href="https://sites.google.com/view/yhdcdocker"
+              class="animate-pulse border-b-2 text-blue-500 hover:text-blue-800 hover:border-blue-500 ml-2"
+              >Click HERE for Docker</a
+            >
+            <br />
+            <br />
+            daniel$ project description; <br />
+            The Docker & Kubernetes Experiment.
+            <br />
+            <br />
+            daniel$ print tools used;<br />
+            Docker, Kubernetes;
+            <br />
+            <br />
+            daniel$
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Docker&Kubernetes Ends -->
+
     <br />
 
-    <div class="text-center my-4">
+    <!-- <div class="text-center my-4">
       <p class="text-white text-3xl ">UNDER DEVELOPMENT ... 🏗 ⚙️ 🛠</p>
-    </div>
-    <br />
+    </div> -->
 
     <!-- DEcrypt -->
-    <div class="w-3/5 mx-auto my-6">
+    <!-- <div class="w-3/5 mx-auto my-6">
       <div
         class="w-full shadow-2xl subpixel-antialiased rounded h-96 bg-gray-500 border-black mx-auto"
       >
@@ -211,10 +256,10 @@
             <br />
             <br />
             daniel$
-            <router-link
-              :to="{ name: 'Decrypt' }"
+            <a
+              href="https://sites.google.com/view/yhdcdecrypt"
               class="animate-pulse border-b-2 text-pink-400 hover:text-pink-800 hover:border-pink-500 ml-2"
-              >Click HERE to DEcrypt</router-link
+              >Click HERE to DEcrypt</a
             >
             <br />
             <br />
@@ -229,63 +274,8 @@
           </p>
         </div>
       </div>
-    </div>
-    <!-- DEcrypt Ends -->
-
-    <br />
-
-    <!-- Docker&Kubernetes -->
-    <!-- <div class="w-3/5 mx-auto my-6">
-      <div
-        class="w-full shadow-2xl subpixel-antialiased rounded h-72 bg-gray-500 border-black mx-auto"
-      >
-        <div
-          class="flex items-center h-6 rounded-t bg-gray-100 border-b border-gray-500 text-center text-black"
-          id="headerTerminal"
-        >
-          <div
-            class="flex ml-2 items-center text-center border-red-900 bg-red-500 shadow-inner rounded-full w-3 h-3"
-            id="closebtn"
-          ></div>
-          <div
-            class="ml-2 border-yellow-900 bg-yellow-500 shadow-inner rounded-full w-3 h-3"
-            id="minbtn"
-          ></div>
-          <div
-            class="ml-2 border-green-900 bg-green-500 shadow-inner rounded-full w-3 h-3"
-            id="maxbtn"
-          ></div>
-          <div class="mx-auto pr-16" id="terminaltitle">
-            <p class="text-center text-base text-purple-500">Docker_Kubernetes</p>
-          </div>
-        </div>
-        <div
-          class="pl-1 pt-1 text-green-200 font-mono text-base bg-gray-500"
-          id="console"
-        >
-          <p class="pb-1 px-1">
-            daniel$
-            <router-link
-              :to="{ name: 'Jblog' }"
-              class="border-b-2 hover:text-purple-800 dark:hover:text-gray-200 hover:border-purple-500 ml-2"
-              >Click HERE for Docker</router-link
-            >
-            <br />
-            <br />
-            daniel$ project description; <br />
-            The Docker & Kubernetes Experiment.
-            <br />
-            <br />           
-            daniel$ print tools used;<br />
-            Docker, Kubernetes;
-            <br />
-            <br />
-            daniel$
-          </p>
-        </div>
-      </div>
     </div> -->
-    <!-- Docker&Kubernetes Ends -->
+    <!-- DEcrypt Ends -->
 
     <br />
   </div>
