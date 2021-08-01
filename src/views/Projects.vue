@@ -161,7 +161,7 @@
     <br />
 
     <!-- Docker&Kubernetes -->
-    <div class="w-3/5 mx-auto my-6">
+    <!-- <div class="w-3/5 mx-auto my-6">
       <div
         class="w-full shadow-2xl subpixel-antialiased rounded h-72 bg-gray-500 border-black mx-auto"
       >
@@ -212,15 +212,11 @@
           </p>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- Docker&Kubernetes Ends -->
 
     <br />
-
-    <!-- <div class="text-center my-4">
-      <p class="text-white text-3xl ">UNDER DEVELOPMENT ... 🏗 ⚙️ 🛠</p>
-    </div> -->
-
+    
     <!-- DEcrypt -->
     <!-- <div class="w-3/5 mx-auto my-6">
       <div
@@ -276,6 +272,11 @@
       </div>
     </div> -->
     <!-- DEcrypt Ends -->
+
+    <!-- <div class="text-center my-4">
+      <p class="text-white text-3xl ">UNDER DEVELOPMENT ... 🏗 ⚙️ 🛠</p>
+    </div> -->
+
 
     <br />
   </div>

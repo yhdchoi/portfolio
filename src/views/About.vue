@@ -22,13 +22,12 @@
             Yeonghyun Choi
           </p>
           <p class="text-sm md:text-base text-gray-50 mb-4">
-            안녕하세요. 디자이너에서 개발자로 발전해가고 있는 최영현입니다.
-            Spring Framework/Boot, JPA/MariaDB, SpringSecurity, AWS를 기반으로
-            한 backend 개발 경험이 있고 또한 JSP, Vue.js, HTML/CSS를 학습하며
-            Frontend의 이해를 키워가고 있습니다. 지속적인 학습과 구현을 통해
-            부족한 점을 체워나가며 고정된 틀을 벗어나 창의적인 시각으로 문제를
-            바라보려 하고, 개 개인의 능력보단 팀 멤버간의 협업을 중요시하고
-            있습니다.
+            갖고 있으며 이와 함께 , Docker/Kubernates와 AWS를 꾸준히 학습해
+            나가고 있습니다. Frontend의 이해를 개선하기 위해 JSP, Vue.js,
+            HTML/CSS를 학습하고 있습니다. 그리고 기본 개념과 기능에 대한 부족한
+            점을 지속적인 학습과 구현을 통해 체워나가고 있습니다. 20년동안의
+            캐나다에서 생활을 통한 영어실력과, 디자이너로 활동하며 협업, 기획,
+            커뮤니케이션 능력을 갖추고 있습니다.
           </p>
           <p class="text-sm md:text-base text-gray-50 mb-4">
             I've kept on top of new technologies to build up to date and high
