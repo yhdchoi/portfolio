@@ -22,13 +22,12 @@
             Yeonghyun Choi
           </p>
           <p class="text-sm md:text-base text-gray-50 mb-4">
-            디자이너에서 Backend 개발자로 발전해가고 있는 최영현입니다. Spring
-            Framework/Boot, JPA, Spring Security, OAuth, JWT을 활용 한 개발
-            경험을 갖고 있습니다. 그리고 Docker/Kubernates, AWS와 함께 컴퓨터
-            공학관련 개념과 이론에 대한 부족한 점들을 지속적인 학습과 구현을
-            통해 체워나가고 있습니다. 앞으로도 지금처럼 개발에 관한 관심과
-            열정을 갖고 협력을 통해 많은 분들과 함께 좋은 개발자로 발전해
-            가겠습니다.
+            Backend 개발자 최영현입니다. Spring Framework/Boot, JPA, Spring
+            Security, OAuth, JWT을 활용한 Web Application 개발 경험을 갖고
+            있습니다. 그리고 Docker/Kubernates, AWS와 함께 컴퓨터 공학관련
+            개념과 이론에 대해 지속적인 학습과 구현을 하고 있습니다. 지금처럼
+            개발에 관심과 열정을 갖고 많은 분들과 협력을 통해 좋은 개발자로
+            발전해 가겠습니다.
           </p>
           <p class="text-sm md:text-base text-gray-50 mb-4">
             Hello. I'm Yeonghyun. You can also call me by Daniel. From both the
@@ -424,8 +423,7 @@
                     JDBC/MyBatis, Spring Framework/Boot, Html/CSS, JSP, SQL,
                     CentOS through the academy. I've realized my lack of
                     knowledge in the data structure and data structure so I've
-                    been trying to fill in the gaps through continuous
-                    learning.
+                    been trying to fill in the gaps through continuous learning.
                   </p>
                 </div>
               </div>
