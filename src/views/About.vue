@@ -23,12 +23,12 @@
           </p>
           <p class="text-sm md:text-base text-gray-50 mb-4">
             디자이너에서 Backend 개발자로 발전해가고 있는 최영현입니다. Spring
-            Framework/Boot, JPA (MariaDB/PostgreSQL), Spring
-            Security/OAuth/JWT을 활용 한 개발 경험을 갖고 있습니다. 그리고
-            Docker/Kubernates, AWS와 함께 컴퓨터 공학관련 개념과 이론에 대한
-            부족한 점들을 지속적인 학습과 구현을 통해 체워나가고 있습니다. 과거
-            디자이너로 활동하며 협업, 기획, 커뮤니케이션 능력은 물론 꼼꼼한
-            성격을 갖추고 있습니다.
+            Framework/Boot, JPA, Spring Security, OAuth, JWT을 활용 한 개발
+            경험을 갖고 있습니다. 그리고 Docker/Kubernates, AWS와 함께 컴퓨터
+            공학관련 개념과 이론에 대한 부족한 점들을 지속적인 학습과 구현을
+            통해 체워나가고 있습니다. 앞으로도 지금처럼 개발에 관한 관심과
+            열정을 갖고 협력을 통해 많은 분들과 함께 좋은 개발자로 발전해
+            가겠습니다.
           </p>
           <p class="text-sm md:text-base text-gray-50 mb-4">
             Hello. I'm Yeonghyun. You can also call me by Daniel. From both the
@@ -410,24 +410,22 @@
                   <p
                     class="text-sm md:text-base leading-snug text-opacity-100 text-white"
                   >
-                    고등학교 첫 프로그래밍 수업에서 프로그래밍의 매력에 푹
-                    빠지게 되었습니다. 건축 및 과학 배경에서 얻은 기술과 경험을
-                    바탕으로 저는 단순히 학습만 하는 것이 아니라 문제에 대한
-                    다양한 솔루션을 찾기위해 노력하였습니다. 이러한 저의 강점은
-                    다른 개발자와 차별화되는 부분이며 업계에 새로운 관점을
-                    제시할 수 있습니다.
+                    Python 독학을 시작으로 학원을 통해 C/C++, Java, JSP,
+                    JDBC/MyBatis, Spring Framework/Boot, Html/CSS, JSP, SQL,
+                    CentOS를 배웠으며 학원 과정을 통해 느꼈던 컴퓨터 공학 관련
+                    개념과 이론 그리고 알고리즘과 자료구조에 대한 부족한 점들을
+                    지속적인 학습을 통해 채워나가고 있습니다.
                   </p>
                   <br />
                   <p
                     class="text-sm md:text-base leading-snug text-opacity-100 text-white "
                   >
-                    It was my first programming class in high school, where I
-                    was captured by the charm of programming. With my skills and
-                    experience from my architectural and science backgrounds, I
-                    have been able to not just learn but propose differenet
-                    solutions to problems. This strength of mine is where I
-                    differentiate from other developers and I believe I can
-                    bring new perspectives to the industry.
+                    Starting by learning Python, I learned C/C++, Java, JSP,
+                    JDBC/MyBatis, Spring Framework/Boot, Html/CSS, JSP, SQL,
+                    CentOS through the academy. I've realized my lack of
+                    knowledge in the data structure and data structure so I've
+                    been trying to fill in the gaps through continuous
+                    learning.
                   </p>
                 </div>
               </div>

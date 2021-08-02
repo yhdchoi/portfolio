@@ -22,7 +22,6 @@
           </p>
         </div>
       </section>
-
       <!-- About -->
       <section class="bg-black p-5">
         <div
@@ -61,7 +60,7 @@
               <div class="px-4 py-2">+82 010 2162 9310</div>
             </div>
             <div class="grid grid-cols-2">
-              <div class="px-4 py-2 font-semibold">Reside in:</div>
+              <div class="px-4 py-2 font-semibold">Resides:</div>
               <div class="px-4 py-2">
                 Seoul, South Korea <br />/ Toronto, Canada
               </div>
@@ -200,62 +199,59 @@
       <section class="m-auto">
         <div class="flex flex-col min-w-0 p-4 bg-black">
           <div class="items-center px-1 py-2">
-            <div class="flex mb-2">
-              <span class="text-gray mr-2">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="white"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
-                  />
-                </svg>
-              </span>
+            <div class="flex mb-2 text-gray ">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 mr-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="white"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+                />
+              </svg>
               <h3
                 class="font-semibold text-base text-gray-200 dark:text-gray-50"
               >
                 Skills
               </h3>
-              <div
-                class="text-white w-full mt-8 flex flex-col sm:flex-row justify-center items-center"
+            </div>
+
+            <div class=" w-full mt-4 flex justify-center items-center">
+              <button
+                class="bg-gray-400 font-semibold text-green-800 p-2 w-44 rounded-full hover:text-white hover:bg-green-800 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
               >
-                <button
-                  class="bg-gray-400 font-semibold text-green-800 p-2 w-44 rounded-full hover:text-white hover:bg-green-800 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
-                >
-                  Spring Framework/Boot
-                </button>
-                <button
-                  class="bg-gray-400 font-semibold text-pink-700 p-2 w-32 rounded-full hover:text-white hover:bg-pink-700 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
-                >
-                  Spring Security
-                </button>
-                <button
-                  class="bg-gray-400 font-semibold text-purple-500 p-2 w-40 rounded-full hover:text-white hover:bg-purple-300 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
-                >
-                  JPA/Hibernate
-                </button>
-                <button
-                  class="bg-gray-400 font-semibold text-blue-600 p-2 w-28 rounded-full hover:text-white hover:bg-blue-600 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
-                >
-                  AWS
-                </button>
-                <button
-                  class="bg-gray-400 font-semibold text-green-300 p-2 w-32 rounded-full hover:text-white hover:bg-green-300 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
-                >
-                  Vue.js
-                </button>
-                <button
-                  class="bg-gray-400 font-semibold text-yellow-700 p-2 w-32 rounded-full hover:text-white hover:bg-yellow-700 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
-                >
-                  Python
-                </button>
-              </div>
+                Spring Framework/Boot
+              </button>
+              <button
+                class="bg-gray-400 font-semibold text-pink-700 p-2 w-32 rounded-full hover:text-white hover:bg-pink-700 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
+              >
+                Spring Security
+              </button>
+              <button
+                class="bg-gray-400 font-semibold text-purple-500 p-2 w-40 rounded-full hover:text-white hover:bg-purple-300 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
+              >
+                JPA/Hibernate
+              </button>
+              <button
+                class="bg-gray-400 font-semibold text-yellow-600 p-2 w-28 rounded-full hover:text-white hover:bg-yellow-600 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
+              >
+                AWS
+              </button>
+              <button
+                class="bg-gray-400 font-semibold text-green-300 p-2 w-32 rounded-full hover:text-white hover:bg-green-300 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
+              >
+                Vue.js
+              </button>
+              <button
+                class="bg-gray-400 font-semibold text-blue-500 p-2 w-40 rounded-full hover:text-white hover:bg-blue-500 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
+              >
+                Docker
+              </button>
             </div>
           </div>
 
@@ -305,7 +301,7 @@
                 <th
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4 text-left"
                 >
-                  JPA/Hibernate
+                  JPA
                 </th>
                 <td
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4"
@@ -329,7 +325,7 @@
                 <th
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4 text-left"
                 >
-                  Spring Security
+                  Spring Security/Oauth/JWT
                 </th>
                 <td
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4"
@@ -350,7 +346,7 @@
                 </td>
               </tr>
 
-              <tr class="text-blue-700 hover:bg-gray-900">
+              <tr class="text-yellow-500 hover:bg-gray-900">
                 <th
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4 text-left"
                 >
@@ -363,11 +359,11 @@
                     <span class="mr-2">50%</span>
                     <div class="relative w-full">
                       <div
-                        class="overflow-hidden h-2 text-xs flex rounded bg-blue-300"
+                        class="overflow-hidden h-2 text-xs flex rounded bg-yellow-200"
                       >
                         <div
                           style="width: 50%"
-                          class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-700"
+                          class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-yellow-500"
                         ></div>
                       </div>
                     </div>
@@ -400,11 +396,11 @@
                 </td>
               </tr>
 
-              <tr class="text-red-600 hover:bg-gray-900">
+              <tr class="text-blue-400 hover:bg-gray-900">
                 <th
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4 text-left"
                 >
-                  Javascript
+                  Docker
                 </th>
                 <td
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4"
@@ -413,11 +409,11 @@
                     <span class="mr-2">30%</span>
                     <div class="relative w-full">
                       <div
-                        class="overflow-hidden h-2 text-xs flex rounded bg-red-200"
+                        class="overflow-hidden h-2 text-xs flex rounded bg-blue-200"
                       >
                         <div
                           style="width: 30%"
-                          class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-600"
+                          class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-500"
                         ></div>
                       </div>
                     </div>
@@ -425,7 +421,7 @@
                 </td>
               </tr>
 
-              <tr class="text-yellow-600 hover:bg-gray-900">
+              <tr class="text-blue-600 hover:bg-gray-900">
                 <th
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4 text-left"
                 >
@@ -438,11 +434,11 @@
                     <span class="mr-2">20%</span>
                     <div class="relative w-full">
                       <div
-                        class="overflow-hidden h-2 text-xs flex rounded bg-yellow-200"
+                        class="overflow-hidden h-2 text-xs flex rounded bg-blue-200"
                       >
                         <div
                           style="width: 20%"
-                          class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-yellow-600"
+                          class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-600"
                         ></div>
                       </div>
                     </div>
