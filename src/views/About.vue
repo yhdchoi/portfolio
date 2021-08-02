@@ -22,23 +22,25 @@
             Yeonghyun Choi
           </p>
           <p class="text-sm md:text-base text-gray-50 mb-4">
-            안녕하세요. 디자이너에서 개발자로 발전해가고 있는 최영현입니다.
-            Spring Framework/Boot, JPA (MariaDB/PostgreSQL), Spring
-            Security/OAuth/JWT를 기반으로 한 backend 개발 경험을 갖고 있습니다.
-            그리고 Docker/Kubernates, AWS와 함께 컴퓨터 공학관련 개념과 이론에
-            대한 부족한 점을 지속적인 학습과 구현을 통해 체워나가고 있습니다.
+            디자이너에서 Backend 개발자로 발전해가고 있는 최영현입니다. Spring
+            Framework/Boot, JPA (MariaDB/PostgreSQL), Spring
+            Security/OAuth/JWT을 활용 한 개발 경험을 갖고 있습니다. 그리고
+            Docker/Kubernates, AWS와 함께 컴퓨터 공학관련 개념과 이론에 대한
+            부족한 점들을 지속적인 학습과 구현을 통해 체워나가고 있습니다. 과거
             디자이너로 활동하며 협업, 기획, 커뮤니케이션 능력은 물론 꼼꼼한
             성격을 갖추고 있습니다.
           </p>
           <p class="text-sm md:text-base text-gray-50 mb-4">
-            I've kept on top of new technologies to build up to date and high
-            quality applications. From both the Art and Science academic
-            backgrounds, I have developed a good analytical thinking and high
-            attention down to small details. I believe high-quality codes come
-            from having a good knowledge of data security and structure. And I
-            value an environment where it can motivate both personal and
-            professional development. Working as a designer, and I always strive
-            to improve and present creative ways to solve problems.
+            Hello. I'm Yeonghyun. You can also call me by Daniel. From both the
+            Art and Science academic backgrounds, I have developed a good
+            analytical thinking and high attention to small details. I believe
+            high-quality codes come from having a good knowledge of data
+            security and structure so, I have been contiuously improving myself
+            on the foundation knowledge. I value an environment where it can
+            motivate both personal and professional development. Comming from in
+            both Art and Science background and the experience of working as a
+            designer, and I always strive to improve and present creative ways
+            to solve problems.
           </p>
 
           <div class="mt-4">
