@@ -24,33 +24,37 @@
           <p class="text-sm md:text-base text-gray-50 mb-4">
             Junior Backend 개발자 최영현입니다. 개발자가 된 계기는 영어 강사로
             재직 중 만난 해양 발전 연구 분야의 박사님과 만남으로 시작되었습니다.
-            박사님께서는 해양 발전 분야에서 연구하셨고 직접 연구에 필요한
-            프로그램을 만드실 정도로 대단하신 분이셨습니다. 영어 회화 수업을
+            박사님께서는 직접 연구에 필요한 프로그램을 만드셨고 영어 회화 수업을
             통해 프로그래밍과 개발에 관한 이야기를 나누며 개발에 흥미와 관심을
-            갖게 되었고 개발 공부를 시작하게 되었습니다. <br> Python 독학을 시작으로
-            학원을 통해 C/C++, Java, JSP, JDBC/MyBatis, Spring Framework/Boot,
-            Html/CSS, JSP, SQL, CentOS 학습 과정을 거쳤습니다. 하지만 컴퓨터
-            공학 관련 개념과 이론 그리고 알고리즘과 자료구조에 대한 기본 지식이
-            부족함을 느꼈습니다. 학원 과정은 기술적인 구현을 이루는 데 중점을
-            두고 있어서 근본적으로 어떻게 구현되는가에 대한 학습은 없었습니다.
-            이러한 부족한 점들을 채워나가기 위해 전문 도서, 블로그와 카페 그리고
-            온라인 강의 등을 통해 학습을 보충하였습니다. <br> OOP 수업을 시작된
-            Spring Framework 수업을 통해 Spring Boot에 관심을 같게 되었습니다.
-            Spring Boot이 제공해주는 infrastructure 관리는 개발에 더 집중할 수
-            있도록 해주었고 RESTful API를 구현하는데 높은 유연성을
+            갖게 되었고 개발 공부를 시작하게 되었습니다. <br />
+            Python 독학을 시작으로 학원을 통해 C/C++, Java, JSP, JDBC/MyBatis,
+            Spring Framework/Boot, Html/CSS, JSP, SQL, CentOS 학습 과정을
+            거쳤습니다. 하지만 컴퓨터 공학 관련 개념과 이론 그리고 알고리즘과
+            자료구조에 대한 기본 지식이 부족함을 느꼈습니다. 학원 과정은
+            기술적인 점에만 중점을 두고 있어서 근본적인 작동의 원리에 대한
+            학습은 없었습니다. 이러한 부족한 점들을 채워나가기 위해 전문 도서,
+            블로그와 카페 그리고 온라인 강의 등을 통해 학습을 보충하였습니다.
+            <br />
+            <br />
+            OOP와 Spring Framework 수업을 통해 Spring Boot에 관심을 갖게
+            되었습니다. Spring Boot이 제공해주는 infrastructure 관리는 개발에 더
+            집중할 수 있도록 해주었고 RESTful API를 구현하는데 높은 유연성을
             보여주었습니다. Spring Data JPA는 repository와 custom object-mapping
             method를 통해 database service를 쉽게 관리할 수 있게 해주었고,
             QueryDSL을 추가하면 더욱더 효율적으로 database를 구현 및 관리할 수
-            있었습니다. Spring Security와 Oauth, JWT의 조합을 통해 session
-            fixation, cross site request와 같은 취약점들로부터의 보호와 함께
-            application의 보안을 구축할 수 있었습니다. <br> 현재는 Frontend에 대한
-            이해를 높이기 위해서 Vue.js, Axios와 함께 Spring Boot Application을
-            개발 중이며, Application의 deploying, managing과 scaling을 위해
-            Docker, Kubernetes, AWS를 구현하고 활용하며 개념과 원리를 터득하고
-            습득하였습니다. <br> 디자이너로 활동하며 많은 협력을 통해 communication과
-            기획 능력을 다졌으며 작은 것도 그냥 지나치지 않는 꼼꼼한 성격을
-            가지고 있습니다. 앞으로도 열정과 협력을 통해 많은 분과 함께 좋은
-            개발자로 발전해 가겠습니다.
+            있었습니다. 그리고, Spring Security와 Oauth, JWT의 조합을 통해
+            session fixation, cross site request와 같은 취약점들로부터의 보호와
+            함께 application의 보안을 구축할 수 있었습니다. <br />
+            <br />
+            현재는 Frontend에 대한 이해를 높이기 위해서 Vue.js, Axios와 함께
+            Spring Boot Application을 개발 중이며, Application의 deploying,
+            managing과 scaling을 위해 Docker, Kubernetes, AWS를 활용하며 개념과
+            원리를 터득하고 습득하였습니다. <br />
+            <br />
+            디자이너로 활동하며 많은 협력을 통해 communication과 기획 능력을
+            다졌으며 작은 것도 그냥 지나치지 않는 꼼꼼한 성격을 가지고 있습니다.
+            앞으로도 열정과 협력을 통해 많은 분과 함께 좋은 개발자로 발전해
+            가겠습니다.
           </p>
           <p class="text-sm md:text-base text-gray-50 mb-4">
             Hello. I'm Yeonghyun. You can also call me by Daniel. From both the
