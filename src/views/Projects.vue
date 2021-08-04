@@ -11,6 +11,7 @@
         <a
           class="animate-pulse text-purple-200 flex items-center shadow justify-center"
           href="https://github.com/yhdchoi/jspblog.git"
+          target="_blank" rel="noopener noreferrer"
         >
           <svg
             fill="purple"
@@ -58,6 +59,7 @@
               <a
                 href="https://sites.google.com/view/yhdcjblog	"
                 class="animate-pulse border-b-2 text-green-400 hover:text-green-800 hover:border-green-500 ml-2"
+                target="_blank" rel="noopener noreferrer"
                 >Click HERE for J_Blog</a
               >
               <br />
@@ -88,6 +90,7 @@
         <a
           class="animate-pulse text-purple-200 flex items-center shadow justify-center"
           href="https://github.com/yhdchoi/secujwt"
+          target="_blank" rel="noopener noreferrer"
         >
           <svg
             fill="purple"
@@ -136,6 +139,7 @@
               <a
                 href="https://sites.google.com/view/yhdcjwt"
                 class="animate-pulse border-b-2 text-red-400 hover:text-red-800 hover:border-red-500 ml-2"
+                target="_blank" rel="noopener noreferrer"
                 >Click HERE for JWT</a
               >
               <br />
@@ -264,6 +268,7 @@
               <a
                 href="https://sites.google.com/view/yhdcaws"
                 class="animate-pulse border-b-2 text-yellow-400 hover:text-yellow-600 hover:border-yellow-500 ml-2"
+                target="_blank" rel="noopener noreferrer"
                 >Click HERE for AWS</a
               >
               <br />
@@ -319,6 +324,7 @@
               <a
                 href="https://sites.google.com/view/yhdcdocker"
                 class="animate-pulse border-b-2 text-blue-500 hover:text-blue-800 hover:border-blue-500 ml-2"
+                target="_blank" rel="noopener noreferrer"
                 >Click HERE for Docker</a
               >
               <br />
@@ -349,6 +355,7 @@
         <a
           class="animate-pulse  text-purple-200 flex items-center justify-center"
           href="https://github.com/yhdchoi/decrypt.git"
+          target="_blank" rel="noopener noreferrer"
         >
           <svg
             fill="purple"
@@ -399,6 +406,7 @@
               <a
                 href="https://sites.google.com/view/yhdcdecrypt"
                 class="animate-pulse border-b-2 text-pink-400 hover:text-pink-800 hover:border-pink-500 ml-2"
+                target="_blank" rel="noopener noreferrer"
                 >Click HERE to DEcrypt</a
               >
               <br />
