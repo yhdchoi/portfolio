@@ -36,14 +36,12 @@
             scaling.
           </p>
           <p class="text-sm md:text-base text-gray-50 mb-4">
-            Hello. I'm Yeonghyun. You can also call me by Daniel. Xomming from
-            both the Art and Science academic backgrounds, I have developed a
-            good analytical thinking skills and keep attention to small details.
-            And I always strive to improve and present creative ways to solve
-            problems. <br />
-            I have been contiuously improving myself on the foundation knowledge
-            of data security and structure. I value an environment where it can
-            motivate both personal and professional development.
+            I'm Yeonghyun a Backend developer. From Art and Science academic
+            backgrounds, I have developed a good analytical thinking skills and
+            keep attention to small details. And I always strive to improve and
+            present creative ways to solve problems. <br />
+            I value an environment where it can motivate both personal and
+            professional development.
             <br />
             <br />
             I am able to ... <br />
