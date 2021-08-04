@@ -22,36 +22,38 @@
             Yeonghyun Choi
           </p>
           <p class="text-sm md:text-base text-gray-50 mb-4">
-            Junior Backend 개발자 최영현입니다. 
+            Junior Backend 개발자 최영현입니다. 디자이너로 활동하며 많은 협력을
+            통해 communication과 기획 능력을 가졌으며 작은 것도 그냥 지나치지
+            않는 꼼꼼한 성격을 가지고 있습니다. 앞으로도 열정과 협력을 통해 많은
+            분과 함께 좋은 개발자로 발전해 가겠습니다. <br />
             <br />
-            Spring Boot이 제공해주는 infrastructure 관리는 개발에 더
-            집중할 수 있도록 해주었고 RESTful API를 구현하는데 높은 유연성을
-            보여주었습니다. Spring Data JPA는 repository와 custom object-mapping
-            method를 통해 database service를 쉽게 관리할 수 있게 해주었고,
-            QueryDSL을 추가하면 더욱더 효율적으로 database를 구현 및 관리할 수
-            있었습니다. 그리고, Spring Security와 Oauth, JWT의 조합을 통해
-            session fixation, cross site request와 같은 취약점들로부터의 보호와
-            함께 application의 보안을 구축할 수 있었습니다. <br />
-            현재는 Frontend에 대한 이해를 높이기 위해서 Vue.js, Axios와 함께
-            Spring Boot Application을 개발 중이며, Application의 deploying,
-            managing과 scaling을 위해 Docker, Kubernetes, AWS를 활용하며 개념과
-            원리를 터득하고 습득하였습니다. <br />
-            디자이너로 활동하며 많은 협력을 통해 communication과 기획 능력을
-            다졌으며 작은 것도 그냥 지나치지 않는 꼼꼼한 성격을 가지고 있습니다.
-            앞으로도 열정과 협력을 통해 많은 분과 함께 좋은 개발자로 발전해
-            가겠습니다.
+            - Spring Boot으로 RESTful API 구현. <br />
+            - Spring Data JPA와 custom object-mapping method를 사용한
+            repository와 database service 관리. <br />
+            - Spring Security와 Oauth, JWT의 조합을 통해 session fixation, cross
+            site request와 같은 취약점들로부터의 application 보안 구축. <br />
+            - Docker, Kubernetes, AWS를 활용한 효율적인 배포, 유지관리와
+            scaling.
           </p>
           <p class="text-sm md:text-base text-gray-50 mb-4">
-            Hello. I'm Yeonghyun. You can also call me by Daniel. From both the
-            Art and Science academic backgrounds, I have developed a good
-            analytical thinking and high attention to small details. I believe
-            high-quality codes come from having a good knowledge of data
-            security and structure so, I have been contiuously improving myself
-            on the foundation knowledge. I value an environment where it can
-            motivate both personal and professional development. Comming from in
-            both Art and Science background and the experience of working as a
-            designer, and I always strive to improve and present creative ways
-            to solve problems.
+            Hello. I'm Yeonghyun. You can also call me by Daniel. Xomming from
+            both the Art and Science academic backgrounds, I have developed a
+            good analytical thinking skills and keep attention to small details.
+            And I always strive to improve and present creative ways to solve
+            problems. <br />
+            I have been contiuously improving myself on the foundation knowledge
+            of data security and structure. I value an environment where it can
+            motivate both personal and professional development.
+            <br />
+            <br />
+            I am able to ... <br />
+            - Build RESTful API application with Spring Framwork & Boot. <br />
+            - With Spring Data JPA & custom object-mapping method, manage
+            repositories & database. <br />
+            - Build and configure security with Spring Security, Oauth, JWT,
+            creating defence from the security risks such as session fixation
+            and cross site request. <br />
+            - Deployment, Management and Scaling with Docker, Kubernetes, AWS.
           </p>
 
           <div class="mt-4">
@@ -66,7 +68,8 @@
             <a
               href="https://www.linkedin.com/in/yeonghyun-choi-a15993b6/"
               class="flex items-center hover:text-blue-500 p-2"
-              target="_blank" rel="noopener noreferrer"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <svg
                 fill="white"
@@ -84,7 +87,8 @@
             <a
               href="https://github.com/yhdchoi"
               class="flex items-center hover:text-purple-500 p-2"
-              target="_blank" rel="noopener noreferrer"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <svg
                 fill="white"
@@ -104,7 +108,8 @@
             <a
               href="https://www.youtube.com/channel/UCfOxhiu_PqZqXqOqvFP_sJg/videos"
               class="flex items-center hover:text-red-500 p-2"
-              target="_blank" rel="noopener noreferrer"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <svg
                 fill="white"
