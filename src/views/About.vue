@@ -22,7 +22,7 @@
             Yeonghyun Choi
           </p>
           <p class="text-sm md:text-base text-gray-50 mb-4">
-            Junior Backend 개발자 최영현입니다. 디자이너로 활동하며 많은 협력을
+            신입 개발자 최영현입니다. 디자이너로 활동하며 많은 협력을
             통해 communication과 기획 능력을 가졌으며 작은 것도 그냥 지나치지
             않는 꼼꼼한 성격을 가지고 있습니다. 앞으로도 열정과 협력을 통해 많은
             분과 함께 좋은 개발자로 발전해 가겠습니다. <br />
@@ -32,13 +32,12 @@
             repository와 database service 관리. <br />
             - Spring Security와 Oauth, JWT의 조합을 통해 session fixation, cross
             site request와 같은 취약점들로부터의 application 보안 구축. <br />
-            - Docker, Kubernetes, AWS를 활용한 효율적인 배포, 유지관리와
-            scaling.
+            - Docker, Kubernetes, AWS를 활용한 배포 및 관리.
           </p>
           <p class="text-sm md:text-base text-gray-50 mb-4">
-            I'm Yeonghyun a Backend developer. From Art and Science academic
-            backgrounds, I have developed a good analytical thinking skills and
-            keep attention to small details. And I always strive to improve and
+            I'm Yeonghyun a junior fullstack developer. With Art and Science academic
+            backgrounds, I have developed a good analytical thinking skills and a keen
+            attention to small details. And I've always strive to improve and
             present creative ways to solve problems. <br />
             I value an environment where it can motivate both personal and
             professional development.
@@ -145,7 +144,7 @@
                 <div class="order-1 w-5/12 px-1 py-4 text-right">
                   <p class="mb-3 text-base text-green-300">September, 1997</p>
                   <h4 class="mb-3 font-bold text-lg md:text-2xl">
-                    To CANADA
+                    Moved to CANADA
                   </h4>
                   <p
                     class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
