@@ -163,7 +163,7 @@
               <li>
                 <div class="text-gray-200">SBS Computer Academy</div>
                 <div class="text-gray-400 text-xs">
-                  09, 2020 - 07, 2021
+                  09, 2020 - 08, 2021
                 </div>
               </li>
               <li>
