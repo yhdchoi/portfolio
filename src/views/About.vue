@@ -24,15 +24,17 @@
           <p class="text-sm md:text-base text-gray-50 mb-4">
             신입 개발자 최영현입니다. 디자이너로 활동하며 많은 협력을 통해
             communication, 기획 능력을 가졌으며 작은 것도 그냥 지나치지 않는
-            꼼꼼한 성격을 가지고 있습니다. 항상 문제 해결을 위해 효율적인
-            해결책을 제시하려 노력해 왔습니다. 앞으로도 꾸준한 노력과 열정을
-            통해 좋은 개발자로 발전해 가겠습니다. <br />
+            꼼꼼한 성격을 가지고 있습니다. 앞으로도 꾸준한 노력과 열정을 통해
+            좋은 개발자로 발전해 가겠습니다. <br />
             <br />
+            I am able to ... <br />
+            - JSP, React, Vue를 이용한 Frontend 구축 <br />
             - Spring Boot으로 RESTful API 구현. <br />
             - Spring Data JPA와 custom object-mapping method를 사용한
             repository와 database service 관리. <br />
             - Spring Security와 Oauth, JWT의 조합을 통해 session fixation, cross
             site request와 같은 취약점들로부터의 application 보안 구축. <br />
+            - Axios를 이용한 API 통신. <br />
             - Docker, Kubernetes, AWS를 활용한 배포 및 관리.
           </p>
           <p class="text-sm md:text-base text-gray-50 mb-4">
@@ -45,12 +47,14 @@
             <br />
             <br />
             I am able to ... <br />
+            - Design and build Frontend using JSP, React, and Vue. <br />
             - Build RESTful API application with Spring Framwork & Boot. <br />
             - With Spring Data JPA & custom object-mapping method, manage
             repositories & database. <br />
             - Build and configure security with Spring Security, Oauth, JWT,
             creating defence from the security risks such as session fixation
             and cross site request. <br />
+            - API request with Ajax or Axios. <br />
             - Deployment, Management and Scaling with Docker, Kubernetes, AWS.
           </p>
 

@@ -419,9 +419,8 @@
               >
               <br />
               <br />
-              daniel$ What is the CO-Logic?<br />
-              The co-opaeration managed logically for the optimization of the
-              workflow.
+              daniel$ What is CO-Logic?<br />
+              The work management application for your workflow.
               <br />
               <br />
               daniel$ print tools used;<br />
