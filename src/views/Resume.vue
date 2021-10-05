@@ -1,23 +1,23 @@
 <template>
   <main class="m-auto w-full bg-black flex-row justify-center items-center ">
-    <div class="container m-auto min-h-screen bg-black">
+    <div class="container m-auto min-h-screen bg-transparent">
       <section
-        class="m-auto max-w-sm rounded-lg overflow-hidden shadow-lg mb-2 bg-black"
+        class="m-auto max-w-sm rounded-lg overflow-hidden shadow-lg mb-2 bg-black shadow-none"
       >
         <div>
           <img
             class="rounded-full mx-auto mt-6 w-40 h-40 border-1 border-gray-500"
             height="200"
             width="200"
-            src="../assets/3.png"
+            src="../assets/person2.png"
             alt="Profile image"
           />
         </div>
         <div class="pt-6 pb-8 text-white text-center">
           <p class="text-3xl mb-2 ">최영현</p>
           <p class="text-3xl mb-2 ">YEONGHYUN CHOI</p>
-          <p class="text-gray-300">Fullstack Developer</p>
-          <p class="text-sm mt-2 text-gray-300">
+          <p class="">Fullstack Developer</p>
+          <p class="text-sm mt-2">
             Developed in Planet Earth
           </p>
         </div>

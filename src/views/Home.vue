@@ -1,7 +1,9 @@
 <template>
-    <div class="wrap-home flex">
-        <h1 data-title="DigitalArchitecture" class="text-fill">DigitalArchitecture</h1>
-    </div>
+  <div class="wrap-home flex">
+    <h1 data-title="DigitalArchitecture" class="text-fill">
+      DigitalArchitecture
+    </h1>
+  </div>
 </template>
 
 <script>
@@ -12,25 +14,25 @@
 </script>
 
 <style scoped>
-.wrap-home {
+  .wrap-home {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: black;
+    background: lightblue;
     z-index: 1;
-}
-.text-fill {
+  }
+  .text-fill {
     background: white;
     font-size: 5vw;
     position: relative;
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
-}
-.text-fill::before {
+  }
+  .text-fill::before {
     content: attr(data-title);
-    background: linear-gradient( #7BF9FF, #EF7BFF, #7BFF7D);
+    background: linear-gradient(#7bf9ff, #ef7bff, #7bff7d);
     position: absolute;
     top: 0;
     bottom: 0;
@@ -41,8 +43,8 @@
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
-}
-.text-fill:hover::before {
+  }
+  .text-fill:hover::before {
     width: 100%;
-}
+  }
 </style>

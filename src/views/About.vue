@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="bg-black text-white py-8">
+    <div class="bg-gray-500 text-white py-8">
       <div
         class="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24"
       >
@@ -9,7 +9,7 @@
             class="rounded-full mb-8 w-40 h-40 border-1 border-gray-500"
             height="200"
             width="200"
-            src="../assets/3.png"
+            src="../assets/person1.png"
             alt="Profile image"
           />
           <p class="text-blue-300 tracking-loose">
@@ -38,10 +38,11 @@
             - Docker, Kubernetes, AWS를 활용한 배포 및 관리.
           </p>
           <p class="text-sm md:text-base text-gray-50 mb-4">
-            I'm Yeonghyun a junior fullstack developer. With Art and Science
-            academic backgrounds, I have developed a good analytical thinking
-            skills and a keen attention to small details. And I've always strive
-            to improve and present creative ways to solve problems. <br />
+            Hello! I'm Yeonghyun a junior fullstack developer. With Art and
+            Science academic backgrounds, I have developed a good analytical
+            thinking skills and a keen attention to small details. And I've
+            always strive to improve and present creative ways to solve
+            problems. <br />
             I value an environment where it can motivate both personal and
             professional development.
             <br />

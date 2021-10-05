@@ -1,7 +1,7 @@
 <template>
-  <div class="h-screen bg-black text-white p-10">
+  <div class="h-screen bg-pink-400 text-white p-10">
     <div class="w-full text-center">
-      <h1 class="font-bold text-4xl text-white  hover:text-green-300 my-8">
+      <h1 class="font-bold text-4xl text-white  hover:text-blue-300 my-8">
         Contact
       </h1>
     </div>
@@ -60,7 +60,7 @@
       <div class="md:flex md:items-center">
         <div class="md:w-1/3">
           <button
-            class="bg-gray-500 hover:bg-blue-300 text-white font-bold py-2 px-4 rounded"
+            class="bg-gray-400 hover:bg-blue-300 text-white font-bold py-2 px-4 rounded"
             type="submit"
             value="Send"
           >
