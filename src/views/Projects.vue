@@ -90,7 +90,7 @@
       <!-- JWT -->
       <div class="w-3/5 mx-auto my-6">
         <a
-          class="animate-pulse text-purple-200 flex items-center shadow justify-center"
+          class="animate-pulse text-purple-200 flex items-center shadow-none justify-center"
           href="https://github.com/yhdchoi/secujwt"
           target="_blank"
           rel="noopener noreferrer"
