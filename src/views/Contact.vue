@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen bg-pink-400 text-white p-10">
+  <div class="h-screen bg-pink-300 text-white p-10">
     <div class="w-full text-center">
       <h1 class="font-bold text-4xl text-white  hover:text-blue-300 my-8">
         Contact

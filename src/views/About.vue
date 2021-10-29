@@ -27,7 +27,6 @@
             꼼꼼한 성격을 가지고 있습니다. 앞으로도 꾸준한 노력과 열정을 통해
             좋은 개발자로 발전해 가겠습니다. <br />
             <br />
-            I am able to ... <br />
             - JSP, React, Vue를 이용한 Frontend 구축 <br />
             - Spring Boot으로 RESTful API 구현. <br />
             - Spring Data JPA와 custom object-mapping method를 사용한
@@ -37,33 +36,33 @@
             - Axios를 이용한 API 통신. <br />
             - Docker, Kubernetes, AWS를 활용한 배포 및 관리.
           </p>
+          <hr />
+          <br />
           <p class="text-sm md:text-base text-gray-50 mb-4">
-            Hello! I'm Yeonghyun a junior fullstack developer. With Art and
-            Science academic backgrounds, I have developed a good analytical
-            thinking skills and a keen attention to small details. And I've
-            always strive to improve and present creative ways to solve
-            problems. <br />
+            Hello! I'm Yeonghyun a fullstack developer. With Art and Science
+            academic backgrounds, I have a good team work skills and a keen
+            attention to small details. And I've always strive to improve and
+            present creative ways to solve problems. <br />
             I value an environment where it can motivate both personal and
             professional development.
             <br />
             <br />
-            I am able to ... <br />
-            - Design and build Frontend using JSP, React, and Vue. <br />
-            - Build RESTful API application with Spring Framwork & Boot. <br />
-            - With Spring Data JPA & custom object-mapping method, manage
+            - Design frontend using JSP, React, and Vue. <br />
+            - API request using Ajax or Axios. <br />
+            - Build backend using Spring Framwork & Boot. <br />
+            - Spring Data JPA with custom object-mapping method, manage
             repositories & database. <br />
-            - Build and configure security with Spring Security, Oauth, JWT,
-            creating defence from the security risks such as session fixation
-            and cross site request. <br />
-            - API request with Ajax or Axios. <br />
-            - Deployment, Management and Scaling with Docker, Kubernetes, AWS.
+            - Spring Security, Oauth, JWT, creating defence from the security
+            risks such as session fixation and cross site request. <br />
+            - Deployment, scaling and version management with Docker,
+            Kubernetes, AWS.
           </p>
 
           <div class="mt-4">
             <router-link
               :to="{ name: 'Resume' }"
               class="animate-pulse bg-transparent mr-auto hover:bg-red-300 text-red-400 hover:text-white border border-red-400 rounded shadow hover:shadow-lg py-2 px-4  hover:border-transparent"
-              >Click for Resume 이력서</router-link
+              >Click for my resume 이력서</router-link
             >
           </div>
 
@@ -165,10 +164,9 @@
                   <p
                     class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
                   >
-                    Before moving to CANADA, I had a very introverted and
-                    submisive personality. As I have submerged into Canada's
-                    diverse culture, I have become someone who is independent
-                    and take the initiative.
+                    Moving to CANADA was a life changing moment. Canada has
+                    shown me many different perspsectives of life and tought me
+                    to be more adventurous and independent person.
                   </p>
                 </div>
               </div>
@@ -236,9 +234,9 @@
                   >
                     The experience has made me realize the difference between
                     academic and professional world. My perspective on
-                    architecture was solely based on idea and theories, not
-                    considering the reality. Making the idea into reality was a
-                    very difficult and exasperating task.
+                    architecture was solely based on idea and theories, and
+                    making ideas into reality was a very difficult and
+                    exasperating task.
                   </p>
                 </div>
               </div>
@@ -273,12 +271,10 @@
                   <p
                     class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
                   >
-                    The opportunity has provided me with an experience of
-                    working in a large company which has tought me the
-                    importance of team work. Accomplishing a goal with a team of
-                    individuals wasn't only about the skills and ability of each
-                    individuals but how we can come together and collaborate to
-                    achieve the goal.
+                    The opportunity has tought me the importance of team work.
+                    Being able to accomplish a goal wasn't only by the skills
+                    and ability of each individuals but how we come together and
+                    collaborate.
                   </p>
                 </div>
               </div>
@@ -348,11 +344,11 @@
                     class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
                   >
                     I have been interested in art and architecture since I was
-                    young. I was interested in learning about the philosophies
-                    of architects, and I've enjoyed the special experiences that
-                    architecture conveys. In addition, the history and culture
-                    of mankind through architecture showed me how to view the
-                    world in a more broadly perspective.
+                    young. Especially, I was interested in learning about the
+                    philosophies of architects and the special experiences that
+                    architecture conveys. The history and culture of mankind
+                    through architecture showed me how to view the world in a
+                    more broad perspective.
                   </p>
                 </div>
               </div>
@@ -445,8 +441,8 @@
                     Starting by learning Python, I learned C/C++, Java, JSP,
                     JDBC/MyBatis, Spring Framework/Boot, Html/CSS, JSP, SQL,
                     CentOS through the academy. I've realized my lack of
-                    knowledge in the data structure and data structure so I've
-                    been trying to fill in the gaps through continuous learning.
+                    knowledge in the data structure and have been trying to fill
+                    in the gaps through continuous learning.
                   </p>
                 </div>
               </div>

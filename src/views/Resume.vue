@@ -1,8 +1,10 @@
 <template>
-  <main class="m-auto w-full bg-black flex-row justify-center items-center ">
+  <main
+    class="m-auto w-full bg-indigo-200 flex-row justify-center items-center "
+  >
     <div class="container m-auto min-h-screen bg-transparent">
       <section
-        class="m-auto max-w-sm rounded-lg overflow-hidden shadow-lg mb-2 bg-black shadow-none"
+        class="m-auto max-w-sm rounded-lg overflow-hidden shadow-lg mb-2 bg-transparent shadow-none"
       >
         <div>
           <img
@@ -13,19 +15,19 @@
             alt="Profile image"
           />
         </div>
-        <div class="pt-6 pb-8 text-white text-center">
+        <div class="pt-6 pb-8 text-gray-800 text-center">
           <p class="text-3xl mb-2 ">최영현</p>
           <p class="text-3xl mb-2 ">YEONGHYUN CHOI</p>
           <p class="">Fullstack Developer</p>
           <p class="text-sm mt-2">
-            Developed in Planet Earth
+            Made in Earth
           </p>
         </div>
       </section>
       <!-- About -->
-      <section class="bg-black p-5">
+      <section class="bg-transparent p-5">
         <div
-          class="flex items-center space-x-2 font-semibold text-gray-200 leading-8"
+          class="flex items-center space-x-2 font-semibold text-gray-700 leading-8"
         >
           <span clas="text-green-500">
             <svg
@@ -45,7 +47,7 @@
           </span>
           <span class="tracking-wide text-blue-400">About</span>
         </div>
-        <div class="text-gray-200">
+        <div class="text-gray-700">
           <div class="grid md:grid-cols-2 text-sm">
             <div class="grid grid-cols-2">
               <div class="px-4 py-2 font-semibold">First Name:</div>
@@ -85,11 +87,11 @@
       </section>
       <!-- End of about section -->
       <!-- Experience and education -->
-      <section class="bg-black p-5">
+      <section class="bg-transparent p-5">
         <div class="grid grid-cols-2">
           <div>
             <div
-              class="flex items-center space-x-2 font-semibold text-gray-200 leading-8 mb-3"
+              class="flex items-center space-x-2 font-semibold text-gray-700 leading-8 mb-3"
             >
               <span clas="text-green-500">
                 <svg
@@ -111,21 +113,21 @@
             </div>
             <ul class="list-inside space-y-2 ml-4">
               <li>
-                <div class="text-gray-200">ABEL Language Academy</div>
+                <div class="text-gray-700">ABEL Language Academy</div>
                 <div class="text-gray-400 text-xs">03, 2019 - 03, 2020</div>
               </li>
               <li>
-                <div class="text-gray-200">Bpa Design Inc.</div>
+                <div class="text-gray-700">Bpa Design Inc.</div>
                 <div class="text-gray-400 text-xs">08, 2017 - 07, 2018</div>
               </li>
               <li>
-                <div class="text-gray-200">EGA Group Inc.</div>
+                <div class="text-gray-700">EGA Group Inc.</div>
                 <div class="text-gray-400 text-xs">
                   05, 2011 - 12, 2011
                 </div>
               </li>
               <li>
-                <div class="text-gray-200">
+                <div class="text-gray-700">
                   DAN Architects & Consultants Inc.
                 </div>
                 <div class="text-gray-400 text-xs">01, 2010 - 05, 2010</div>
@@ -136,7 +138,7 @@
             <div
               class="flex items-center space-x-2 font-semibold text-gray-200 leading-8 mb-3"
             >
-              <span class="text-gray-200">
+              <span class="text-gray-700">
                 <svg
                   class="h-5"
                   xmlns="http://www.w3.org/2000/svg"
@@ -157,17 +159,17 @@
                   />
                 </svg>
               </span>
-              <span class="tracking-wide text-purple-400">Education </span>
+              <span class="tracking-wide text-purple-500">Education </span>
             </div>
             <ul class="list-inside space-y-2">
               <li>
-                <div class="text-gray-200">SBS Computer Academy</div>
+                <div class="text-gray-700">SBS Computer Academy</div>
                 <div class="text-gray-400 text-xs">
                   09, 2020 - 08, 2021
                 </div>
               </li>
               <li>
-                <div class="text-gray-200">
+                <div class="text-gray-700">
                   University of Toronto - Bachelors Degree in Architecture
                 </div>
                 <div class="text-gray-400 text-xs">
@@ -175,7 +177,7 @@
                 </div>
               </li>
               <li>
-                <div class="text-gray-200">
+                <div class="text-gray-700">
                   Fanshawe College - Architectural Technology Diploma
                 </div>
                 <div class="text-gray-400 text-xs">
@@ -183,7 +185,7 @@
                 </div>
               </li>
               <li>
-                <div class="text-gray-200">
+                <div class="text-gray-700">
                   Fanshawe College - Pre-Health Science Diploma
                 </div>
                 <div class="text-gray-400 text-xs">
@@ -197,15 +199,15 @@
       </section>
       <!-- Social Traffic -->
       <section class="m-auto">
-        <div class="flex flex-col min-w-0 p-4 bg-black">
+        <div class="flex flex-col min-w-0 p-4 bg-transparent">
           <div class="items-center px-1 py-2">
-            <div class="flex mb-2 text-gray ">
+            <div class="flex mb-2 text-gray-700 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-6 w-6 mr-2"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke="white"
+                stroke="currentColor"
               >
                 <path
                   stroke-linecap="round"
@@ -215,7 +217,7 @@
                 />
               </svg>
               <h3
-                class="font-semibold text-base text-gray-200 dark:text-gray-50"
+                class="font-semibold text-base text-yellow-500 dark:text-gray-50"
               >
                 Skills
               </h3>
@@ -261,12 +263,12 @@
             <thead>
               <tr>
                 <th
-                  class="px-4 bg-black dark:bg-gray-300 text-gray-300 dark:text-gray-100 align-middle border border-solid border-gray-600 dark:border-gray-500 py-3 text-sm uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
+                  class="px-4 bg-transparent dark:bg-gray-300 text-gray-700  align-middle border border-gray-700 border-solid py-3 text-sm uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
                 >
                   TOOLS
                 </th>
                 <th
-                  class="px-4 bg-black dark:bg-gray-300 text-gray-300 dark:text-gray-100 align-middle border border-solid border-gray-600 dark:border-gray-500 py-3 text-sm uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
+                  class="px-4 bg-transparent  text-gray-700 align-middle border border-solid border-gray-700 py-3 text-sm uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
                 >
                   USAGE RATE
                 </th>
