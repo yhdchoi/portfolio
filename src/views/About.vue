@@ -34,7 +34,7 @@
             - Spring Security와 Oauth, JWT의 조합을 통해 session fixation, cross
             site request와 같은 취약점들로부터의 application 보안 구축. <br />
             - Axios를 이용한 API 통신. <br />
-            - Docker, Kubernetes, AWS를 활용한 배포 및 관리.
+            - AWS를 활용한 배포 및 관리.
           </p>
           <hr />
           <br />
@@ -54,8 +54,7 @@
             repositories & database. <br />
             - Spring Security, Oauth, JWT, creating defence from the security
             risks such as session fixation and cross site request. <br />
-            - Deployment, scaling and version management with Docker,
-            Kubernetes, AWS.
+            - Deployment, scaling and management with AWS.
           </p>
 
           <div class="mt-4">
@@ -234,9 +233,10 @@
                   >
                     The experience has made me realize the difference between
                     academic and professional world. My perspective on
-                    architecture was solely based on idea and theories, and
-                    making ideas into reality was a very difficult and
-                    exasperating task.
+                    architecture was solely based on idea and theories. Working
+                    in an office, I had to make ideas into reality was a very
+                    difficult and exasperating task. But I have learned how to
+                    manage schedule and co-operate with team.
                   </p>
                 </div>
               </div>
@@ -273,8 +273,8 @@
                   >
                     The opportunity has tought me the importance of team work.
                     Being able to accomplish a goal wasn't only by the skills
-                    and ability of each individuals but how we come together and
-                    collaborate.
+                    and ability of each individuals but by collaborating with
+                    each other.
                   </p>
                 </div>
               </div>

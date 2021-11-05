@@ -57,7 +57,7 @@
             <p class="pb-1 px-1 text-green-200">
               daniel$
               <a
-                href="#"
+                href="https://app.cologic.link"
                 class="animate-pulse border-b-2 text-indigo-700 hover:text-indigo-900 hover:border-indigo-700 ml-2"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -67,11 +67,11 @@
               <br />
               daniel$
               <a
-                href="#"
+                href="https://sites.google.com/view/cologic"
                 class="animate-pulse border-b-2 text-indigo-700 hover:text-indigo-900 hover:border-indigo-700 ml-2"
                 target="_blank"
                 rel="noopener noreferrer"
-                >Click HERE for CO-Logic</a
+                >Click HERE for CO-Logic Document</a
               >
               <br />
               <br />
@@ -81,7 +81,7 @@
               <br />
               daniel$ print tools used;<br />
               SpringBoot, JPA/Hibernate, Spring Security/JWT, React, Axios,
-              Bootstrap;
+              Bootstrap, AWS Elastic Beanstalk;
             </p>
           </div>
         </div>
