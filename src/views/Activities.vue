@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen bg-yellow-100 text-gray-500 p-10">
+  <div class="h-screen bg-pink-200 text-gray-500 p-10">
     <!-- GitHub -->
     <a
       class="flex items-center justify-center"

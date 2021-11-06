@@ -5,7 +5,7 @@
     >
       <router-link
         :to="{ name: 'Home' }"
-        class="border-transparent hover:text-gray-800 dark:hover:text-gray-200 border-b-2 hover:border-green-500 mx-1.5 sm:mx-6"
+        class="border-transparent hover:text-gray-800 dark:hover:text-gray-200 border-b-2 hover:border-blue-500 mx-1.5 sm:mx-6"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +25,7 @@
 
       <router-link
         :to="{ name: 'About' }"
-        class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6"
+        class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-gray-500 mx-1.5 sm:mx-6"
         >About</router-link
       >
 
@@ -37,19 +37,19 @@
 
       <router-link
         :to="{ name: 'Projects' }"
-        class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-yellow-500 mx-1.5 sm:mx-6"
+        class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500 mx-1.5 sm:mx-6"
         >Portfolio</router-link
       >
 
       <router-link
         :to="{ name: 'Activities' }"
-        class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500 mx-1.5 sm:mx-6"
+        class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-pink-500 mx-1.5 sm:mx-6"
         >Activities</router-link
       >
 
       <router-link
         :to="{ name: 'Contact' }"
-        class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-pink-500 mx-1.5 sm:mx-6"
+        class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-yellow-500 mx-1.5 sm:mx-6"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

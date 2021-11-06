@@ -1,15 +1,17 @@
 <template>
-  <main class="m-auto w-full bg-red-200 flex-row justify-center items-center ">
+  <main
+    class="m-auto w-full bg-green-200 flex-row justify-center items-center "
+  >
     <div class=" p-10">
       <div class="text-center my-4">
-        <p class="text-white text-3xl ">PROJECTS 🧑🏻‍💻</p>
+        <p class="text-black text-3xl ">PROJECTS 🧑🏻‍💻</p>
       </div>
       <br />
 
       <!-- Co-Logic -->
       <div class="w-3/5 mx-auto my-6">
         <a
-          class="animate-pulse  text-purple-200 flex items-center justify-center"
+          class="animate-pulse text-purple-200 flex items-center justify-center"
           href="https://github.com/yhdchoi/dev_logic.git"
           target="_blank"
           rel="noopener noreferrer"
@@ -27,7 +29,7 @@
             />
           </svg>
           <p class="text-lg text-indigo-600  hover:text-indigo-800 mb-10">
-            CO-Logic Repository
+            Co-Logic Repository
           </p>
         </a>
         <div
@@ -50,18 +52,18 @@
               id="maxbtn"
             ></div>
             <div class="mx-auto pr-16" id="terminaltitle">
-              <p class="text-center text-base text-indigo-500">CO-Logic</p>
+              <p class="text-center text-base text-indigo-500">Co-Logic</p>
             </div>
           </div>
           <div class="pl-1 pt-1 font-mono text-base" id="console">
-            <p class="pb-1 px-1 text-green-200">
+            <p class="pb-1 px-1 text-green-400">
               daniel$
               <a
                 href="https://app.cologic.link"
-                class="animate-pulse border-b-2 text-indigo-700 hover:text-indigo-900 hover:border-indigo-700 ml-2"
+                class="animate-pulse border-b-2 text-pink-700 hover:text-indigo-900 hover:border-indigo-700 ml-2"
                 target="_blank"
                 rel="noopener noreferrer"
-                >Visit CO-Logic</a
+                >Visit Co-Logic</a
               >
               <br />
               <br />
@@ -71,11 +73,11 @@
                 class="animate-pulse border-b-2 text-indigo-700 hover:text-indigo-900 hover:border-indigo-700 ml-2"
                 target="_blank"
                 rel="noopener noreferrer"
-                >Click HERE for CO-Logic Document</a
+                >Click for Co-Logic Document</a
               >
               <br />
               <br />
-              daniel$ What is CO-Logic?<br />
+              daniel$ What is Co-Logic?<br />
               Work management application for the team and project management.
               <br />
               <br />
@@ -139,14 +141,14 @@
             </div>
           </div>
           <div class="pl-1 pt-1 font-mono text-base bg-gray-500 " id="console">
-            <p class="pb-1 px-1 text-green-200">
+            <p class="pb-1 px-1 text-green-400">
               daniel$
               <a
                 href="https://sites.google.com/view/yhdcjblog	"
-                class="animate-pulse border-b-2 text-green-400 hover:text-green-800 hover:border-green-500 ml-2"
+                class="animate-pulse border-b-2 text-green-600 hover:text-green-800 hover:border-green-500 ml-2"
                 target="_blank"
                 rel="noopener noreferrer"
-                >Click HERE for J_Blog</a
+                >Click for J_Blog Document</a
               >
               <br />
               <br />
@@ -221,14 +223,14 @@
             </div>
           </div>
           <div class="pl-1 pt-1 font-mono text-base bg-gray-500" id="console">
-            <p class="pb-1 px-1  text-green-200">
+            <p class="pb-1 px-1  text-green-400">
               daniel$
               <a
                 href="https://sites.google.com/view/yhdcjwt"
                 class="animate-pulse border-b-2 text-red-400 hover:text-red-800 hover:border-red-500 ml-2"
                 target="_blank"
                 rel="noopener noreferrer"
-                >Click HERE for JWT</a
+                >Click for JWT Document</a
               >
               <br />
               <br />
@@ -319,7 +321,7 @@
 
       <br />
       <div class="text-center my-4">
-        <p class="text-white text-3xl ">STUDY NOTES 📑</p>
+        <p class="text-black text-3xl ">STUDY NOTES 📑</p>
       </div>
       <br />
 
@@ -351,14 +353,14 @@
             </div>
           </div>
           <div class="pl-1 pt-1 font-mono text-base bg-gray-500" id="console">
-            <p class="pb-1 px-1 text-green-200">
+            <p class="pb-1 px-1 text-green-400">
               daniel$
               <a
                 href="https://sites.google.com/view/yhdcaws"
                 class="animate-pulse border-b-2 text-yellow-400 hover:text-yellow-600 hover:border-yellow-500 ml-2"
                 target="_blank"
                 rel="noopener noreferrer"
-                >Click HERE for AWS</a
+                >Click for AWS Document</a
               >
               <br />
               <br />
@@ -405,7 +407,7 @@
             </div>
           </div>
           <div
-            class="pl-1 pt-1 text-green-200 font-mono text-base bg-gray-500"
+            class="pl-1 pt-1 text-green-400 font-mono text-base bg-gray-500"
             id="console"
           >
             <p class="pb-1 px-1">
@@ -415,7 +417,7 @@
                 class="animate-pulse border-b-2 text-blue-700 hover:text-blue-900 hover:border-blue-700 ml-2"
                 target="_blank"
                 rel="noopener noreferrer"
-                >Click HERE for Docker</a
+                >Click for Docker Document</a
               >
               <br />
               <br />
@@ -437,7 +439,7 @@
       <br />
 
       <div class="text-center my-4">
-        <p class="text-white text-3xl ">UNDER DEVELOPMENT ... 🏗 ⚙️ 🛠</p>
+        <p class="text-black text-3xl ">UNDER DEVELOPMENT ... 🏗 ⚙️ 🛠</p>
       </div>
 
       <!-- DEcrypt -->
@@ -488,7 +490,7 @@
             </div>
           </div>
           <div class="pl-1 pt-1 font-mono text-base bg-gray-500" id="console">
-            <p class="pb-1 px-1 text-green-200">
+            <p class="pb-1 px-1 text-green-400">
               daniel$
               <i class="text-pink-400"> THIS PROJECT IS UNDER DEVELOPMENT </i>
               <br />
@@ -499,7 +501,7 @@
                 class="animate-pulse border-b-2 text-pink-400 hover:text-pink-800 hover:border-pink-500 ml-2"
                 target="_blank"
                 rel="noopener noreferrer"
-                >Click HERE to DEcrypt</a
+                >Click for DEcrypt Document</a
               >
               <br />
               <br />
