@@ -19,7 +19,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: lightblue;
+    background-image: url(../assets/background.png);
+    background-position: center;
+    background-size: cover;
+    /* background: lightblue; */
     z-index: 1;
   }
   .text-fill {
@@ -32,7 +35,7 @@
   }
   .text-fill::before {
     content: attr(data-title);
-    background: linear-gradient(#7bf9ff, #ef7bff, #7bff7d);
+    background: linear-gradient(#ffd7a5, #ffa5d9, #a5e6ff);
     position: absolute;
     top: 0;
     bottom: 0;

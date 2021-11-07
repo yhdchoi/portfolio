@@ -22,18 +22,18 @@
             Yeonghyun Choi
           </p>
           <p class="text-sm md:text-base text-gray-50 mb-4">
-            신입 개발자 최영현입니다. 디자이너로 활동하며 많은 협력을 통해
+            Fullstack 개발자 최영현입니다. 디자이너로 활동하며 많은 협력을 통해
             communication, 기획 능력을 가졌으며 작은 것도 그냥 지나치지 않는
             꼼꼼한 성격을 가지고 있습니다. 앞으로도 꾸준한 노력과 열정을 통해
             좋은 개발자로 발전해 가겠습니다. <br />
             <br />
-            - JSP, React, Vue를 이용한 Frontend 구축 <br />
+            - JSP, React, Vue를 이용한 client-side 구축 <br />
             - Spring Boot으로 RESTful API 구현. <br />
             - Spring Data JPA와 custom object-mapping method를 사용한
             repository와 database service 관리. <br />
             - Spring Security와 Oauth, JWT의 조합을 통해 session fixation, cross
             site request와 같은 취약점들로부터의 application 보안 구축. <br />
-            - Axios를 이용한 API 통신. <br />
+            - Axios와 Ajax를 이용한 request 통신. <br />
             - AWS를 활용한 배포 및 관리.
           </p>
           <hr />
@@ -47,7 +47,7 @@
             professional development.
             <br />
             <br />
-            - Design frontend using JSP, React, and Vue. <br />
+            - Design client-side using JSP, React, and Vue. <br />
             - API request using Ajax or Axios. <br />
             - Build backend using Spring Framwork & Boot. <br />
             - Spring Data JPA with custom object-mapping method, manage
@@ -131,6 +131,11 @@
 
         <div class="ml-0 md:ml-12 lg:w-2/3 sticky">
           <div class="container mx-auto w-full h-full">
+            <img
+              class="animate-pulse mx-auto -mb-10 -md:mb-10"
+              src="https://img.icons8.com/external-icongeek26-flat-icongeek26/64/000000/external-plane-origami-icongeek26-flat-icongeek26.png"
+            />
+            <br />
             <div class="relative wrap overflow-hidden p-10 h-full">
               <div
                 class="animate-pulse border-2-2 border-blue-500 absolute h-full border"
@@ -148,7 +153,7 @@
                 <div class="order-1 w-5/12 px-1 py-4 text-right">
                   <p class="mb-3 text-base text-green-300">September, 1997</p>
                   <h4 class="mb-3 font-bold text-lg md:text-2xl">
-                    Moved to CANADA
+                    Moving to CANADA
                   </h4>
                   <p
                     class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
@@ -399,17 +404,17 @@
                     class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
                   >
                     언어학원에서 영어 강사로 일하며 다양한 분야의 사람들을
-                    만나고 이야기를 나눌수 있었습니다. 그리고 이곳에서 만난 한
-                    Software Engineer를 통해 동기부여를 받아 개발자로서 도전하게
-                    되었습니다.
+                    만나고 이야기를 나눌수 있었습니다. 그리고 이곳에서 만난
+                    Software Engineer으로 부터 동기부여를 받아 개발자로서
+                    도전하게 되었습니다.
                   </p>
                   <br />
                   <p
                     class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
                   >
-                    I have worked as an English teacher. It was a challanging
-                    experience for me. I have realized the difference between
-                    knowing and teaching.
+                    I have worked as an English teacher. One of the students
+                    I've met was a software engineer and he motivated me to
+                    become a delveloper.
                   </p>
                 </div>
               </div>
@@ -438,18 +443,20 @@
                   <p
                     class="text-sm md:text-base leading-snug text-opacity-100 text-white "
                   >
-                    Starting by learning Python, I learned C/C++, Java, JSP,
-                    JDBC/MyBatis, Spring Framework/Boot, Html/CSS, JSP, SQL,
-                    CentOS through the academy. I've realized my lack of
+                    Starting by self-leaning Python, I've learned C/C++, Java,
+                    JSP, JDBC/MyBatis, Spring Framework/Boot, Html/CSS, JSP,
+                    SQL, CentOS through the academy. I've realized my lack of
                     knowledge in the data structure and have been trying to fill
                     in the gaps through continuous learning.
                   </p>
                 </div>
               </div>
             </div>
+            <br />
             <img
               class="animate-pulse mx-auto -mt-30 md:-mt-30"
-              src="https://img.icons8.com/color/96/000000/innovation.png"
+              style="transform:rotate(90deg);"
+              src="https://img.icons8.com/color/100/000000/f1-race-car-top-veiw.png"
             />
           </div>
         </div>

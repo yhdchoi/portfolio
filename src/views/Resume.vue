@@ -17,10 +17,10 @@
         </div>
         <div class="pt-6 pb-8 text-gray-800 text-center">
           <p class="text-3xl mb-2 ">최영현</p>
-          <p class="text-3xl mb-2 ">YEONGHYUN CHOI</p>
+          <p class="text-3xl mb-2 ">YEONGHYUN CHOI <br />"Daniel"</p>
           <p class="">Fullstack Developer</p>
           <p class="text-sm mt-2">
-            Made in Earth
+            the living organism from Earth
           </p>
         </div>
       </section>
@@ -51,7 +51,7 @@
           <div class="grid md:grid-cols-2 text-sm">
             <div class="grid grid-cols-2">
               <div class="px-4 py-2 font-semibold">First Name:</div>
-              <div class="px-4 py-2">영현 Daniel</div>
+              <div class="px-4 py-2">영현 Yeonghyun "Daniel"</div>
             </div>
             <div class="grid grid-cols-2">
               <div class="px-4 py-2 font-semibold">Last Name:</div>
@@ -217,7 +217,7 @@
                 />
               </svg>
               <h3
-                class="font-semibold text-base text-yellow-500 dark:text-gray-50"
+                class="font-semibold text-base text-yellow-600 dark:text-gray-50"
               >
                 Skills
               </h3>
@@ -225,34 +225,34 @@
 
             <div class=" w-full mt-4 flex justify-center items-center">
               <button
-                class="bg-gray-400 font-semibold text-green-800 p-2 w-44 rounded-full hover:text-white hover:bg-green-800 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
+                class="bg-gray-300 font-semibold text-green-800 p-2 w-44 rounded-full hover:text-white hover:bg-green-800 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
               >
                 Spring Framework/Boot
               </button>
               <button
-                class="bg-gray-400 font-semibold text-pink-700 p-2 w-32 rounded-full hover:text-white hover:bg-pink-700 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
+                class="bg-gray-300 font-semibold text-pink-700 p-2 w-32 rounded-full hover:text-white hover:bg-pink-700 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
               >
                 Spring Security
               </button>
               <button
-                class="bg-gray-400 font-semibold text-purple-500 p-2 w-40 rounded-full hover:text-white hover:bg-purple-300 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
+                class="bg-gray-300 font-semibold text-purple-500 p-2 w-40 rounded-full hover:text-white hover:bg-purple-300 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
               >
                 JPA/Hibernate
               </button>
               <button
-                class="bg-gray-400 font-semibold text-yellow-600 p-2 w-28 rounded-full hover:text-white hover:bg-yellow-600 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
+                class="bg-gray-300 font-semibold text-yellow-600 p-2 w-28 rounded-full hover:text-white hover:bg-yellow-600 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
               >
                 AWS
               </button>
               <button
-                class="bg-gray-400 font-semibold text-green-300 p-2 w-32 rounded-full hover:text-white hover:bg-green-300 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
+                class="bg-gray-300 font-semibold text-blue-500 p-2 w-40 rounded-full hover:text-white hover:bg-blue-500 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
               >
-                Vue.js
+                React
               </button>
               <button
-                class="bg-gray-400 font-semibold text-blue-500 p-2 w-40 rounded-full hover:text-white hover:bg-blue-500 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
+                class="bg-gray-300 font-semibold text-green-300 p-2 w-32 rounded-full hover:text-white hover:bg-green-300 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
               >
-                Docker
+                Vue.js
               </button>
             </div>
           </div>
@@ -270,7 +270,7 @@
                 <th
                   class="px-4 bg-transparent  text-gray-700 align-middle border border-solid border-gray-700 py-3 text-sm uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
                 >
-                  USAGE RATE
+                  EXPERIENCE RATING
                 </th>
               </tr>
             </thead>
@@ -348,7 +348,32 @@
                 </td>
               </tr>
 
-              <tr class="text-yellow-500 hover:bg-gray-900">
+              <tr class="text-blue-500 hover:bg-gray-900">
+                <th
+                  class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4 text-left"
+                >
+                  React
+                </th>
+                <td
+                  class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4"
+                >
+                  <div class="flex items-center">
+                    <span class="mr-2">50%</span>
+                    <div class="relative w-full">
+                      <div
+                        class="overflow-hidden h-2 text-xs flex rounded bg-blue-200"
+                      >
+                        <div
+                          style="width: 50%"
+                          class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-500"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+
+              <tr class="text-yellow-600 hover:bg-gray-900">
                 <th
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4 text-left"
                 >
@@ -358,13 +383,13 @@
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4"
                 >
                   <div class="flex items-center">
-                    <span class="mr-2">50%</span>
+                    <span class="mr-2">40%</span>
                     <div class="relative w-full">
                       <div
                         class="overflow-hidden h-2 text-xs flex rounded bg-yellow-200"
                       >
                         <div
-                          style="width: 50%"
+                          style="width: 40%"
                           class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-yellow-500"
                         ></div>
                       </div>
@@ -377,32 +402,7 @@
                 <th
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4 text-left"
                 >
-                  Vue
-                </th>
-                <td
-                  class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4"
-                >
-                  <div class="flex items-center">
-                    <span class="mr-2">40%</span>
-                    <div class="relative w-full">
-                      <div
-                        class="overflow-hidden h-2 text-xs flex rounded bg-green-100"
-                      >
-                        <div
-                          style="width: 40%"
-                          class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-400"
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
-                </td>
-              </tr>
-
-              <tr class="text-blue-400 hover:bg-gray-900">
-                <th
-                  class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4 text-left"
-                >
-                  Docker
+                  Vue.js
                 </th>
                 <td
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4"
@@ -411,11 +411,11 @@
                     <span class="mr-2">30%</span>
                     <div class="relative w-full">
                       <div
-                        class="overflow-hidden h-2 text-xs flex rounded bg-blue-200"
+                        class="overflow-hidden h-2 text-xs flex rounded bg-green-200"
                       >
                         <div
                           style="width: 30%"
-                          class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-500"
+                          class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-500"
                         ></div>
                       </div>
                     </div>
