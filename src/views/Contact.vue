@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen bg-yellow-300 text-white p-10">
+  <div class="h-screen bg-blue-300 p-10 ">
     <div class="w-full text-center">
       <h1 class="font-bold text-4xl text-black my-8">
         Contact
@@ -101,3 +101,14 @@
     },
   };
 </script>
+
+<style scoped>
+  .background-wrap {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/bg4.png);
+    background-position: center;
+    background-size: cover;
+  }
+</style>

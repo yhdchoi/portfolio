@@ -465,3 +465,12 @@
     </div>
   </section>
 </template>
+
+<style scoped>
+  .background-wrap {
+    height: 100vh;
+    background-image: url(../assets/bg5.png);
+    background-position: center;
+    background-size: cover;
+  }
+</style>

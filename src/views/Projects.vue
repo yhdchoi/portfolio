@@ -1,7 +1,5 @@
 <template>
-  <main
-    class="m-auto w-full bg-green-200 flex-row justify-center items-center "
-  >
+  <main class="background-wrap">
     <div class=" p-10">
       <div class="text-center my-4">
         <p class="text-black text-3xl ">PROJECTS 🧑🏻‍💻</p>
@@ -523,3 +521,14 @@
     </div>
   </main>
 </template>
+
+<style scoped>
+  .background-wrap {
+    height: full;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/bg2.png);
+    background-position: center;
+    background-size: cover;
+  }
+</style>

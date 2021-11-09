@@ -19,7 +19,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../assets/background.png);
+    background-image: url(../assets/bg5.png);
     background-position: center;
     background-size: cover;
     /* background: lightblue; */
