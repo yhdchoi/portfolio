@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen bg-blue-300 p-10 ">
+  <div class="h-screen bg-gray-500 p-10 ">
     <div class="w-full text-center">
       <h1 class="font-bold text-4xl text-black my-8">
         Contact
