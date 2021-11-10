@@ -31,6 +31,7 @@
           <br />
           <p class="text-sm md:text-base text-gray-50 mb-4">
             Hello! I'm Yeonghyun a fullstack developer. I have a good team work
+            skills and I've always strive to improve and present creative ways
             to solve problems. I value an environment where it can motivate both
             personal and professional development.
             <br />
