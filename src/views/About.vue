@@ -38,8 +38,8 @@
             <br />
             I use...<br />
             Spring/Springboot, JPA, Spring Security, JWT, Oauth, JSP/JSTL,
-            React, Vue, Axios, MySQL, MariaDB, PostgrSQL, AWS, Linux, Python,
-            JAVA, C/C++
+            React, Vue, Axios, MySQL, MariaDB, PostgrSQL, AWS, Linux, MacOS,
+            HTML, CSS, PHP, Python, JAVA, C/C++
           </p>
 
           <div class="mt-4">
