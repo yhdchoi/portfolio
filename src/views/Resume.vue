@@ -55,7 +55,7 @@
             </div>
             <div class="grid grid-cols-2">
               <div class="px-4 py-2 font-semibold">Last Name:</div>
-              <div class="px-4 py-2">최 Choi</div>
+              <div class="px-4 py-2 text-gray-400">최 Choi</div>
             </div>
             <div class="grid grid-cols-2">
               <div class="px-4 py-2 font-semibold text-gray-300">
@@ -65,7 +65,7 @@
             </div>
             <div class="grid grid-cols-2">
               <div class="px-4 py-2 font-semibold">Resides:</div>
-              <div class="px-4 py-2">
+              <div class="px-4 py-2 text-gray-400">
                 Seoul, South Korea <br />/ Toronto, Canada
               </div>
             </div>
@@ -75,14 +75,14 @@
                 <!-- <a class="text-green-600" href="mailto:yhdchoi@gmail.com"
                   >yhdchoi@gmail.com</a
                 > -->
-                <router-link :to="{ name: 'Contact' }" class="text-green-600">
+                <router-link :to="{ name: 'Contact' }" class="text-green-700">
                   yhdchoi@gmail.com
                 </router-link>
               </div>
             </div>
             <div class="grid grid-cols-2">
               <div class="px-4 py-2 font-semibold">Birthday:</div>
-              <div class="px-4 py-2">Dec 23, 1983</div>
+              <div class="px-4 py-2 text-gray-400">Dec 23, 1983</div>
             </div>
           </div>
         </div>
@@ -148,9 +148,9 @@
                   viewBox="0 0 24 24"
                   stroke="currentColor"
                 >
-                  <path fill="#fff" d="M12 14l9-5-9-5-9 5 9 5z" />
+                  <path fill="none" d="M12 14l9-5-9-5-9 5 9 5z" />
                   <path
-                    fill="#fff"
+                    fill="none"
                     d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
                   />
                   <path
@@ -265,14 +265,14 @@
             <thead>
               <tr>
                 <th
-                  class="px-4 bg-transparent text-gray-300  align-middle border border-gray-700 border-solid py-3 text-sm uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
+                  class="px-4 bg-transparent text-gray-300  align-middle border border-gray-500 border-solid py-3 text-sm uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
                 >
                   TOOLS
                 </th>
                 <th
-                  class="px-4 bg-transparent text-gray-300 align-middle border border-solid border-gray-700 py-3 text-sm uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
+                  class="px-4 bg-transparent text-gray-900 align-middle border border-solid border-gray-500 py-3 text-sm uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
                 >
-                  EXPERIENCE RATING
+                  USAGE
                 </th>
               </tr>
             </thead>
@@ -287,13 +287,13 @@
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4"
                 >
                   <div class="flex items-center">
-                    <span class="mr-2">90%</span>
+                    <span class="mr-2">100%</span>
                     <div class="relative w-full">
                       <div
                         class="overflow-hidden h-2 text-xs flex rounded bg-green-200"
                       >
                         <div
-                          style="width: 90%"
+                          style="width: 100%"
                           class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-700"
                         ></div>
                       </div>
@@ -311,13 +311,13 @@
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4"
                 >
                   <div class="flex items-center">
-                    <span class="mr-2">70%</span>
+                    <span class="mr-2">90%</span>
                     <div class="relative w-full">
                       <div
                         class="overflow-hidden h-2 text-xs flex rounded bg-purple-200"
                       >
                         <div
-                          style="width: 70%"
+                          style="width: 90%"
                           class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-400"
                         ></div>
                       </div>
@@ -335,13 +335,13 @@
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4"
                 >
                   <div class="flex items-center">
-                    <span class="mr-2">55%</span>
+                    <span class="mr-2">80%</span>
                     <div class="relative w-full">
                       <div
                         class="overflow-hidden h-2 text-xs flex rounded bg-pink-200"
                       >
                         <div
-                          style="width: 55%"
+                          style="width: 80%"
                           class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"
                         ></div>
                       </div>
@@ -360,13 +360,13 @@
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4"
                 >
                   <div class="flex items-center">
-                    <span class="mr-2">50%</span>
+                    <span class="mr-2">60%</span>
                     <div class="relative w-full">
                       <div
                         class="overflow-hidden h-2 text-xs flex rounded bg-blue-200"
                       >
                         <div
-                          style="width: 50%"
+                          style="width: 60%"
                           class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-500"
                         ></div>
                       </div>
@@ -385,13 +385,13 @@
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4"
                 >
                   <div class="flex items-center">
-                    <span class="mr-2">40%</span>
+                    <span class="mr-2">60%</span>
                     <div class="relative w-full">
                       <div
                         class="overflow-hidden h-2 text-xs flex rounded bg-yellow-200"
                       >
                         <div
-                          style="width: 40%"
+                          style="width: 60%"
                           class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-yellow-500"
                         ></div>
                       </div>
@@ -410,13 +410,13 @@
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4"
                 >
                   <div class="flex items-center">
-                    <span class="mr-2">30%</span>
+                    <span class="mr-2">50%</span>
                     <div class="relative w-full">
                       <div
                         class="overflow-hidden h-2 text-xs flex rounded bg-green-200"
                       >
                         <div
-                          style="width: 30%"
+                          style="width: 50%"
                           class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-500"
                         ></div>
                       </div>
@@ -429,7 +429,7 @@
                 <th
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4 text-left"
                 >
-                  Python
+                  JSP/JSTL
                 </th>
                 <td
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4"

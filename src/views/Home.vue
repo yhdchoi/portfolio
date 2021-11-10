@@ -22,7 +22,6 @@
     background-image: url(../assets/bg5.png);
     background-position: center;
     background-size: cover;
-    /* background: lightblue; */
     z-index: 1;
   }
   .text-fill {

@@ -25,36 +25,20 @@
             Fullstack 개발자 최영현입니다. 디자이너로 활동하며 많은 협력을 통해
             communication, 기획 능력을 가졌으며 작은 것도 그냥 지나치지 않는
             꼼꼼한 성격을 가지고 있습니다. 앞으로도 꾸준한 노력과 열정을 통해
-            좋은 개발자로 발전해 가겠습니다. <br />
-            <br />
-            - JSP, React, Vue를 이용한 client-side 구축 <br />
-            - Spring Boot으로 RESTful API 구현. <br />
-            - Spring Data JPA와 custom object-mapping method를 사용한
-            repository와 database service 관리. <br />
-            - Spring Security와 Oauth, JWT의 조합을 통해 session fixation, cross
-            site request와 같은 취약점들로부터의 application 보안 구축. <br />
-            - Axios와 Ajax를 이용한 request 통신. <br />
-            - AWS를 활용한 배포 및 관리.
+            좋은 개발자로 발전해 가겠습니다.
           </p>
           <hr />
           <br />
           <p class="text-sm md:text-base text-gray-50 mb-4">
-            Hello! I'm Yeonghyun a fullstack developer. With Art and Science
-            academic backgrounds, I have a good team work skills and a keen
-            attention to small details. And I've always strive to improve and
-            present creative ways to solve problems. <br />
-            I value an environment where it can motivate both personal and
-            professional development.
+            Hello! I'm Yeonghyun a fullstack developer. I have a good team work
+            to solve problems. I value an environment where it can motivate both
+            personal and professional development.
             <br />
             <br />
-            - Design client-side using JSP, React, and Vue. <br />
-            - API request using Ajax or Axios. <br />
-            - Build backend using Spring Framwork & Boot. <br />
-            - Spring Data JPA with custom object-mapping method, manage
-            repositories & database. <br />
-            - Spring Security, Oauth, JWT, creating defence from the security
-            risks such as session fixation and cross site request. <br />
-            - Deployment, scaling and management with AWS.
+            I use...<br />
+            Spring/Springboot, JPA, Spring Security, JWT, Oauth, JSP/JSTL,
+            React, Vue, Axios, MySQL, MariaDB, PostgrSQL, AWS, Linux, Python,
+            JAVA, C/C++
           </p>
 
           <div class="mt-4">
