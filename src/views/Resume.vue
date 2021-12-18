@@ -51,7 +51,7 @@
               <div class="px-4 py-2 font-semibold text-gray-300">
                 First Name:
               </div>
-              <div class="px-4 py-2">영현 Yeonghyun "Daniel"</div>
+              <div class="px-4 py-2 ">영현 Yeonghyun "Daniel"</div>
             </div>
             <div class="grid grid-cols-2">
               <div class="px-4 py-2 font-semibold">Last Name:</div>
@@ -239,7 +239,7 @@
               <button
                 class="bg-gray-300 font-semibold text-purple-500 p-2 w-40 rounded-full hover:text-white hover:bg-purple-300 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
               >
-                JPA/Hibernate
+                Spring JPA
               </button>
               <button
                 class="bg-gray-300 font-semibold text-yellow-600 p-2 w-28 rounded-full hover:text-white hover:bg-yellow-600 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
@@ -249,7 +249,7 @@
               <button
                 class="bg-gray-300 font-semibold text-blue-500 p-2 w-40 rounded-full hover:text-white hover:bg-blue-500 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
               >
-                React
+                ReactJS
               </button>
               <button
                 class="bg-gray-300 font-semibold text-green-400 p-2 w-32 rounded-full hover:text-white hover:bg-green-300 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 m-2"
@@ -270,7 +270,7 @@
                   TOOLS
                 </th>
                 <th
-                  class="px-4 bg-transparent text-gray-900 align-middle border border-solid border-gray-500 py-3 text-sm uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
+                  class="px-4 bg-transparent text-gray-300 align-middle border border-solid border-gray-500 py-3 text-sm uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
                 >
                   USAGE
                 </th>
@@ -281,7 +281,7 @@
                 <th
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4 text-left"
                 >
-                  Spring
+                  Spring Boot
                 </th>
                 <td
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4"
@@ -305,7 +305,7 @@
                 <th
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4 text-left"
                 >
-                  JPA
+                  Spring JPA
                 </th>
                 <td
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4"
@@ -329,19 +329,19 @@
                 <th
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4 text-left"
                 >
-                  Spring Security/Oauth/JWT
+                  Spring Security
                 </th>
                 <td
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4"
                 >
                   <div class="flex items-center">
-                    <span class="mr-2">80%</span>
+                    <span class="mr-2">100%</span>
                     <div class="relative w-full">
                       <div
                         class="overflow-hidden h-2 text-xs flex rounded bg-pink-200"
                       >
                         <div
-                          style="width: 80%"
+                          style="width: 100%"
                           class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"
                         ></div>
                       </div>
@@ -354,19 +354,19 @@
                 <th
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4 text-left"
                 >
-                  React
+                  ReactJS
                 </th>
                 <td
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4"
                 >
                   <div class="flex items-center">
-                    <span class="mr-2">60%</span>
+                    <span class="mr-2">70%</span>
                     <div class="relative w-full">
                       <div
                         class="overflow-hidden h-2 text-xs flex rounded bg-blue-200"
                       >
                         <div
-                          style="width: 60%"
+                          style="width: 70%"
                           class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-500"
                         ></div>
                       </div>
@@ -385,13 +385,13 @@
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4"
                 >
                   <div class="flex items-center">
-                    <span class="mr-2">60%</span>
+                    <span class="mr-2">100%</span>
                     <div class="relative w-full">
                       <div
                         class="overflow-hidden h-2 text-xs flex rounded bg-yellow-200"
                       >
                         <div
-                          style="width: 60%"
+                          style="width: 100%"
                           class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-yellow-500"
                         ></div>
                       </div>
@@ -435,13 +435,13 @@
                   class="border-t-0 px-4 align-middle border-l-0 border-r-0 text-sm whitespace-nowrap p-4"
                 >
                   <div class="flex items-center">
-                    <span class="mr-2">20%</span>
+                    <span class="mr-2">30%</span>
                     <div class="relative w-full">
                       <div
                         class="overflow-hidden h-2 text-xs flex rounded bg-blue-200"
                       >
                         <div
-                          style="width: 20%"
+                          style="width: 30%"
                           class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-600"
                         ></div>
                       </div>

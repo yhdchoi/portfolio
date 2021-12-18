@@ -22,25 +22,28 @@
             Yeonghyun Choi
           </p>
           <p class="text-sm md:text-base text-gray-50 mb-4">
-            Fullstack 개발자 최영현입니다. 디자이너로 활동하며 많은 협력을 통해
-            communication, 기획 능력을 가졌으며 작은 것도 그냥 지나치지 않는
-            꼼꼼한 성격을 가지고 있습니다. 앞으로도 꾸준한 노력과 열정을 통해
-            좋은 개발자로 발전해 가겠습니다.
+            Fullstack Developer 최영현입니다. 디자이너로 활동하며 많은 협력과
+            경험을 통해 소통 및 기획 능력을 갖췄으며 작은 것도 그냥 지나치지
+            않는 꼼꼼한 성격을 가지고 있습니다. 앞으로도 꾸준한 노력과 발전을
+            통해 좋은 개발자로 발전해 가겠습니다.
           </p>
-          <hr />
           <br />
           <p class="text-sm md:text-base text-gray-50 mb-4">
             Hello! I'm Yeonghyun a fullstack developer. I have a good team work
             skills and I've always strive to improve and present creative ways
-            to solve problems. I value an environment where it can motivate both
-            personal and professional development.
+            to solve problems with professionalism.
             <br />
-            <br />
-            I use...<br />
-            Spring/Springboot, JPA, Spring Security, JWT, Oauth, JSP/JSTL,
-            React, Vue, Axios, MySQL, MariaDB, PostgrSQL, AWS, Linux, MacOS,
-            HTML, CSS, PHP, Python, JAVA, C/C++
           </p>
+          <hr />
+          <p>
+            <br />
+            Skill Set 🧑🏻‍💻<br />
+            Spring Framework, Spring JPA, Spring Security, JWT, Oauth, JSP/JSTL,
+            Javascript, ReactJS, Redux, Redux Toolkit, Vue.js, Axios, MySQL,
+            MariaDB, PostgrSQL, JDBC, MyBatis, AWS, Linux, MacOS, Windows, HTML,
+            CSS, PHP, Python, JAVA, C/C++
+          </p>
+          <br />
 
           <div class="mt-4">
             <router-link
