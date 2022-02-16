@@ -2,7 +2,70 @@
   <main class="background-wrap">
     <div class=" p-10">
       <div class="text-center my-4">
-        <p class="text-black text-3xl ">PROJECTS 🧑🏻‍💻</p>
+        <p class="text-black text-3xl ">PROJECTS</p>
+      </div>
+      <br />
+
+      <div class="w-3/5 mx-auto my-6">
+        <div
+          class="w-full shadow-2xl subpixel-antialiased rounded h-96 bg-gray-500 border-black m-auto overflow-auto"
+        >
+          <div
+            class="flex items-center h-6 rounded-t bg-gray-100 border-b border-gray-400 text-center text-black"
+            id="headerTerminal"
+          >
+            <div
+              class="flex ml-2 items-center text-center border-red-900 bg-red-500 shadow-inner rounded-full w-3 h-3"
+              id="closebtn"
+            ></div>
+            <div
+              class="ml-2 border-yellow-900 bg-yellow-500 shadow-inner rounded-full w-3 h-3"
+              id="minbtn"
+            ></div>
+            <div
+              class="ml-2 border-green-900 bg-green-500 shadow-inner rounded-full w-3 h-3"
+              id="maxbtn"
+            ></div>
+            <div class="mx-auto pr-16" id="terminaltitle">
+              <p class="text-center text-base text-indigo-500">KBI_BingoCVM</p>
+            </div>
+          </div>
+          <div class="pl-1 pt-1 font-mono text-base" id="console">
+            <p class="pb-1 px-1 text-green-400">
+              daniel$ cd /description<br />
+              The project was for a Splunk add on application which scans server
+              for any vulnerablities that are listed on KISA (Korea Internet and
+              Security Agency) Security Standards;
+              <br />
+              <br />
+              daniel$ cd /responsibilities<br />
+              BournShell script for Unix/Linux server, and the development of
+              user interface and backend using Spring Framework;
+              <br />
+              <br />
+              daniel$ print tools used<br />
+              ShellScript(sh/bash), Spring Framework, MariaDB, Apache;
+
+              <br />
+              <br />
+              daniel$
+              <a
+                href="#"
+                class="animate-pulse border-b-2 text-red-500 hover:text-red-700 hover:border-red-600 ml-2"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Click for Details</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <br />
+
+      <div class="text-center my-4">
+        <p class="text-black text-3xl ">SIDE PROJECTS 🧑🏻‍💻</p>
       </div>
       <br />
 
@@ -56,13 +119,13 @@
           <div class="pl-1 pt-1 font-mono text-base" id="console">
             <p class="pb-1 px-1 text-green-400">
               daniel$
-              <a
+              <!-- <a
                 href="https://app.cologic.link"
                 class="animate-pulse border-b-2 text-pink-700 hover:text-indigo-900 hover:border-indigo-700 ml-2"
                 target="_blank"
                 rel="noopener noreferrer"
                 >Visit Co-Logic</a
-              >
+              > -->
               <br />
               <br />
               daniel$

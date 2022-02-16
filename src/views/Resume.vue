@@ -111,9 +111,13 @@
                   />
                 </svg>
               </span>
-              <span class="tracking-wide text-red-400">Experience </span>
+              <span class="tracking-wide text-red-400">Experiences</span>
             </div>
             <ul class="list-inside space-y-2 ml-4">
+              <li>
+                <div class="text-gray-300">KBI Big Data Security Solutions</div>
+                <div class="text-gray-400 text-xs">12, 2021 - current</div>
+              </li>
               <li>
                 <div class="text-gray-300">ABEL Language Academy</div>
                 <div class="text-gray-400 text-xs">03, 2019 - 03, 2020</div>
